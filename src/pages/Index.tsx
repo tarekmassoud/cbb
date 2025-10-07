@@ -13,7 +13,7 @@ const Index = () => {
       {/* Navigation */}
       <nav className="fixed top-0 w-full bg-card/80 backdrop-blur-md z-50 border-b">
         <div className="container mx-auto px-6 py-4 flex justify-between items-center">
-          <h1 className="text-2xl font-bold text-primary">Chef's Kitchen</h1>
+          <h1 className="text-2xl font-bold text-primary">Cooking bel beit's Kitchen</h1>
           <a 
             href="https://instagram.com" 
             target="_blank" 

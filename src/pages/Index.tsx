@@ -33,7 +33,7 @@ const Index = () => {
             <div className="space-y-6">
               <h2 className="text-5xl md:text-6xl font-bold leading-tight">
                 Welcome to My
-                <span className="hero-gradient bg-clip-text text-transparent"> Culinary Journey</span>
+                <span className="text-foreground"> Culinary Journey</span>
               </h2>
               <p className="text-lg text-muted-foreground leading-relaxed">
                 Hi! I'm Chef Maria Rodriguez, and I've been sharing my passion for cooking on Instagram for over 5 years. 

@@ -1,12 +1,22 @@
 import { Link } from "react-router-dom";
-import { Instagram, ArrowRight } from "lucide-react";
+import { Instagram, ArrowRight, Search } from "lucide-react";
 import { Button } from "@/components/ui/button";
+import { Input } from "@/components/ui/input";
 import { RecipeCard } from "@/components/RecipeCard";
 import { recipes } from "@/data/recipes";
 import chefHero from "@/assets/chef-hero.jpg";
+import { useState } from "react";
 
 const Index = () => {
+  const [searchTerm, setSearchTerm] = useState("");
   const featuredRecipes = recipes.filter(recipe => recipe.featured);
+  
+  const filteredRecipes = searchTerm
+    ? recipes.filter(recipe =>
+        recipe.title.toLowerCase().includes(searchTerm.toLowerCase()) ||
+        recipe.description.toLowerCase().includes(searchTerm.toLowerCase())
+      )
+    : [];
 
   return (
     <div className="min-h-screen">
@@ -91,6 +101,50 @@ const Index = () => {
                 <ArrowRight className="ml-2 w-5 h-5" />
               </Button>
             </Link>
+          </div>
+        </div>
+      </section>
+
+      {/* Search Section */}
+      <section className="py-16 px-6">
+        <div className="container mx-auto">
+          <div className="max-w-2xl mx-auto">
+            <div className="text-center mb-8">
+              <h2 className="text-4xl font-bold mb-4">Search Recipes</h2>
+              <p className="text-muted-foreground text-lg">
+                Find your favorite dishes
+              </p>
+            </div>
+            
+            <div className="relative">
+              <Search className="absolute left-3 top-1/2 transform -translate-y-1/2 text-muted-foreground w-5 h-5" />
+              <Input
+                type="text"
+                placeholder="Search by recipe name or description..."
+                value={searchTerm}
+                onChange={(e) => setSearchTerm(e.target.value)}
+                className="pl-10 h-12 text-base"
+              />
+            </div>
+
+            {searchTerm && (
+              <div className="mt-8">
+                <p className="text-muted-foreground mb-6">
+                  Found {filteredRecipes.length} recipe{filteredRecipes.length !== 1 ? 's' : ''}
+                </p>
+                {filteredRecipes.length > 0 ? (
+                  <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-6">
+                    {filteredRecipes.map(recipe => (
+                      <RecipeCard key={recipe.id} recipe={recipe} />
+                    ))}
+                  </div>
+                ) : (
+                  <p className="text-center text-muted-foreground py-8">
+                    No recipes found. Try a different search term.
+                  </p>
+                )}
+              </div>
+            )}
           </div>
         </div>
       </section>

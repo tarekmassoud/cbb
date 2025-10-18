@@ -17,6 +17,8 @@ export default defineConfig({
     port: 8080,
   },
 
+  build: { sourcemap: true },  
+
   plugins: [react(), componentTagger()].filter(Boolean) as any,
 
   resolve: {

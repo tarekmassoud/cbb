@@ -15,7 +15,8 @@ const App = () => (
     <TooltipProvider>
       <Toaster />
       <Sonner />
-      <BrowserRouter>
+      {/* IMPORTANT: basename so routes work under /cbb on GitHub Pages */}
+      <BrowserRouter basename="/cbb">
         <Routes>
           <Route path="/" element={<Index />} />
           <Route path="/recipes" element={<AllRecipes />} />

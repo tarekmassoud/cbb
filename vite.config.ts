@@ -4,26 +4,18 @@ import path from "path";
 import { fileURLToPath } from "url";
 import { componentTagger } from "lovable-tagger";
 
-// ESM-safe __dirname
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
 
-export default defineConfig({
-  // GitHub Pages project site base
-  base: "/cbb/",
+export default defineConfig(({ mode }) => ({
+  base: "/cbb/",                  // GitHub Pages project path
+  server: { host: "::", port: 8080 },
+  build: { sourcemap: true },     // <-- show real file/line in prod
 
-  server: {
-    host: "::",
-    port: 8080,
-  },
-
-  build: { sourcemap: true },  
-
-  plugins: [react(), componentTagger()].filter(Boolean) as any,
+  // keep lovable-tagger strictly dev-only
+  plugins: [react(), mode === "development" && componentTagger()].filter(Boolean) as any,
 
   resolve: {
-    alias: {
-      "@": path.resolve(__dirname, "./src"),
-    },
+    alias: { "@": path.resolve(__dirname, "./src") },
   },
-});
+}));

@@ -8,7 +8,7 @@ import { componentTagger } from "lovable-tagger";
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
 
-const repo = "/cbb/";
+const repo = "cbb";
 
 // https://vitejs.dev/config/
 export default defineConfig(({ mode }) => ({

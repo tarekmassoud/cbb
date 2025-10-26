@@ -52,15 +52,7 @@ const Index = () => {
         <Navigation />
 
         {/* Hero Section with Search */}
-        <section className="relative py-24 px-6 overflow-hidden">
-          {/* Subtle background chef image */}
-          <div className="absolute top-0 right-0 w-1/3 h-full opacity-10 pointer-events-none hidden lg:block">
-            <img 
-              src={chefHero}
-              alt=""
-              className="w-full h-full object-cover"
-            />
-          </div>
+        <section className="relative py-24 px-6 overflow-hidden bg-white">
 
           <div className="container mx-auto relative z-10">
             <div className="max-w-3xl mx-auto text-center mb-12">

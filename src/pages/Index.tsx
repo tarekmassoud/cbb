@@ -1,140 +1,115 @@
+import { useState } from "react";
 import { Link } from "react-router-dom";
-import { Instagram, ArrowRight, Search } from "lucide-react";
+import { Search, ArrowRight } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
 import { RecipeCard } from "@/components/RecipeCard";
+import { WelcomeOverlay } from "@/components/WelcomeOverlay";
+import { Navigation } from "@/components/Navigation";
 import { recipes } from "@/data/recipes";
+import { Badge } from "@/components/ui/badge";
 import chefHero from "@/assets/chef-hero.jpg";
-import { useState } from "react";
 
 const Index = () => {
+  const [showWelcome, setShowWelcome] = useState(true);
   const [searchTerm, setSearchTerm] = useState("");
-  const featuredRecipes = recipes.filter(recipe => recipe.featured);
+  const [activeFilter, setActiveFilter] = useState<string | null>(null);
   
-  const filteredRecipes = searchTerm
-    ? recipes.filter(recipe =>
-        recipe.title.toLowerCase().includes(searchTerm.toLowerCase()) ||
-        recipe.description.toLowerCase().includes(searchTerm.toLowerCase())
-      )
-    : [];
+  const featuredRecipes = recipes.filter(recipe => recipe.featured).slice(0, 5);
+  
+  const categories = [
+    { name: "Breakfast", value: "Breakfast" },
+    { name: "Mains", value: "Main" },
+    { name: "Desserts", value: "Dessert" },
+    { name: "Salads & Sides", value: "Salad & Side" },
+    { name: "Breads", value: "Bread" },
+    { name: "Sauces", value: "Sauce" }
+  ];
+
+  // Filter recipes based on search and category
+  const filteredRecipes = recipes.filter(recipe => {
+    const matchesSearch = searchTerm
+      ? recipe.title.toLowerCase().includes(searchTerm.toLowerCase()) ||
+        recipe.short_description.toLowerCase().includes(searchTerm.toLowerCase()) ||
+        recipe.ingredients.some(ing => ing.toLowerCase().includes(searchTerm.toLowerCase())) ||
+        recipe.tags.some(tag => tag.toLowerCase().includes(searchTerm.toLowerCase()))
+      : false;
+
+    const matchesFilter = activeFilter ? recipe.course === activeFilter : true;
+
+    return searchTerm ? matchesSearch : matchesFilter;
+  });
+
+  const categoryRecipes = (category: string) => {
+    return recipes.filter(r => r.course === category).slice(0, 5);
+  };
 
   return (
-    <div className="min-h-screen">
-      {/* Navigation */}
-      <nav className="fixed top-0 w-full bg-card/80 backdrop-blur-md z-50 border-b">
-        <div className="container mx-auto px-6 py-4 flex justify-between items-center">
-          <h1 className="text-2xl font-bold text-primary">Cooking bel beit's Kitchen</h1>
-          <a 
-            href="https://instagram.com" 
-            target="_blank" 
-            rel="noopener noreferrer"
-            className="flex items-center gap-2 text-foreground hover:text-primary transition-smooth"
-          >
-            <Instagram className="w-5 h-5" />
-            <span className="hidden sm:inline">Follow on Instagram</span>
-          </a>
-        </div>
-      </nav>
+    <>
+      <WelcomeOverlay onEnter={() => setShowWelcome(false)} />
+      
+      <div className={`min-h-screen transition-opacity duration-300 ${showWelcome ? 'opacity-0' : 'opacity-100'}`}>
+        <Navigation />
 
-      {/* Hero Section */}
-      <section className="pt-24 pb-16 px-6">
-        <div className="container mx-auto">
-          <div className="grid md:grid-cols-2 gap-12 items-center">
-            <div className="space-y-6">
-              <h2 className="text-5xl md:text-6xl font-bold leading-tight">
-                Welcome to My
-                <span className="text-foreground"> Culinary Journey</span>
-              </h2>
-              <p className="text-lg text-muted-foreground leading-relaxed">
-                Hi! I'm Chef Maria Rodriguez, and I've been sharing my passion for cooking on Instagram for over 5 years. 
-                From traditional family recipes to modern culinary experiments, I believe that great food brings people together. 
-                Join me as I explore flavors from around the world, one delicious dish at a time.
+        {/* Hero Section with Search */}
+        <section className="relative py-24 px-6 overflow-hidden">
+          {/* Subtle background chef image */}
+          <div className="absolute top-0 right-0 w-1/3 h-full opacity-10 pointer-events-none hidden lg:block">
+            <img 
+              src={chefHero}
+              alt=""
+              className="w-full h-full object-cover"
+            />
+          </div>
+
+          <div className="container mx-auto relative z-10">
+            <div className="max-w-3xl mx-auto text-center mb-12">
+              <h1 className="font-serif text-5xl md:text-6xl font-bold mb-6 text-foreground">
+                Search 150+ Recipes
+              </h1>
+              <p className="text-xl text-muted-foreground mb-8">
+                Discover Mediterranean and Lebanese favorites, from weeknight dinners to special occasions
               </p>
-              <div className="flex flex-wrap gap-4">
-                <Link to="/recipes">
-                  <Button size="lg" className="hero-gradient border-0 text-white">
-                    View All Recipes
-                    <ArrowRight className="ml-2 w-5 h-5" />
-                  </Button>
-                </Link>
-                <a href="https://instagram.com" target="_blank" rel="noopener noreferrer">
-                  <Button size="lg" variant="outline">
-                    <Instagram className="mr-2 w-5 h-5" />
-                    Follow Me
-                  </Button>
-                </a>
-              </div>
-            </div>
-            <div className="relative">
-              <div className="aspect-[4/3] rounded-2xl overflow-hidden card-shadow">
-                <img 
-                  src={chefHero} 
-                  alt="Chef Maria Rodriguez"
-                  className="w-full h-full object-cover"
+
+              {/* Search Bar */}
+              <div className="relative mb-8">
+                <Search className="absolute left-4 top-1/2 transform -translate-y-1/2 text-muted-foreground w-6 h-6" />
+                <Input
+                  type="text"
+                  placeholder="Search 150+ recipes... (pasta, chicken, vegan...)"
+                  value={searchTerm}
+                  onChange={(e) => setSearchTerm(e.target.value)}
+                  className="pl-14 h-16 text-lg border-2 focus:border-primary"
                 />
               </div>
-            </div>
-          </div>
-        </div>
-      </section>
 
-      {/* Featured Recipes */}
-      <section className="py-16 px-6 bg-accent/30">
-        <div className="container mx-auto">
-          <div className="text-center mb-12">
-            <h2 className="text-4xl font-bold mb-4">Featured Recipes</h2>
-            <p className="text-muted-foreground text-lg">
-              Try these popular favorites from my kitchen
-            </p>
-          </div>
-          
-          <div className="grid sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-5 gap-6 mb-8">
-            {featuredRecipes.map(recipe => (
-              <RecipeCard key={recipe.id} recipe={recipe} />
-            ))}
-          </div>
-
-          <div className="text-center">
-            <Link to="/recipes">
-              <Button size="lg" variant="outline">
-                See All Recipes
-                <ArrowRight className="ml-2 w-5 h-5" />
-              </Button>
-            </Link>
-          </div>
-        </div>
-      </section>
-
-      {/* Search Section */}
-      <section className="py-16 px-6">
-        <div className="container mx-auto">
-          <div className="max-w-2xl mx-auto">
-            <div className="text-center mb-8">
-              <h2 className="text-4xl font-bold mb-4">Search Recipes</h2>
-              <p className="text-muted-foreground text-lg">
-                Find your favorite dishes
-              </p>
-            </div>
-            
-            <div className="relative">
-              <Search className="absolute left-3 top-1/2 transform -translate-y-1/2 text-muted-foreground w-5 h-5" />
-              <Input
-                type="text"
-                placeholder="Search by recipe name or description..."
-                value={searchTerm}
-                onChange={(e) => setSearchTerm(e.target.value)}
-                className="pl-10 h-12 text-base"
-              />
+              {/* Filter Chips */}
+              <div className="flex flex-wrap justify-center gap-3">
+                {categories.map((cat) => (
+                  <Badge
+                    key={cat.value}
+                    variant={activeFilter === cat.value ? "default" : "outline"}
+                    className="cursor-pointer px-4 py-2 text-base hover:bg-primary hover:text-primary-foreground transition-smooth"
+                    onClick={() => {
+                      setSearchTerm("");
+                      setActiveFilter(activeFilter === cat.value ? null : cat.value);
+                    }}
+                  >
+                    {cat.name}
+                  </Badge>
+                ))}
+              </div>
             </div>
 
+            {/* Search Results */}
             {searchTerm && (
-              <div className="mt-8">
-                <p className="text-muted-foreground mb-6">
+              <div className="max-w-6xl mx-auto">
+                <p className="text-muted-foreground mb-6 text-center">
                   Found {filteredRecipes.length} recipe{filteredRecipes.length !== 1 ? 's' : ''}
                 </p>
                 {filteredRecipes.length > 0 ? (
                   <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-6">
-                    {filteredRecipes.map(recipe => (
+                    {filteredRecipes.slice(0, 9).map(recipe => (
                       <RecipeCard key={recipe.id} recipe={recipe} />
                     ))}
                   </div>
@@ -145,27 +120,103 @@ const Index = () => {
                 )}
               </div>
             )}
-          </div>
-        </div>
-      </section>
 
-      {/* Footer */}
-      <footer className="bg-card border-t py-8 px-6">
-        <div className="container mx-auto text-center">
-          <p className="text-muted-foreground">
-            © 2024 Chef's Kitchen. Follow me on{" "}
-            <a 
-              href="https://instagram.com" 
-              target="_blank" 
-              rel="noopener noreferrer"
-              className="text-primary hover:underline"
-            >
-              Instagram
-            </a>
-          </p>
-        </div>
-      </footer>
-    </div>
+            {/* Category Results */}
+            {!searchTerm && activeFilter && (
+              <div className="max-w-6xl mx-auto">
+                <div className="grid sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-5 gap-6">
+                  {filteredRecipes.map(recipe => (
+                    <RecipeCard key={recipe.id} recipe={recipe} />
+                  ))}
+                </div>
+              </div>
+            )}
+          </div>
+        </section>
+
+        {/* Featured Recipes */}
+        {!searchTerm && !activeFilter && (
+          <section className="py-16 px-6 bg-accent/20">
+            <div className="container mx-auto">
+              <div className="text-center mb-12">
+                <h2 className="font-serif text-4xl font-bold mb-4 text-foreground">
+                  Five Featured Recipes
+                </h2>
+                <p className="text-muted-foreground text-lg">
+                  Our most popular dishes loved by thousands
+                </p>
+              </div>
+              
+              <div className="grid sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-5 gap-6 mb-8">
+                {featuredRecipes.map(recipe => (
+                  <RecipeCard key={recipe.id} recipe={recipe} />
+                ))}
+              </div>
+
+              <div className="text-center">
+                <Link to="/recipes">
+                  <Button size="lg" variant="outline">
+                    View All Recipes
+                    <ArrowRight className="ml-2 w-5 h-5" />
+                  </Button>
+                </Link>
+              </div>
+            </div>
+          </section>
+        )}
+
+        {/* Category Carousels */}
+        {!searchTerm && !activeFilter && (
+          <>
+            {categories.map((cat) => {
+              const catRecipes = categoryRecipes(cat.value);
+              if (catRecipes.length === 0) return null;
+
+              return (
+                <section key={cat.value} className="py-16 px-6">
+                  <div className="container mx-auto">
+                    <div className="flex justify-between items-center mb-8">
+                      <h2 className="font-serif text-3xl font-bold text-foreground">
+                        {cat.name}
+                      </h2>
+                      <Link 
+                        to={`/recipes?category=${cat.value.toLowerCase().replace(' & ', '-')}`}
+                        className="text-primary hover:underline"
+                      >
+                        View all
+                      </Link>
+                    </div>
+                    
+                    <div className="grid sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-5 gap-6">
+                      {catRecipes.map(recipe => (
+                        <RecipeCard key={recipe.id} recipe={recipe} />
+                      ))}
+                    </div>
+                  </div>
+                </section>
+              );
+            })}
+          </>
+        )}
+
+        {/* Footer */}
+        <footer className="bg-card border-t py-8 px-6">
+          <div className="container mx-auto text-center">
+            <p className="text-muted-foreground">
+              © 2024 Cooking bel beit. Follow on{" "}
+              <a 
+                href="https://instagram.com" 
+                target="_blank" 
+                rel="noopener noreferrer"
+                className="text-primary hover:underline"
+              >
+                Instagram
+              </a>
+            </p>
+          </div>
+        </footer>
+      </div>
+    </>
   );
 };
 

@@ -30,9 +30,11 @@ export const WelcomeOverlay = ({ onEnter }: WelcomeOverlayProps) => {
               <span className="text-primary">Cooking bel beit</span>
             </h1>
             <p className="text-lg text-muted-foreground leading-relaxed">
-              I'm Chef Katia. Here you'll find the food I actually cook at home—Lebanese comforts, 
-              Mediterranean favorites, and simple weeknight wins. Each recipe includes clear steps 
-              and a link to the Instagram video so you can cook along. Yalla—let's eat!
+              I’m Katia, the mom-cook behind @cooking_bel_beit, sharing simple, healthy Lebanese 
+              family recipes inspired by our village life near Beirut. I focus on seasonal produce, 
+              olive-oil cooking, and practical tips on where to source fresh ingredients and beautiful, 
+              useful kitchen tools. My goal is to inspire newlyweds and young moms to cook with love 
+              for their families and friends—and to help newcomers discover and enjoy Lebanese cuisine.
             </p>
             <Button 
               size="lg" 

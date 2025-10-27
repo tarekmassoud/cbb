@@ -217,7 +217,7 @@ const RecipeDetail = () => {
             <CardContent className="p-8 text-center text-white">
               <h3 className="font-serif text-2xl font-bold mb-2">Made this recipe?</h3>
               <p className="mb-4">Share it on Instagram and tag me @CookingBelBeit!</p>
-              <a href="https://instagram.com" target="_blank" rel="noopener noreferrer">
+              <a href="https://instagram.com/cooking_bel_beit/" target="_blank" rel="noopener noreferrer">
                 <Button size="lg" variant="secondary">
                   <Instagram className="mr-2 w-5 h-5" />
                   Follow @CookingBelBeit
@@ -233,7 +233,7 @@ const RecipeDetail = () => {
           <p className="text-muted-foreground">
             © 2024 Cooking bel beit. Follow on{" "}
             <a 
-              href="https://instagram.com" 
+              href="https://instagram.com/cooking_bel_beit/" 
               target="_blank" 
               rel="noopener noreferrer"
               className="text-primary hover:underline"

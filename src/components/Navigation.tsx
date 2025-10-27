@@ -59,7 +59,7 @@ export const Navigation = () => {
             </Link>
 
             <a 
-              href="https://instagram.com" 
+              href="https://instagram.com/cooking_bel_beit/" 
               target="_blank" 
               rel="noopener noreferrer"
               className="flex items-center gap-2 text-foreground hover:text-primary transition-smooth"
@@ -92,7 +92,7 @@ export const Navigation = () => {
                   <Link to="/contact">Contact</Link>
                 </DropdownMenuItem>
                 <DropdownMenuItem asChild>
-                  <a href="https://instagram.com" target="_blank" rel="noopener noreferrer">
+                  <a href="https://instagram.com/cooking_bel_beit/" target="_blank" rel="noopener noreferrer">
                     Instagram
                   </a>
                 </DropdownMenuItem>

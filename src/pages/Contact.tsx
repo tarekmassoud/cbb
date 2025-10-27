@@ -61,7 +61,7 @@ const Contact = () => {
                 <h3 className="text-xl font-semibold mb-2 text-foreground">Instagram</h3>
                 <p className="text-muted-foreground mb-4">Follow for daily recipes</p>
                 <a 
-                  href="https://instagram.com" 
+                  href="https://instagram.com/cooking_bel_beit/" 
                   target="_blank" 
                   rel="noopener noreferrer"
                 >
@@ -178,7 +178,7 @@ const Contact = () => {
           <p className="text-muted-foreground">
             © 2024 Cooking bel beit. Follow on{" "}
             <a 
-              href="https://instagram.com" 
+              href="https://instagram.com/cooking_bel_beit/" 
               target="_blank" 
               rel="noopener noreferrer"
               className="text-primary hover:underline"

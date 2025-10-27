@@ -31,7 +31,7 @@ const About = () => {
             <div className="space-y-6">
               <p className="text-lg text-foreground leading-relaxed">
                 Welcome to Cooking bel beit! I'm Chef Katia, and I've been sharing 
-                the joy of Mediterranean and Lebanese cooking with food lovers around 
+                the joy of Lebanese cooking with food lovers around 
                 the world through my Instagram page.
               </p>
               <p className="text-lg text-foreground leading-relaxed">
@@ -48,7 +48,7 @@ const About = () => {
               </p>
               <div className="pt-4">
                 <a 
-                  href="https://instagram.com" 
+                  href="https://instagram.com/cooking_bel_beit/" 
                   target="_blank" 
                   rel="noopener noreferrer"
                 >
@@ -111,7 +111,7 @@ const About = () => {
           <p className="text-muted-foreground">
             © 2024 Cooking bel beit. Follow on{" "}
             <a 
-              href="https://instagram.com" 
+              href="https://instagram.com/cooking_bel_beit/" 
               target="_blank" 
               rel="noopener noreferrer"
               className="text-primary hover:underline"

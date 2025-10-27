@@ -152,7 +152,7 @@ const AllRecipes = () => {
           <p className="text-muted-foreground">
             © 2024 Cooking bel beit. Follow on{" "}
             <a 
-              href="https://instagram.com" 
+              href="https://instagram.com/cooking_bel_beit/" 
               target="_blank" 
               rel="noopener noreferrer"
               className="text-primary hover:underline"

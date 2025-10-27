@@ -39,7 +39,7 @@ export const recipes: Recipe[] = [
     slug: "classic-homemade-pasta",
     short_description: "Stuffed zucchinis cooked in tomato sauce.",
     description: "Zucchinis stuffed with meat and rice, cooked in tomato sauce.",
-    image: "/src/assets/mehche_coussa.jpg",
+    image: recipe1,
     prepTime: 30,
     cookTime: 20,
     totalTime: 50,

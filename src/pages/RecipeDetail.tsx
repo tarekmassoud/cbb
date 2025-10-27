@@ -216,11 +216,11 @@ const RecipeDetail = () => {
           <Card className="mt-12 card-shadow hero-gradient print:hidden">
             <CardContent className="p-8 text-center text-white">
               <h3 className="font-serif text-2xl font-bold mb-2">Made this recipe?</h3>
-              <p className="mb-4">Share it on Instagram and tag me @CookingBelBeit!</p>
+              <p className="mb-4">Share it on Instagram and tag me @Cooking_Bel_Beit!</p>
               <a href="https://instagram.com/cooking_bel_beit/" target="_blank" rel="noopener noreferrer">
                 <Button size="lg" variant="secondary">
                   <Instagram className="mr-2 w-5 h-5" />
-                  Follow @CookingBelBeit
+                  Follow @Cooking_Bel_Beit
                 </Button>
               </a>
             </CardContent>

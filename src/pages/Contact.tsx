@@ -66,7 +66,7 @@ const Contact = () => {
                   rel="noopener noreferrer"
                 >
                   <Button variant="outline">
-                    @CookingBelBeit
+                    @Cooking_Bel_Beit
                   </Button>
                 </a>
               </CardContent>

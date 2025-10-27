@@ -30,9 +30,17 @@ export const WelcomeOverlay = ({ onEnter }: WelcomeOverlayProps) => {
               <span className="text-primary">Cooking bel beit</span>
             </h1>
             <p className="text-lg text-muted-foreground leading-relaxed">
-              I'm Chef Katia. Here you'll find the food I actually cook at home—Lebanese comforts, 
-              Mediterranean favorites, and simple weeknight wins. Each recipe includes clear steps 
-              and a link to the Instagram video so you can cook along. Yalla—let's eat!
+              Hello,
+              I am Katia the cook Mom behind @cooking_bel_beit.
+              My journey with food started when I became a mother. Introducing solid food to my babies and the importance of instilling a sense of good taste and healthy habits from the very beginning got me hooked to the smells, the pots, the eggs, the sugar, the butter.
+              My kitchen became the warmest place in my home, not only because of the oven heat but because of the warmth of the family and the warmth of love; the love of cooking.
+              My Instagram journey started on a beautiful sunny day. I was grilling fish when my teenage son took pictures, created an Instagram account, posted the pictures, and said: “Mom your dishes always bring us together, lets show your love of food.”
+              And here I am, hooked, cooking and sharing.
+              I am lucky to live in one of the smallest, most beautiful country in the world, Lebanon. Our healthy cuisine is rich with an abundance of whole grains, vegetables, fresh Mediterranean fish and olive oil, lots of olive oil.
+              I live in a tranquil village not far from Beirut, with my husband and two sons. Our house, surrounded by olive trees our garden is a big happy place where cousins grew up together, climbed trees, lied down on the grass and played with the dog and the cat, and where adults gathered around a large wooden table under the mulberry tree raised their glasses of wine, Arak and enjoyed healthy traditional food. My Tabbouleh and Fattouch are always prepared with fresh vegetables from the garden, and my quiches and cakes are made from the fresh eggs of our chickens.
+              Cooking changed my life, it became funnier ,healthier and closer to nature, what I love is to inspire newly married couples, especially young mom’s to cook for their children, families and friends ,and to cooks, not familiar with Lebanese cuisine to discover it and try it.
+              I also want to share cooking tips that I learned over time, and show the right places where to buy fresh ingredients and shops where to find beautiful kitchen tools.
+              Lots of Lovvvvv.
             </p>
             <Button 
               size="lg" 

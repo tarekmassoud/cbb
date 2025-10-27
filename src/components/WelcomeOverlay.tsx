@@ -1,4 +1,4 @@
-import { useState, useEffect } from "react";
+import { useState } from "react";
 import { Button } from "@/components/ui/button";
 import chefHero from "@/assets/chef-hero.jpg";
 
@@ -9,16 +9,7 @@ interface WelcomeOverlayProps {
 export const WelcomeOverlay = ({ onEnter }: WelcomeOverlayProps) => {
   const [isVisible, setIsVisible] = useState(true);
 
-  useEffect(() => {
-    const hasVisited = localStorage.getItem("welcomeShown");
-    if (hasVisited) {
-      setIsVisible(false);
-      onEnter();
-    }
-  }, [onEnter]);
-
   const handleEnter = () => {
-    localStorage.setItem("welcomeShown", "true");
     setIsVisible(false);
     onEnter();
   };

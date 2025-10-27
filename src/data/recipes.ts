@@ -1,5 +1,5 @@
 import recipe1 from "@/assets/mehche_coussa.jpg";
-import recipe2 from "@/assets/recipe-2.jpg";
+import recipe2 from "@/assets/sayyadiyeh.jpg";
 import recipe3 from "@/assets/recipe-3.jpg";
 import recipe4 from "@/assets/recipe-4.jpg";
 import recipe5 from "@/assets/recipe-5.jpg";
@@ -24,6 +24,7 @@ export interface Recipe {
   cuisine: string;
   course: "Breakfast" | "Main" | "Dessert" | "Salad & Side" | "Bread" | "Sauce";
   tags: string[];
+  keywords?: string[];
   ingredients: string[];
   instructions: string[];
   video_url?: string;
@@ -36,7 +37,7 @@ export const recipes: Recipe[] = [
   {
     id: "1",
     title: "Mehcheh Coussa",
-    slug: "classic-homemade-pasta",
+    slug: "mehcheh-coussa",
     short_description: "Stuffed zucchinis cooked in tomato sauce.",
     description: "Zucchinis stuffed with meat and rice, cooked in tomato sauce.",
     image: recipe1,
@@ -47,7 +48,8 @@ export const recipes: Recipe[] = [
     difficulty: "Medium",
     cuisine: "Lebanese",
     course: "Main",
-    tags: ["coussa", "mehche", "zucchinis", "كوسة"],
+    tags: ["coussa", "mehche", "zucchinis"],
+    keywords: ["كوسة"],
     ingredients: [
       "10 to 12 small Lebanese zucchinis",
       "Sea salt & black pepper",
@@ -71,42 +73,63 @@ export const recipes: Recipe[] = [
   },
   {
     id: "2",
-    title: "Herb-Crusted Salmon",
-    slug: "herb-crusted-salmon",
-    short_description: "Perfectly grilled salmon with a crispy herb crust.",
-    description: "Perfectly grilled salmon with a crispy herb crust, served with seasonal roasted vegetables.",
+    title: "Sayyadiyeh",
+    slug: "sayyadiyeh",
+    short_description: "Perfectly cooked white fish with marinated rice.",
+    description: "Perfectly cooked white fish served with marinated rice and lemon.",
     image: recipe2,
     prepTime: 15,
     cookTime: 25,
     totalTime: 40,
     servings: "4",
-    difficulty: "Easy",
-    cuisine: "Mediterranean",
+    difficulty: "Advanced",
+    cuisine: "Lebanese",
     course: "Main",
     tags: ["seafood", "healthy", "fish"],
+    keywords: ["صيادية"],
     ingredients: [
-      "4 salmon fillets",
-      "2 tbsp fresh dill",
-      "2 tbsp fresh parsley",
-      "1 tbsp lemon zest",
-      "2 cloves garlic, minced",
-      "Mixed vegetables (carrots, bell peppers, zucchini)",
-      "Olive oil",
-      "Salt and pepper"
+      "1.5 lb whole white fish",
+      "2 tbsp olive oil",
+      "3–4 large onions, thinly sliced",
+      "1 tsp cumin powder",
+      "1/2 tsp coriander powder",
+      "1/2 tsp cinnamon powder",
+      "1 1/2 tsp salt & black pepper",
+      "1 cinnamon stick",
+      "2 bay (laurier) leaves",
+      "2 cups basmati rice, rinsed",
+      "1 1/2tsp cumin powder",
+      "1 1/2tsp coriander powder",
+      "1/2 tsp cinnamon powder",
+      "1 1/2 tsp salt",
+      "1/2 tsp black pepper",
+      "1 tbsp corn starch",
+      "Toasted pine nuts",
+      "Lemon slices (to place around the platter)",
+      "Lemon rind or zest (for sprinkling on top)"
     ],
     instructions: [
-      "Preheat oven to 400°F (200°C)",
-      "Mix herbs, lemon zest, and garlic with olive oil",
-      "Season salmon and coat with herb mixture",
-      "Toss vegetables with olive oil, salt, and pepper",
-      "Arrange vegetables on a baking sheet",
-      "Place salmon on top of vegetables",
-      "Bake for 20-25 minutes until salmon is cooked through"
+      "Preheat oven to (200°C)",
+      "Season the whole fish (inside and out) with salt and pepper",
+      "Place on a baking tray and roast for 20–25 minutes, until the fish is cooked through and flakes easily",
+      "Once cool enough to handle: Carefully remove the head, tail, and skin, and set them aside for the broth. Gently flake the meat into large chunks and set aside",
+      "In a large pot, heat olive oil over medium heat",
+      "Add the sliced onions and sauté until deeply browned and caramelized, stirring often (this gives Sayadieh its rich flavor and color)",
+      "Add 1 cup of water, then using a hand blender, blend the onions into a rough purée",
+      "Return to pot, and add: Roasted fish head, tail, and skin,4 cups water,Cinnamon stick and bay leaves, spices (cumin, coriander, cinnamon, salt, black pepper), Simmer gently for 20–30 minutes",
+      "Pour the broth through a colander or fine mesh strainer into a bowl, pressing well to extract maximum flavor (discard solids)",
+      "In a pot, combine the drained rice with all the rice spices (cumin, coriander, cinnamon, salt, pepper).Pour in 4 cups of the strained broth",
+      "Bring to a boil, then cover and reduce to low. Cook for 15–20 minutes, or until broth is fully absorbed",
+      "Meanwhile prepare the sauce",
+      "1 cup of broth and 1 tbsp corn starch dissolved in a bit of broth, boil until thickened set aside",
+      "Transfer the rice to a large serving platter",
+      "Top with chunks of roasted fish",
+      "Garnish with toasted pine nuts,lemon slices all around the platter and a sprinkle of lemon zest over the top"
     ],
-    video_url: "https://instagram.com",
+    video_url: "https://www.instagram.com/p/DPkzhYxCCRY/",
     featured: true,
     rating: 4.9,
-    date_published: "2024-02-01"
+    date_published: "2025-10-10"
   },
   {
     id: "3",

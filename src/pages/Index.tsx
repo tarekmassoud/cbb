@@ -95,8 +95,8 @@ const Index = () => {
           </div>
 
           {/* Scroll Down Arrow */}
-          <div className="absolute bottom-8 left-1/2 transform -translate-x-1/2 animate-bounce">
-            <div className="flex flex-col items-center gap-2 text-muted-foreground">
+          <div className="w-full flex justify-center pb-8">
+            <div className="flex flex-col items-center gap-2 text-muted-foreground animate-bounce">
               <span className="text-sm">Scroll to explore</span>
               <svg 
                 className="w-6 h-6" 
@@ -155,7 +155,7 @@ const Index = () => {
             <div className="container mx-auto">
               <div className="text-center mb-12">
                 <h2 className="font-serif text-4xl font-bold mb-4 text-foreground">
-                  Five Featured Recipes
+                  Featured Recipes
                 </h2>
                 <p className="text-muted-foreground text-lg">
                   Our most popular dishes loved by thousands

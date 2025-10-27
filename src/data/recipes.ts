@@ -8,6 +8,7 @@ import recipe7 from "@/assets/recipe-7.jpg";
 import recipe8 from "@/assets/recipe-8.jpg";
 import recipe9 from "@/assets/recipe-9.jpg";
 import recipe10 from "@/assets/recipe-10.jpg";
+import recipe11 from "@/assets/tabbouleh.jpg";
 
 export interface Recipe {
   id: string;
@@ -453,7 +454,7 @@ export const recipes: Recipe[] = [
     slug: "tabbouleh",
     short_description: "Fresh Lebanese parsley salad with bulgur wheat.",
     description: "Refreshing Lebanese salad made with loads of fresh parsley, mint, tomatoes, and bulgur wheat.",
-    image: recipe1,
+    image: recipe11,
     prepTime: 20,
     cookTime: 0,
     totalTime: 20,

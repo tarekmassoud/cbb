@@ -1,4 +1,4 @@
-import recipe1 from "@/assets/recipe-1.jpg";
+import recipe1 from "@/assets/mehche_coussa.jpg";
 import recipe2 from "@/assets/recipe-2.jpg";
 import recipe3 from "@/assets/recipe-3.jpg";
 import recipe4 from "@/assets/recipe-4.jpg";

@@ -9,6 +9,7 @@ import recipe8 from "@/assets/recipe-8.jpg";
 import recipe9 from "@/assets/recipe-9.jpg";
 import recipe10 from "@/assets/recipe-10.jpg";
 import recipe11 from "@/assets/tabbouleh.jpg";
+import recipe12 from "@/assets/hummus.jpg";
 
 export interface Recipe {
   id: string;
@@ -493,7 +494,7 @@ export const recipes: Recipe[] = [
     slug: "hummus",
     short_description: "Creamy chickpea dip with tahini and lemon.",
     description: "Classic Middle Eastern chickpea dip made smooth and creamy with tahini, lemon, and garlic.",
-    image: recipe2,
+    image: recipe12,
     prepTime: 10,
     cookTime: 0,
     totalTime: 10,

@@ -1,3 +1,14 @@
+import recipe1 from "@/assets/recipe-1.jpg";
+import recipe2 from "@/assets/recipe-2.jpg";
+import recipe3 from "@/assets/recipe-3.jpg";
+import recipe4 from "@/assets/recipe-4.jpg";
+import recipe5 from "@/assets/recipe-5.jpg";
+import recipe6 from "@/assets/recipe-6.jpg";
+import recipe7 from "@/assets/recipe-7.jpg";
+import recipe8 from "@/assets/recipe-8.jpg";
+import recipe9 from "@/assets/recipe-9.jpg";
+import recipe10 from "@/assets/recipe-10.jpg";
+
 export interface Recipe {
   id: string;
   title: string;
@@ -64,7 +75,7 @@ export const recipes: Recipe[] = [
     slug: "herb-crusted-salmon",
     short_description: "Perfectly grilled salmon with a crispy herb crust.",
     description: "Perfectly grilled salmon with a crispy herb crust, served with seasonal roasted vegetables.",
-    image: "/src/assets/recipe-2.jpg",
+    image: recipe2,
     prepTime: 15,
     cookTime: 25,
     totalTime: 40,
@@ -103,7 +114,7 @@ export const recipes: Recipe[] = [
     slug: "molten-chocolate-lava-cake",
     short_description: "Decadent chocolate cake with a gooey molten center.",
     description: "Decadent chocolate cake with a gooey molten center, served with vanilla ice cream.",
-    image: "/src/assets/recipe-3.jpg",
+    image: recipe3,
     prepTime: 15,
     cookTime: 12,
     totalTime: 27,
@@ -144,7 +155,7 @@ export const recipes: Recipe[] = [
     slug: "mediterranean-garden-salad",
     short_description: "Fresh, vibrant salad packed with colorful vegetables.",
     description: "Fresh, vibrant salad packed with colorful vegetables and a tangy lemon vinaigrette.",
-    image: "/src/assets/recipe-4.jpg",
+    image: recipe4,
     prepTime: 20,
     cookTime: 0,
     totalTime: 20,
@@ -184,7 +195,7 @@ export const recipes: Recipe[] = [
     slug: "artisan-sourdough-bread",
     short_description: "Crusty, tangy sourdough bread with a perfect chewy interior.",
     description: "Crusty, tangy sourdough bread with a perfect chewy interior and golden crust.",
-    image: "/src/assets/recipe-5.jpg",
+    image: recipe5,
     prepTime: 1440,
     cookTime: 45,
     totalTime: 1485,
@@ -221,7 +232,7 @@ export const recipes: Recipe[] = [
     slug: "lebanese-fattoush-salad",
     short_description: "Crispy pita bread salad with fresh vegetables and sumac.",
     description: "Traditional Lebanese salad with crispy pita chips, fresh vegetables, and tangy sumac dressing.",
-    image: "/src/assets/recipe-6.jpg",
+    image: recipe6,
     prepTime: 15,
     cookTime: 10,
     totalTime: 25,
@@ -261,7 +272,7 @@ export const recipes: Recipe[] = [
     slug: "shakshuka",
     short_description: "Middle Eastern poached eggs in spicy tomato sauce.",
     description: "Traditional Middle Eastern breakfast with eggs poached in a flavorful tomato and pepper sauce.",
-    image: "/src/assets/recipe-7.jpg",
+    image: recipe7,
     prepTime: 10,
     cookTime: 25,
     totalTime: 35,
@@ -302,7 +313,7 @@ export const recipes: Recipe[] = [
     slug: "manakish-zaatar",
     short_description: "Lebanese flatbread topped with za'atar and olive oil.",
     description: "Traditional Lebanese breakfast flatbread with za'atar spice blend and olive oil.",
-    image: "/src/assets/recipe-8.jpg",
+    image: recipe8,
     prepTime: 90,
     cookTime: 15,
     totalTime: 105,
@@ -341,7 +352,7 @@ export const recipes: Recipe[] = [
     slug: "tahini-sauce",
     short_description: "Creamy Middle Eastern tahini sauce perfect for everything.",
     description: "Versatile tahini sauce that pairs perfectly with falafel, shawarma, or as a salad dressing.",
-    image: "/src/assets/recipe-9.jpg",
+    image: recipe9,
     prepTime: 5,
     cookTime: 0,
     totalTime: 5,
@@ -378,7 +389,7 @@ export const recipes: Recipe[] = [
     slug: "baklava",
     short_description: "Sweet, flaky pastry layered with nuts and honey syrup.",
     description: "Traditional Middle Eastern dessert with layers of phyllo dough, nuts, and sweet honey syrup.",
-    image: "/src/assets/recipe-10.jpg",
+    image: recipe10,
     prepTime: 45,
     cookTime: 60,
     totalTime: 105,
@@ -419,7 +430,7 @@ export const recipes: Recipe[] = [
     slug: "tabbouleh",
     short_description: "Fresh Lebanese parsley salad with bulgur wheat.",
     description: "Refreshing Lebanese salad made with loads of fresh parsley, mint, tomatoes, and bulgur wheat.",
-    image: "/src/assets/recipe-1.jpg",
+    image: recipe1,
     prepTime: 20,
     cookTime: 0,
     totalTime: 20,
@@ -458,7 +469,7 @@ export const recipes: Recipe[] = [
     slug: "hummus",
     short_description: "Creamy chickpea dip with tahini and lemon.",
     description: "Classic Middle Eastern chickpea dip made smooth and creamy with tahini, lemon, and garlic.",
-    image: "/src/assets/recipe-2.jpg",
+    image: recipe2,
     prepTime: 10,
     cookTime: 0,
     totalTime: 10,

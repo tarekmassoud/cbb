@@ -52,10 +52,10 @@ const Index = () => {
         <Navigation />
 
         {/* Hero Section with Search */}
-        <section className="relative py-24 px-6 overflow-hidden bg-white">
+        <section className="relative min-h-screen px-6 overflow-hidden bg-white flex flex-col">
 
-          <div className="container mx-auto relative z-10">
-            <div className="max-w-3xl mx-auto text-center mb-12">
+          <div className="container mx-auto relative z-10 flex-1 flex items-center justify-center">
+            <div className="max-w-3xl mx-auto text-center">
               <h1 className="font-serif text-5xl md:text-6xl font-bold mb-6 text-foreground">
                 Search 150+ Recipes
               </h1>
@@ -76,7 +76,7 @@ const Index = () => {
               </div>
 
               {/* Filter Chips */}
-              <div className="flex flex-wrap justify-center gap-3">
+              <div className="flex flex-wrap justify-center gap-3 mb-12">
                 {categories.map((cat) => (
                   <Badge
                     key={cat.value}
@@ -92,6 +92,29 @@ const Index = () => {
                 ))}
               </div>
             </div>
+          </div>
+
+          {/* Scroll Down Arrow */}
+          <div className="w-full flex justify-center pb-8">
+            <div className="flex flex-col items-center gap-2 text-muted-foreground animate-bounce">
+              <span className="text-sm">Scroll to explore</span>
+              <svg 
+                className="w-6 h-6" 
+                fill="none" 
+                stroke="currentColor" 
+                viewBox="0 0 24 24"
+              >
+                <path 
+                  strokeLinecap="round" 
+                  strokeLinejoin="round" 
+                  strokeWidth={2} 
+                  d="M19 14l-7 7m0 0l-7-7m7 7V3"
+                />
+              </svg>
+            </div>
+          </div>
+
+          <div className="container mx-auto relative z-10 pb-12">
 
             {/* Search Results */}
             {searchTerm && (
@@ -132,7 +155,7 @@ const Index = () => {
             <div className="container mx-auto">
               <div className="text-center mb-12">
                 <h2 className="font-serif text-4xl font-bold mb-4 text-foreground">
-                  Five Featured Recipes
+                  Featured Recipes
                 </h2>
                 <p className="text-muted-foreground text-lg">
                   Our most popular dishes loved by thousands

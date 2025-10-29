@@ -34,7 +34,7 @@ export const Navigation = () => {
             </Link>
             
             <DropdownMenu>
-              <DropdownMenuTrigger className="text-foreground hover:text-primary transition-smooth bg-transparent border-none cursor-pointer font-medium text-sm">
+              <DropdownMenuTrigger className="text-foreground hover:text-primary transition-smooth bg-transparent border-none cursor-pointer">
                 Categories
               </DropdownMenuTrigger>
               <DropdownMenuContent className="bg-card z-50">

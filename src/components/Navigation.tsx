@@ -34,10 +34,8 @@ export const Navigation = () => {
             </Link>
             
             <DropdownMenu>
-              <DropdownMenuTrigger asChild>
-                <Button variant="ghost" className="text-foreground hover:text-primary">
-                  Categories
-                </Button>
+              <DropdownMenuTrigger className="text-foreground hover:text-primary transition-smooth bg-transparent border-none cursor-pointer font-medium text-sm">
+                Categories
               </DropdownMenuTrigger>
               <DropdownMenuContent className="bg-card z-50">
                 {categories.map((cat) => (

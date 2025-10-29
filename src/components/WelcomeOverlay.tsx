@@ -48,26 +48,26 @@ export const WelcomeOverlay = ({ onEnter }: WelcomeOverlayProps) => {
                 useful kitchen tools. My goal is to inspire newlyweds and young moms to cook with love 
                 for their families and friends—and to help newcomers discover and enjoy Lebanese cuisine.
               </p>
+              
+              {/* Button inline on desktop only */}
+              <div className="hidden md:block">
+                <Button 
+                  size="lg" 
+                  onClick={handleEnter}
+                  className="hero-gradient border-0 text-white text-lg px-8 py-6 h-auto"
+                >
+                  Enter the Kitchen
+                </Button>
+              </div>
             </div>
           </div>
 
-          {/* Button at bottom center on mobile */}
-          <div className="flex justify-center mt-8 md:mt-0 md:hidden">
+          {/* Button at bottom center on mobile only */}
+          <div className="flex justify-center mt-8 md:hidden">
             <Button 
               size="lg" 
               onClick={handleEnter}
               className="hero-gradient border-0 text-white text-lg px-8 py-6 h-auto w-full max-w-xs"
-            >
-              Enter the Kitchen
-            </Button>
-          </div>
-
-          {/* Button inline on desktop */}
-          <div className="hidden md:block md:max-w-6xl md:mx-auto md:mt-8">
-            <Button 
-              size="lg" 
-              onClick={handleEnter}
-              className="hero-gradient border-0 text-white text-lg px-8 py-6 h-auto"
             >
               Enter the Kitchen
             </Button>

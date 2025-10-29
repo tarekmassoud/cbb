@@ -217,10 +217,10 @@ const RecipeDetail = () => {
             <CardContent className="p-8 text-center text-white">
               <h3 className="font-serif text-2xl font-bold mb-2">Made this recipe?</h3>
               <p className="mb-4">Share it on Instagram and tag me @Cooking_Bel_Beit!</p>
-              <a href="https://instagram.com/cooking_bel_beit/" target="_blank" rel="noopener noreferrer">
-                <Button size="lg" variant="secondary">
-                  <Instagram className="mr-2 w-5 h-5" />
-                  Follow @Cooking_Bel_Beit
+              <a href="https://instagram.com/cooking_bel_beit/" target="_blank" rel="noopener noreferrer" className="inline-block">
+                <Button size="lg" variant="secondary" className="flex items-center justify-center">
+                  <Instagram className="mr-2 w-5 h-5 flex-shrink-0" />
+                  <span className="whitespace-normal text-center">Follow @Cooking_Bel_Beit</span>
                 </Button>
               </a>
             </CardContent>

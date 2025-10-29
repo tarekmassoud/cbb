@@ -11,7 +11,9 @@ import { Badge } from "@/components/ui/badge";
 import chefHero from "@/assets/chef-hero.jpg";
 
 const Index = () => {
-  const [showWelcome, setShowWelcome] = useState(true);
+  const [showWelcome, setShowWelcome] = useState(() => {
+    return sessionStorage.getItem('hasSeenWelcome') !== 'true';
+  });
   const [searchTerm, setSearchTerm] = useState("");
   const [activeFilter, setActiveFilter] = useState<string | null>(null);
   
@@ -44,9 +46,14 @@ const Index = () => {
     return recipes.filter(r => r.course === category).slice(0, 5);
   };
 
+  const handleEnterSite = () => {
+    sessionStorage.setItem('hasSeenWelcome', 'true');
+    setShowWelcome(false);
+  };
+
   return (
     <>
-      <WelcomeOverlay onEnter={() => setShowWelcome(false)} />
+      <WelcomeOverlay onEnter={handleEnterSite} />
       
       <div className={`min-h-screen transition-opacity duration-300 ${showWelcome ? 'opacity-0' : 'opacity-100'}`}>
         <Navigation />

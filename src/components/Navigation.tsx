@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-import { Instagram, Menu } from "lucide-react";
+import { Instagram, Menu, ChevronDown } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import {
   DropdownMenu,
@@ -29,15 +29,17 @@ export const Navigation = () => {
 
           {/* Desktop Navigation */}
           <div className="hidden md:flex items-center gap-6">
-            <Link to="/recipes" className="text-foreground hover:text-primary transition-smooth">
-              Recipes
-            </Link>
-            
             <DropdownMenu>
-              <DropdownMenuTrigger className="text-foreground hover:text-primary transition-smooth bg-transparent border-none cursor-pointer">
-                Categories
+              <DropdownMenuTrigger className="text-foreground hover:text-primary transition-smooth bg-transparent border-none cursor-pointer flex items-center gap-1">
+                Recipes
+                <ChevronDown className="w-4 h-4" />
               </DropdownMenuTrigger>
               <DropdownMenuContent className="bg-card z-50">
+                <DropdownMenuItem asChild>
+                  <Link to="/recipes" className="cursor-pointer">
+                    All Recipes
+                  </Link>
+                </DropdownMenuItem>
                 {categories.map((cat) => (
                   <DropdownMenuItem key={cat.path} asChild>
                     <Link to={cat.path} className="cursor-pointer">

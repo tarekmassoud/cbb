@@ -2,7 +2,7 @@ import recipe1 from "@/assets/mehche_coussa.jpg";
 import recipe2 from "@/assets/sayyadiyeh.jpg";
 import recipe3 from "@/assets/cooked_artichokes.jpg";
 import recipe4 from "@/assets/Roast_beef.jpg";
-import recipe5 from "@/assets/recipe-5.jpg";
+import recipe5 from "@/assets/Chocolate_and_red_berries_cupcakes.jpg";
 import recipe6 from "@/assets/recipe-6.jpg";
 import recipe7 from "@/assets/recipe-7.jpg";
 import recipe8 from "@/assets/recipe-8.jpg";
@@ -230,40 +230,44 @@ export const recipes: Recipe[] = [
   },
   {
     id: "5",
-    title: "Artisan Sourdough Bread",
-    slug: "artisan-sourdough-bread",
-    short_description: "Crusty, tangy sourdough bread with a perfect chewy interior.",
-    description: "Crusty, tangy sourdough bread with a perfect chewy interior and golden crust.",
+    title: "Chocolate & Red Berries Cupcakes",
+    slug: "chocoalte-and-red-berries-cupcakes",
+    short_description: "Almond-meal chocolate & red-berry cupcakes, maple-sweet and fluffy.",
+    description: "Cocoa-almond cupcakes folded with red berries; naturally sweetened with maple.",
     image: recipe5,
-    prepTime: 1440,
-    cookTime: 45,
-    totalTime: 1485,
-    servings: "8",
-    difficulty: "Advanced",
-    cuisine: "American",
+    prepTime: 20,
+    cookTime: 15,
+    totalTime: 35,
+    servings: "12",
+    difficulty: "Easy",
+    cuisine: "International",
     course: "Bread",
-    tags: ["bread", "sourdough", "artisan"],
+    tags: ["desert", "cupcakes"],
     ingredients: [
-      "3 cups bread flour",
-      "1 1/2 cups sourdough starter",
-      "1 1/4 cups water",
-      "2 tsp salt"
+      "3/4 cup of maple syrup",
+      "1/4 cup of milk",
+      "1/3 cup of extra virgin olive oil",
+      "2 tsps of vanilla extract",
+      "2 large eggs",
+      "2 cups of almond meal",
+      "1 tsps of baking powder",
+      "1/3 cup of cocoa powder",
+      "frozen or fresh red fruits"
     ],
     instructions: [
-      "Mix flour, starter, and water until combined",
-      "Let rest for 30 minutes (autolyse)",
-      "Add salt and knead for 5 minutes",
-      "Let dough rise for 4-6 hours with folds every hour",
-      "Shape into a round loaf",
-      "Place in banneton basket and refrigerate overnight",
-      "Preheat oven to 450°F with Dutch oven inside",
-      "Score the top and bake covered for 30 minutes",
-      "Remove lid and bake 15 more minutes until golden"
+      "Preheat oven to 160°C",
+      "Line a muffin tin with paper cases",
+      "Place vanilla , maple syrup , milk , oil and eggs in a jug and whisk to combine",
+      "Place the almond meal , baking powder and cocoa in a bowl",
+      "Add the maple mixture to the dry ingredients and mix to combine",
+      "Half fill each paper case with mixture , sprinkle with red fruits and top with remaining mixture",
+      "Bake for 25 minutes or until firm",
+      "Allow to cool before lifting"
     ],
-    video_url: "https://instagram.com",
+    video_url: "https://www.instagram.com/p/B_KCeJilcMO/?img_index=1",
     featured: true,
     rating: 4.9,
-    date_published: "2024-01-20"
+    date_published: "2020-04-19"
   },
   {
     id: "6",

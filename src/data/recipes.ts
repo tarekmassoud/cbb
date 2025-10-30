@@ -1,7 +1,7 @@
 import recipe1 from "@/assets/mehche_coussa.jpg";
 import recipe2 from "@/assets/sayyadiyeh.jpg";
-import recipe3 from "@/assets/recipe-3.jpg";
-import recipe4 from "@/assets/recipe-4.jpg";
+import recipe3 from "@/assets/cooked_artichokes.jpg";
+import recipe4 from "@/assets/Roast_beef.jpg";
 import recipe5 from "@/assets/recipe-5.jpg";
 import recipe6 from "@/assets/recipe-6.jpg";
 import recipe7 from "@/assets/recipe-7.jpg";
@@ -135,84 +135,98 @@ export const recipes: Recipe[] = [
   },
   {
     id: "3",
-    title: "Molten Chocolate Lava Cake",
-    slug: "molten-chocolate-lava-cake",
-    short_description: "Decadent chocolate cake with a gooey molten center.",
-    description: "Decadent chocolate cake with a gooey molten center, served with vanilla ice cream.",
+    title: "Cooked Artichokes",
+    slug: "cooked-artichokes",
+    short_description: "Cooked artichokes Lebanese mezze",
+    description: "Cooked artichokes served with a lemon, olive oil and garlic sauce",
     image: recipe3,
     prepTime: 15,
     cookTime: 12,
     totalTime: 27,
     servings: "4",
-    difficulty: "Medium",
-    cuisine: "French",
-    course: "Dessert",
-    tags: ["chocolate", "dessert", "fancy"],
+    difficulty: "Easy",
+    cuisine: "Lebanese",
+    course: "Salad & Side",
+    tags: ["artichokes", "mezze", "side"],
     ingredients: [
-      "6 oz dark chocolate",
-      "6 tbsp butter",
-      "2 large eggs",
-      "2 egg yolks",
-      "1/4 cup sugar",
-      "2 tbsp flour",
-      "Vanilla ice cream for serving",
-      "Powdered sugar for dusting"
+      "3 to 4 artichokes",
+      "2 lemons",
+      "4 gloves of garlic",
+      "1 tbsp of olive oil",
+      "1/2 tsp of salt"
     ],
     instructions: [
-      "Preheat oven to 425°F (220°C)",
-      "Butter and flour four ramekins",
-      "Melt chocolate and butter together",
-      "Whisk eggs, yolks, and sugar until thick",
-      "Fold in melted chocolate and flour",
-      "Divide batter among ramekins",
-      "Bake for 12-14 minutes until edges are firm but center is soft",
-      "Let cool for 1 minute, then invert onto plates",
-      "Serve immediately with ice cream"
+      "Bring water to a boil",
+      "Add the artichokes to the water, reduce to a simmer, cover and cook until the leaves can easily be pulled off, about 35 to 40 minutes",
+      "Drain and cool",
+      "Put the lemon juice, oil, salt and crashed garlic in a boil and mix to combine",
+      "Drizzle two tablespoons of sauce over each artichokes and enjoy"
     ],
-    video_url: "https://instagram.com",
+    video_url: "https://www.instagram.com/p/B_2P7-rFbOI/",
     featured: true,
     rating: 5.0,
-    date_published: "2024-01-28"
+    date_published: "2020-05-06"
   },
   {
     id: "4",
-    title: "Mediterranean Garden Salad",
-    slug: "mediterranean-garden-salad",
-    short_description: "Fresh, vibrant salad packed with colorful vegetables.",
-    description: "Fresh, vibrant salad packed with colorful vegetables and a tangy lemon vinaigrette.",
+    title: "Roast Beef",
+    slug: "roast-beef",
+    short_description: "Garlic-studded roast beef with green beans, mash, and silky pan gravy.",
+    description: "Garlic-studded roast beef is seared and pressure-cooked with onion, carrot, celery, and white wine, then sliced thin and served with garlicky green beans, creamy mash, and quick Dijon pan gravy—great for next-day sandwiches.",
     image: recipe4,
     prepTime: 20,
     cookTime: 0,
     totalTime: 20,
     servings: "4",
-    difficulty: "Easy",
-    cuisine: "Mediterranean",
-    course: "Salad & Side",
-    tags: ["salad", "healthy", "vegan", "gluten-free"],
+    difficulty: "Advanced",
+    cuisine: "Lebanese",
+    course: "Main",
+    tags: ["main", "roast beef"],
     ingredients: [
-      "Mixed salad greens",
-      "Cherry tomatoes, halved",
-      "Cucumber, diced",
-      "Red onion, thinly sliced",
-      "Kalamata olives",
-      "Feta cheese, crumbled",
-      "1/4 cup olive oil",
-      "2 tbsp lemon juice",
-      "1 tsp oregano"
+      // Ingredients for roast beef
+      "1 1/2 kg topside of beef",
+      "1 medium onion halved",
+      "1 carrot",
+      "2 celery sticks",
+      "olive oil",
+      "sea salt and black pepper",
+      "10 garlic gloves",
+      "2 cups of water",
+      "3 cups of dry white wine ",
+      // Ingredients for beans
+      "a medium bag of frozen beans",
+      "8-10 large crushed garlic cloves",
+      "1/4 cup of olive oil",
+      "sea salt and black pepper",
+      // Ingredients for gravy
+      "2 tbsp of flour",
+      "2 tbsp of butter",
+      "juices from meat",
+      "2 tsp of dijon mustard"
     ],
     instructions: [
-      "Wash and dry all vegetables thoroughly",
-      "Chop vegetables into bite-sized pieces",
-      "Combine greens, tomatoes, cucumber, and onion in a large bowl",
-      "Whisk together olive oil, lemon juice, and oregano",
-      "Toss salad with dressing",
-      "Top with olives and feta cheese",
-      "Serve immediately"
+      // Instructions for roast beef
+      "Stick the meat with a knife and incorporate a glove of garlic inside each hall",
+      "Drizzle the meat with olive oil sprinkle with salt and pepper",
+      "Heat a pressure cooker over high heat brown roast on all sides add the onion carrot and celery sticks and brown with meat",
+      "Pour the wine all over the meat,add the water,seal the lid and cook for around 1 and a half hours on medium heat",
+      "Open the cooker when cooled remove the meat and refrigerate for half an hour(this will help cutting it into fine pieces)",
+      // Instructions for gravy
+      "Pour the remaining vegetables and the meat juices into a stainer and pressing the vegetables with a spoon. Set aside",
+      "Melt the better in a saucepan and add the flour stir constantly until its golden caramel color",
+      "Whisk in the meat liquid and stir constantly",
+      "Bring it to the simmer and let it bubble until thicken for about 5 minutes",
+      "Add the mustard and stir",
+      // Instructions for green beans
+      "Wash the beans until smooth, drain well",
+      "poor olive oil in a large skillet with a lid then add the crashed garlic over low heat until evenly distributed all over the pan",
+      "Add the beans whisk to combine cover for about 5 minutes stirring often",
+      "Uncover and cook for another 5 minutes over law heat season to taste with salt snd pepper"
     ],
-    video_url: "https://instagram.com",
+    video_url: "https://www.instagram.com/p/B_ae3nqF-Wb/",
     featured: true,
     rating: 4.7,
-    date_published: "2024-02-10"
+    date_published: "2020-04-25"
   },
   {
     id: "5",

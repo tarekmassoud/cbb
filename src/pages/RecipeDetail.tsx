@@ -4,7 +4,7 @@ import { Instagram, ArrowLeft, Clock, Users, ChefHat, ExternalLink, Printer, Cop
 import { Button } from "@/components/ui/button";
 import { Card, CardContent } from "@/components/ui/card";
 import { Navigation } from "@/components/Navigation";
-import { recipes } from "@/data/recipes";
+import { recipes, RecipeSection } from "@/data/recipes";
 import { Badge } from "@/components/ui/badge";
 import { Checkbox } from "@/components/ui/checkbox";
 
@@ -49,11 +49,28 @@ const RecipeDetail = () => {
   };
 
   const copyIngredients = () => {
-    const text = recipe.ingredients.join('\n');
+    let text = '';
+    if (Array.isArray(recipe.ingredients) && recipe.ingredients.length > 0) {
+      if (typeof recipe.ingredients[0] === 'string') {
+        text = recipe.ingredients.join('\n');
+      } else {
+        text = (recipe.ingredients as RecipeSection[])
+          .map(section => `${section.title ? section.title + ':\n' : ''}${section.items.join('\n')}`)
+          .join('\n\n');
+      }
+    }
     navigator.clipboard.writeText(text);
     setCopied(true);
     setTimeout(() => setCopied(false), 2000);
   };
+
+  const isGroupedIngredients = Array.isArray(recipe.ingredients) && 
+    recipe.ingredients.length > 0 && 
+    typeof recipe.ingredients[0] === 'object';
+
+  const isGroupedInstructions = Array.isArray(recipe.instructions) && 
+    recipe.instructions.length > 0 && 
+    typeof recipe.instructions[0] === 'object';
 
   const handlePrint = () => {
     window.print();
@@ -167,20 +184,56 @@ const RecipeDetail = () => {
                       )}
                     </Button>
                   </div>
-                  <ul className="space-y-3">
-                    {recipe.ingredients.map((ingredient, index) => (
-                      <li key={index} className="flex items-start gap-3 print:gap-2">
-                        <Checkbox
-                          checked={checkedIngredients.has(index)}
-                          onCheckedChange={() => toggleIngredient(index)}
-                          className="mt-1 print:hidden"
-                        />
-                        <span className={`text-foreground ${checkedIngredients.has(index) ? 'line-through text-muted-foreground' : ''}`}>
-                          {ingredient}
-                        </span>
-                      </li>
-                    ))}
-                  </ul>
+                  {isGroupedIngredients ? (
+                    <div className="space-y-6">
+                      {(recipe.ingredients as RecipeSection[]).map((section, sectionIndex) => {
+                        const baseIndex = (recipe.ingredients as RecipeSection[])
+                          .slice(0, sectionIndex)
+                          .reduce((acc, s) => acc + s.items.length, 0);
+                        return (
+                          <div key={sectionIndex}>
+                            {section.title && (
+                              <h3 className="font-semibold text-lg mb-3 text-primary">
+                                {section.title}
+                              </h3>
+                            )}
+                            <ul className="space-y-3">
+                              {section.items.map((ingredient, itemIndex) => {
+                                const globalIndex = baseIndex + itemIndex;
+                                return (
+                                  <li key={itemIndex} className="flex items-start gap-3 print:gap-2">
+                                    <Checkbox
+                                      checked={checkedIngredients.has(globalIndex)}
+                                      onCheckedChange={() => toggleIngredient(globalIndex)}
+                                      className="mt-1 print:hidden"
+                                    />
+                                    <span className={`text-foreground ${checkedIngredients.has(globalIndex) ? 'line-through text-muted-foreground' : ''}`}>
+                                      {ingredient}
+                                    </span>
+                                  </li>
+                                );
+                              })}
+                            </ul>
+                          </div>
+                        );
+                      })}
+                    </div>
+                  ) : (
+                    <ul className="space-y-3">
+                      {(recipe.ingredients as string[]).map((ingredient, index) => (
+                        <li key={index} className="flex items-start gap-3 print:gap-2">
+                          <Checkbox
+                            checked={checkedIngredients.has(index)}
+                            onCheckedChange={() => toggleIngredient(index)}
+                            className="mt-1 print:hidden"
+                          />
+                          <span className={`text-foreground ${checkedIngredients.has(index) ? 'line-through text-muted-foreground' : ''}`}>
+                            {ingredient}
+                          </span>
+                        </li>
+                      ))}
+                    </ul>
+                  )}
                 </CardContent>
               </Card>
             </div>
@@ -189,25 +242,66 @@ const RecipeDetail = () => {
             <Card className="card-shadow">
               <CardContent className="p-6">
                 <h2 className="font-serif text-2xl font-bold mb-6 text-foreground">Instructions</h2>
-                <ol className="space-y-6">
-                  {recipe.instructions.map((instruction, index) => (
-                    <li key={index} className="flex gap-4">
-                      <div className="flex items-start gap-3 flex-1">
-                        <Checkbox
-                          checked={checkedSteps.has(index)}
-                          onCheckedChange={() => toggleStep(index)}
-                          className="mt-1 print:hidden"
-                        />
-                        <div className="flex-shrink-0 w-8 h-8 rounded-full hero-gradient text-white flex items-center justify-center font-semibold text-sm">
-                          {index + 1}
+                {isGroupedInstructions ? (
+                  <div className="space-y-8">
+                    {(recipe.instructions as RecipeSection[]).map((section, sectionIndex) => {
+                      const baseIndex = (recipe.instructions as RecipeSection[])
+                        .slice(0, sectionIndex)
+                        .reduce((acc, s) => acc + s.items.length, 0);
+                      return (
+                        <div key={sectionIndex}>
+                          {section.title && (
+                            <h3 className="font-semibold text-xl mb-4 text-primary">
+                              {section.title}
+                            </h3>
+                          )}
+                          <ol className="space-y-6">
+                            {section.items.map((instruction, itemIndex) => {
+                              const globalIndex = baseIndex + itemIndex;
+                              return (
+                                <li key={itemIndex} className="flex gap-4">
+                                  <div className="flex items-start gap-3 flex-1">
+                                    <Checkbox
+                                      checked={checkedSteps.has(globalIndex)}
+                                      onCheckedChange={() => toggleStep(globalIndex)}
+                                      className="mt-1 print:hidden"
+                                    />
+                                    <div className="flex-shrink-0 w-8 h-8 rounded-full hero-gradient text-white flex items-center justify-center font-semibold text-sm">
+                                      {globalIndex + 1}
+                                    </div>
+                                    <p className={`text-foreground pt-1 flex-1 ${checkedSteps.has(globalIndex) ? 'line-through text-muted-foreground' : ''}`}>
+                                      {instruction}
+                                    </p>
+                                  </div>
+                                </li>
+                              );
+                            })}
+                          </ol>
                         </div>
-                        <p className={`text-foreground pt-1 flex-1 ${checkedSteps.has(index) ? 'line-through text-muted-foreground' : ''}`}>
-                          {instruction}
-                        </p>
-                      </div>
-                    </li>
-                  ))}
-                </ol>
+                      );
+                    })}
+                  </div>
+                ) : (
+                  <ol className="space-y-6">
+                    {(recipe.instructions as string[]).map((instruction, index) => (
+                      <li key={index} className="flex gap-4">
+                        <div className="flex items-start gap-3 flex-1">
+                          <Checkbox
+                            checked={checkedSteps.has(index)}
+                            onCheckedChange={() => toggleStep(index)}
+                            className="mt-1 print:hidden"
+                          />
+                          <div className="flex-shrink-0 w-8 h-8 rounded-full hero-gradient text-white flex items-center justify-center font-semibold text-sm">
+                            {index + 1}
+                          </div>
+                          <p className={`text-foreground pt-1 flex-1 ${checkedSteps.has(index) ? 'line-through text-muted-foreground' : ''}`}>
+                            {instruction}
+                          </p>
+                        </div>
+                      </li>
+                    ))}
+                  </ol>
+                )}
               </CardContent>
             </Card>
           </div>

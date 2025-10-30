@@ -3,13 +3,11 @@ import recipe2 from "@/assets/sayyadiyeh.jpg";
 import recipe3 from "@/assets/cooked_artichokes.jpg";
 import recipe4 from "@/assets/Roast_beef.jpg";
 import recipe5 from "@/assets/Chocolate_and_red_berries_cupcakes.jpg";
-import recipe6 from "@/assets/recipe-6.jpg";
-import recipe7 from "@/assets/recipe-7.jpg";
-import recipe8 from "@/assets/recipe-8.jpg";
-import recipe9 from "@/assets/recipe-9.jpg";
-import recipe10 from "@/assets/recipe-10.jpg";
-import recipe11 from "@/assets/tabbouleh.jpg";
-import recipe12 from "@/assets/hummus.jpg";
+import recipe6 from "@/assets/small_japanese_pain_au_lait.jpg";
+import recipe7 from "@/assets/Loubiyeh_bi_zeit.jpg";
+import recipe8 from "@/assets/kebbit_batata.jpg";
+import recipe9 from "@/assets/maple_glazed_walnut_and_sugar_bun.jpg";
+import recipe10 from "@/assets/pear_and_ricotta_tart.jpg";
 
 export interface RecipeSection {
   title?: string;
@@ -300,278 +298,234 @@ export const recipes: Recipe[] = [
   },
   {
     id: "6",
-    title: "Lebanese Fattoush Salad",
-    slug: "lebanese-fattoush-salad",
-    short_description: "Crispy pita bread salad with fresh vegetables and sumac.",
-    description: "Traditional Lebanese salad with crispy pita chips, fresh vegetables, and tangy sumac dressing.",
+    title: "Small Fluffy Japanese Milk Buns (Tangzhong)",
+    slug: "small-fluffy-japanese-milk-buns",
+    short_description: "Fluffy Japanese milk buns (tangzhong)—pillowy, lightly sweet, golden and soft.",
+    description: "Soft tangzhong milk buns, ultra-pillowy and lightly sweet, baked to a tender golden crust—perfect warm with butter or as slider rolls.",
     image: recipe6,
     prepTime: 15,
     cookTime: 10,
     totalTime: 25,
-    servings: "4",
-    difficulty: "Easy",
-    cuisine: "Lebanese",
-    course: "Salad & Side",
-    tags: ["lebanese", "salad", "vegetarian", "middle-eastern"],
+    servings: "6",
+    difficulty: "Medium",
+    cuisine: "Japanese",
+    course: "Breakfast",
+    tags: ["breakfast", "japanese", "bread"],
     ingredients: [
-      "2 pita breads, cut into squares",
-      "4 cups mixed lettuce",
-      "2 tomatoes, diced",
-      "1 cucumber, diced",
-      "4 radishes, sliced",
-      "2 tbsp sumac",
-      "1/4 cup olive oil",
-      "2 tbsp lemon juice",
-      "Fresh mint leaves"
+      {
+        title: "For the Tangzhong",
+        items: ["45ml of water",
+        "45ml of milk",
+        "15g flour"]
+      },
+      {
+        title: "For the Dough",
+        items: ["300g flour",
+        "15g of milk powder",
+        "50g of sugar",
+        "1 tsp salt",
+        "1 tbsp of instant baking yeast",
+        "115g of milk",
+        "1 large beaten egg",
+        "60g of melted then tempered butter"]
+      }
     ],
     instructions: [
-      "Toast pita bread until crispy",
-      "Chop all vegetables into bite-sized pieces",
-      "Combine lettuce, tomatoes, cucumber, and radishes",
-      "Make dressing with olive oil, lemon juice, and sumac",
-      "Add crispy pita pieces to salad",
-      "Toss with dressing",
-      "Garnish with fresh mint and serve"
+      {
+        title: "Tangzhong",
+        items: ["Pour milk,water and flour in a small saucepan heat over low heat stirring constantly until thickened",
+          "Set aside in a small bowl to cool"
+        ]
+      },
+      {
+        title: "Dough",
+        items: ["Preheat oven to 180°C",
+          "Melt butter leave to cool",
+          "Mix flour,sugar,salt, milk and yeast",
+          "Make a well in the above mixture pour the beaten egg,Tangzhong,milk and Butter",
+          "Mix and knead for about 5 minutes",
+          "Form a ball dough cover with cling film and a tea towel. Let rise for about 1h 30m",
+          "Degas the dough on a floured surface cut and roll into 8 equal balls",
+          "Place the balls in a 23cm round thin covered with non stick baking sheet and let it rest until doubled in size for around 50min",
+          "Brush with beaten egg and bake for 25 minutes or until having a nice golden crust"
+        ]
+      }
     ],
-    video_url: "https://instagram.com",
+    video_url: "https://www.instagram.com/p/B-_smkzFqun/?img_index=1",
     featured: false,
     rating: 4.8,
-    date_published: "2024-02-15"
+    date_published: "2020-04-15"
   },
   {
     id: "7",
-    title: "Shakshuka",
-    slug: "shakshuka",
-    short_description: "Middle Eastern poached eggs in spicy tomato sauce.",
-    description: "Traditional Middle Eastern breakfast with eggs poached in a flavorful tomato and pepper sauce.",
+    title: "Loubiyeh bi Zeit",
+    slug: "loubiyeh-bi-zeit",
+    short_description: "Lebanese green beans in olive oil with tomatoes and garlic—tender, saucy, and fragrant.",
+    description: "Fresh green beans are halved and gently stewed with onion, lots of garlic, ripe tomatoes, and olive oil until soft and silky; serve warm or at room temp with bread—perfect as a vegan mezze or side.",
     image: recipe7,
     prepTime: 10,
     cookTime: 25,
     totalTime: 35,
     servings: "4",
     difficulty: "Easy",
-    cuisine: "Middle Eastern",
-    course: "Breakfast",
-    tags: ["eggs", "breakfast", "middle-eastern", "vegetarian"],
+    cuisine: "Lebanese",
+    course: "Main",
+    tags: ["main", "lebanese", "vegetarian"],
     ingredients: [
-      "6 eggs",
-      "1 can crushed tomatoes",
-      "2 bell peppers, diced",
-      "1 onion, diced",
-      "3 cloves garlic",
-      "2 tsp paprika",
-      "1 tsp cumin",
-      "Fresh parsley",
-      "Feta cheese"
+      "1kg fresh green beans",
+      "6 large tomatoes",
+      "2 medium onions",
+      "2 medium garlics peeled around 12 gloves",
+      "2 tbsp of olive oil",
+      "sea salt"
     ],
     instructions: [
-      "Sauté onions and peppers until soft",
-      "Add garlic and spices, cook until fragrant",
-      "Add crushed tomatoes and simmer for 10 minutes",
-      "Create wells in the sauce for the eggs",
-      "Crack eggs into the wells",
-      "Cover and cook until eggs are set",
-      "Garnish with parsley and feta",
-      "Serve with crusty bread"
+      "Wash beans,cut in half, the beans tough knobby ends needs to be removed.keep aside",
+      "Peel and dice tomatoes. Keep aside",
+      "Peel and cut onions",
+      "Put onion,garlic and olive oil in a pan on a medium heat and stir until transparent",
+      "Add the beans to the pan",
+      "Cover with tomatoes",
+      "Sprinkle with salt to taste",
+      "Cover and leave for about one hour or until beans are tender and cooked through"
     ],
-    video_url: "https://instagram.com",
+    video_url: "https://www.instagram.com/p/B_Hx63ZF23J/",
     featured: false,
     rating: 4.9,
-    date_published: "2024-02-05"
+    date_published: "2020-04-18"
   },
   {
     id: "8",
-    title: "Manakish Za'atar",
-    slug: "manakish-zaatar",
-    short_description: "Lebanese flatbread topped with za'atar and olive oil.",
-    description: "Traditional Lebanese breakfast flatbread with za'atar spice blend and olive oil.",
+    title: "Kebbit Batata",
+    slug: "kebbit-batata",
+    short_description: "Lebanese potato kibbeh—mashed potatoes with fine bulgur, walnuts, mint, onion, and olive oil.",
+    description: "Creamy kibbet batata: tender potatoes mashed and mixed with fine bulgur, chopped walnuts, fresh mint and onion, seasoned and finished with a generous drizzle of olive oil—served cool as a mezze or side.",
     image: recipe8,
     prepTime: 90,
     cookTime: 15,
     totalTime: 105,
     servings: "6",
-    difficulty: "Medium",
+    difficulty: "Easy",
     cuisine: "Lebanese",
-    course: "Breakfast",
-    tags: ["bread", "lebanese", "breakfast", "vegetarian"],
+    course: "Salad & Side",
+    tags: ["side", "lebanese", "mezze", "vegetarian"],
     ingredients: [
-      "2 cups all-purpose flour",
-      "1 tsp instant yeast",
-      "1 tsp sugar",
-      "1 tsp salt",
-      "3/4 cup warm water",
-      "1/2 cup za'atar",
-      "1/2 cup olive oil"
+      "1kg of potatoes",
+      "1/2 cup of walnuts roughly chopped",
+      "1/2 cup of fine cracked wheat (bulgur) washed and drained",
+      "A bunch of chopped mint leaves ",
+      "1 medium onion",
+      "Sea salt and black pepper"
     ],
     instructions: [
-      "Mix flour, yeast, sugar, and salt",
-      "Add warm water and knead for 10 minutes",
-      "Let dough rise for 1 hour",
-      "Divide into 6 portions and roll out",
-      "Mix za'atar with olive oil",
-      "Spread mixture on each flatbread",
-      "Bake at 450°F for 10-15 minutes",
-      "Serve warm"
+      "Boil potatoes in a pot of salted water until tender but still firm,drain,peal and mash with potato masher",
+      "Chop the onion",
+      "Chop the mint leaves",
+      "Mix potatoes, cracked wheat, mint, onion, walnuts, salt and pepper with your hands until well combined and creamy",
+      "Decorate with mint leaves and drizzle with olive oil"
     ],
-    video_url: "https://instagram.com",
+    video_url: "https://www.instagram.com/p/B-w3zc_l2az/?img_index=1 ",
     featured: false,
     rating: 4.8,
-    date_published: "2024-01-25"
+    date_published: "2020-04-09"
   },
   {
     id: "9",
-    title: "Tahini Sauce",
-    slug: "tahini-sauce",
-    short_description: "Creamy Middle Eastern tahini sauce perfect for everything.",
-    description: "Versatile tahini sauce that pairs perfectly with falafel, shawarma, or as a salad dressing.",
+    title: "Maple Glazed Walnut & Sugar Bun",
+    slug: "maple-glazed-walnut-and-sugar-bun",
+    short_description: "Maple-glazed walnut cinnamon bun—buttery, nutty, and beautifully swirled.",
+    description: "Soft enriched dough rolled with walnuts, brown sugar, and cinnamon, brushed with butter, twisted into a bun, then finished with egg and maple syrup for a glossy, fragrant glaze.",
     image: recipe9,
     prepTime: 5,
     cookTime: 0,
     totalTime: 5,
     servings: "8",
-    difficulty: "Easy",
-    cuisine: "Middle Eastern",
-    course: "Sauce",
-    tags: ["sauce", "condiment", "vegan", "gluten-free"],
+    difficulty: "Medium",
+    cuisine: "European",
+    course: "Dessert",
+    tags: ["dessert", "cinnamon bun", "sweet"],
     ingredients: [
-      "1 cup tahini paste",
-      "1/2 cup lemon juice",
-      "2 cloves garlic, minced",
-      "1 tsp salt",
-      "1/2 cup cold water",
-      "Fresh parsley for garnish"
+      {
+        title: "For the Dough",
+        items: ["1 cup of milk",
+        "50g unsalted butter",
+        "525g plain flour",
+        "110g of brown sugar ",
+        "1 egg",
+        "2 1/4 tsp dried yeast"]
+      },
+      {
+        title: "For the Bun",
+        items: ["120g of walnuts, chopped",
+        "90g brown sugar",
+        "1 tsp ground cinnamon",
+        "50g butter",
+        "1 lightly beaten egg",
+        "2 tbsp maple syrup"]
+      }
     ],
     instructions: [
-      "Combine tahini and lemon juice in a bowl",
-      "Mix will thicken at first",
-      "Add minced garlic and salt",
-      "Gradually add cold water until creamy",
-      "Adjust consistency with more water if needed",
-      "Taste and adjust seasoning",
-      "Garnish with parsley and serve"
+      "Place milk and butter in a small pan over low heat until butter is melted",
+      "Place the flour,sugar,egg,yeast and milk mixture in a bowl of an electric mixer and mix on low speed until the dough comes together",
+      "Knead dough on a floured surface place in a bowl cover and set aside for 1 1/2 hours or until doubled in size",
+      "Mix the walnuts,sugar and cinnamon in a bowl",
+      "Roll out the dough into a ~50x30cm rectangle",
+      "Brush it with butter",
+      "Sprinkle it with the walnut mixture",
+      "Cut it into ~5x55cm strips",
+      "Roll the strips up tightly",
+      "Place one strip after another in a lightly greased springform caked tin lined with baking paper, creating one large spiral",
+      "Cover and set aside in a warm place until risen",
+      "Brush the bun with a beaten egg",
+      "Bake for 40-45min or until golden brown",
+      "Brush with the maple syrup"
     ],
-    video_url: "https://instagram.com",
+    video_url: "https://www.instagram.com/p/CNc1KuaA5Jv/",
     featured: false,
     rating: 4.7,
-    date_published: "2024-02-12"
+    date_published: "2021-04-09"
   },
   {
     id: "10",
-    title: "Baklava",
-    slug: "baklava",
-    short_description: "Sweet, flaky pastry layered with nuts and honey syrup.",
-    description: "Traditional Middle Eastern dessert with layers of phyllo dough, nuts, and sweet honey syrup.",
+    title: "Pear & Ricotta Tart",
+    slug: "pear-and-ricotta-tart",
+    short_description: "Flaky filo tart with ricotta, pears, and a touch of brown sugar.",
+    description: "Crisp layers of filo cradle a light ricotta filling with raisins, lemon, and vanilla, topped with thin pear slices and baked until golden.",
     image: recipe10,
     prepTime: 45,
     cookTime: 60,
     totalTime: 105,
-    servings: "24",
-    difficulty: "Advanced",
-    cuisine: "Middle Eastern",
+    servings: "8",
+    difficulty: "Medium",
+    cuisine: "Mediterranean",
     course: "Dessert",
-    tags: ["dessert", "pastry", "middle-eastern", "sweet"],
+    tags: ["light-dessert", "pear", "ricotta", "filo tart"],
     ingredients: [
-      "1 lb phyllo dough",
-      "2 cups mixed nuts (walnuts, pistachios)",
-      "1 cup melted butter",
-      "1 cup sugar",
-      "1 cup water",
-      "1/2 cup honey",
-      "1 tsp cinnamon",
-      "Lemon juice"
+      "500g ricotta",
+      "55g brown sugar",
+      "35g raisins",
+      "1 tbsp lemon rind",
+      "1 tbsp of vanilla extract",
+      "1 egg",
+      "8 sheets of Filo pastry",
+      "50g of melted butter",
+      "3 thinly sliced green pears",
+      "1 tbsp of brown sugar",
+      "Icing sugar for dusting",
+      "1/2 cup of honey"
     ],
     instructions: [
-      "Chop nuts and mix with cinnamon",
-      "Brush baking pan with butter",
-      "Layer 8 sheets of phyllo, brushing each with butter",
-      "Add a layer of nuts",
-      "Repeat layers until ingredients are used",
-      "Cut into diamond shapes before baking",
-      "Bake at 350°F for 50 minutes until golden",
-      "Make syrup with sugar, water, honey, and lemon",
-      "Pour hot syrup over cooled baklava"
+      "Preheat oven to 200°C",
+      "Place ricotta,lemon rind,vanilla and egg in a bowl and mix well",
+      "Layer the pastry sheets, on a 35x25cm on top of one another brushing between each layer with the butter",
+      "Top with the ricotta and the pears slices",
+      "Fold over the pastry edges to form a border over the filling",
+      "Brush with butter sprinkle with sugar and bake for 25min or until golden",
+      "Dust with icing sugar and drizzle with honey to serve"
     ],
-    video_url: "https://instagram.com",
+    video_url: "https://www.instagram.com/p/CNxpgg0AazD/",
     featured: false,
     rating: 5.0,
-    date_published: "2024-01-30"
-  },
-  {
-    id: "11",
-    title: "Tabbouleh",
-    slug: "tabbouleh",
-    short_description: "Fresh Lebanese parsley salad with bulgur wheat.",
-    description: "Refreshing Lebanese salad made with loads of fresh parsley, mint, tomatoes, and bulgur wheat.",
-    image: recipe11,
-    prepTime: 20,
-    cookTime: 0,
-    totalTime: 20,
-    servings: "6",
-    difficulty: "Easy",
-    cuisine: "Lebanese",
-    course: "Salad & Side",
-    tags: ["salad", "lebanese", "vegetarian", "healthy"],
-    ingredients: [
-      "3 cups fresh parsley, finely chopped",
-      "1/2 cup fresh mint, chopped",
-      "1/4 cup bulgur wheat",
-      "4 tomatoes, diced",
-      "4 green onions, chopped",
-      "1/4 cup lemon juice",
-      "1/4 cup olive oil",
-      "Salt to taste"
-    ],
-    instructions: [
-      "Soak bulgur in water for 15 minutes, then drain",
-      "Finely chop parsley and mint",
-      "Dice tomatoes and chop green onions",
-      "Combine all vegetables and bulgur",
-      "Make dressing with lemon juice, olive oil, and salt",
-      "Toss salad with dressing",
-      "Chill before serving"
-    ],
-    video_url: "https://instagram.com",
-    featured: false,
-    rating: 4.8,
-    date_published: "2024-02-18"
-  },
-  {
-    id: "12",
-    title: "Hummus",
-    slug: "hummus",
-    short_description: "Creamy chickpea dip with tahini and lemon.",
-    description: "Classic Middle Eastern chickpea dip made smooth and creamy with tahini, lemon, and garlic.",
-    image: recipe12,
-    prepTime: 10,
-    cookTime: 0,
-    totalTime: 10,
-    servings: "8",
-    difficulty: "Easy",
-    cuisine: "Middle Eastern",
-    course: "Sauce",
-    tags: ["dip", "vegan", "gluten-free", "middle-eastern"],
-    ingredients: [
-      "2 cups cooked chickpeas",
-      "1/2 cup tahini",
-      "1/4 cup lemon juice",
-      "2 cloves garlic",
-      "1 tsp cumin",
-      "1/4 cup ice water",
-      "2 tbsp olive oil",
-      "Paprika for garnish"
-    ],
-    instructions: [
-      "Drain and rinse chickpeas",
-      "Add chickpeas, tahini, lemon juice, and garlic to food processor",
-      "Blend until smooth",
-      "Add ice water gradually while blending",
-      "Add cumin and salt",
-      "Blend until creamy and fluffy",
-      "Serve drizzled with olive oil and paprika"
-    ],
-    video_url: "https://instagram.com",
-    featured: false,
-    rating: 4.9,
-    date_published: "2024-02-08"
+    date_published: "2021-04-17"
   }
 ];

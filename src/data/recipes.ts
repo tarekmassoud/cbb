@@ -11,6 +11,11 @@ import recipe10 from "@/assets/recipe-10.jpg";
 import recipe11 from "@/assets/tabbouleh.jpg";
 import recipe12 from "@/assets/hummus.jpg";
 
+export interface RecipeSection {
+  title?: string;
+  items: string[];
+}
+
 export interface Recipe {
   id: string;
   title: string;
@@ -27,8 +32,8 @@ export interface Recipe {
   course: "Breakfast" | "Main" | "Dessert" | "Salad & Side" | "Bread" | "Sauce";
   tags: string[];
   keywords?: string[];
-  ingredients: string[];
-  instructions: string[];
+  ingredients: string[] | RecipeSection[];
+  instructions: string[] | RecipeSection[];
   video_url?: string;
   featured: boolean;
   rating?: number;
@@ -183,45 +188,69 @@ export const recipes: Recipe[] = [
     course: "Main",
     tags: ["main", "roast beef"],
     ingredients: [
-      // Ingredients for roast beef
-      "1 1/2 kg topside of beef",
-      "1 medium onion halved",
-      "1 carrot",
-      "2 celery sticks",
-      "olive oil",
-      "sea salt and black pepper",
-      "10 garlic gloves",
-      "2 cups of water",
-      "3 cups of dry white wine ",
-      // Ingredients for beans
-      "a medium bag of frozen beans",
-      "8-10 large crushed garlic cloves",
-      "1/4 cup of olive oil",
-      "sea salt and black pepper",
-      // Ingredients for gravy
-      "2 tbsp of flour",
-      "2 tbsp of butter",
-      "juices from meat",
-      "2 tsp of dijon mustard"
+      {
+        title: "For the Roast Beef",
+        items: [
+          "1 1/2 kg topside of beef",
+          "1 medium onion halved",
+          "1 carrot",
+          "2 celery sticks",
+          "olive oil",
+          "sea salt and black pepper",
+          "10 garlic gloves",
+          "2 cups of water",
+          "3 cups of dry white wine"
+        ]
+      },
+      {
+        title: "For the Beans",
+        items: [
+          "a medium bag of frozen beans",
+          "8-10 large crushed garlic cloves",
+          "1/4 cup of olive oil",
+          "sea salt and black pepper"
+        ]
+      },
+      {
+        title: "For the Gravy",
+        items: [
+          "2 tbsp of flour",
+          "2 tbsp of butter",
+          "juices from meat",
+          "2 tsp of dijon mustard"
+        ]
+      }
     ],
     instructions: [
-      // Instructions for roast beef
-      "Stick the meat with a knife and incorporate a glove of garlic inside each hall",
-      "Drizzle the meat with olive oil sprinkle with salt and pepper",
-      "Heat a pressure cooker over high heat brown roast on all sides add the onion carrot and celery sticks and brown with meat",
-      "Pour the wine all over the meat,add the water,seal the lid and cook for around 1 and a half hours on medium heat",
-      "Open the cooker when cooled remove the meat and refrigerate for half an hour(this will help cutting it into fine pieces)",
-      // Instructions for gravy
-      "Pour the remaining vegetables and the meat juices into a stainer and pressing the vegetables with a spoon. Set aside",
-      "Melt the better in a saucepan and add the flour stir constantly until its golden caramel color",
-      "Whisk in the meat liquid and stir constantly",
-      "Bring it to the simmer and let it bubble until thicken for about 5 minutes",
-      "Add the mustard and stir",
-      // Instructions for green beans
-      "Wash the beans until smooth, drain well",
-      "poor olive oil in a large skillet with a lid then add the crashed garlic over low heat until evenly distributed all over the pan",
-      "Add the beans whisk to combine cover for about 5 minutes stirring often",
-      "Uncover and cook for another 5 minutes over law heat season to taste with salt snd pepper"
+      {
+        title: "Roast Beef",
+        items: [
+          "Stick the meat with a knife and incorporate a glove of garlic inside each hall",
+          "Drizzle the meat with olive oil sprinkle with salt and pepper",
+          "Heat a pressure cooker over high heat brown roast on all sides add the onion carrot and celery sticks and brown with meat",
+          "Pour the wine all over the meat,add the water,seal the lid and cook for around 1 and a half hours on medium heat",
+          "Open the cooker when cooled remove the meat and refrigerate for half an hour(this will help cutting it into fine pieces)"
+        ]
+      },
+      {
+        title: "Gravy",
+        items: [
+          "Pour the remaining vegetables and the meat juices into a stainer and pressing the vegetables with a spoon. Set aside",
+          "Melt the better in a saucepan and add the flour stir constantly until its golden caramel color",
+          "Whisk in the meat liquid and stir constantly",
+          "Bring it to the simmer and let it bubble until thicken for about 5 minutes",
+          "Add the mustard and stir"
+        ]
+      },
+      {
+        title: "Green Beans",
+        items: [
+          "Wash the beans until smooth, drain well",
+          "poor olive oil in a large skillet with a lid then add the crashed garlic over low heat until evenly distributed all over the pan",
+          "Add the beans whisk to combine cover for about 5 minutes stirring often",
+          "Uncover and cook for another 5 minutes over law heat season to taste with salt snd pepper"
+        ]
+      }
     ],
     video_url: "https://www.instagram.com/p/B_ae3nqF-Wb/",
     featured: true,

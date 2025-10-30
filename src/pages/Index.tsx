@@ -53,7 +53,7 @@ const Index = () => {
 
   return (
     <>
-      <WelcomeOverlay onEnter={handleEnterSite} />
+      <WelcomeOverlay onEnter={handleEnterSite} isVisible={showWelcome} />
       
       <div className={`min-h-screen transition-opacity duration-300 ${showWelcome ? 'opacity-0' : 'opacity-100'}`}>
         <Navigation />

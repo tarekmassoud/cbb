@@ -4,16 +4,10 @@ import chefHero from "@/assets/chef-hero.jpg";
 
 interface WelcomeOverlayProps {
   onEnter: () => void;
+  isVisible: boolean;
 }
 
-export const WelcomeOverlay = ({ onEnter }: WelcomeOverlayProps) => {
-  const [isVisible, setIsVisible] = useState(true);
-
-  const handleEnter = () => {
-    setIsVisible(false);
-    onEnter();
-  };
-
+export const WelcomeOverlay = ({ onEnter, isVisible }: WelcomeOverlayProps) => {
   if (!isVisible) return null;
 
   return (
@@ -53,7 +47,7 @@ export const WelcomeOverlay = ({ onEnter }: WelcomeOverlayProps) => {
               <div className="hidden md:block">
                 <Button 
                   size="lg" 
-                  onClick={handleEnter}
+                  onClick={onEnter}
                   className="hero-gradient border-0 text-white text-lg px-8 py-6 h-auto"
                 >
                   Enter the Kitchen
@@ -66,7 +60,7 @@ export const WelcomeOverlay = ({ onEnter }: WelcomeOverlayProps) => {
           <div className="flex justify-center mt-8 md:hidden">
             <Button 
               size="lg" 
-              onClick={handleEnter}
+              onClick={onEnter}
               className="hero-gradient border-0 text-white text-lg px-8 py-6 h-auto w-full max-w-xs"
             >
               Enter the Kitchen

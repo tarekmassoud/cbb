@@ -9,6 +9,8 @@ import recipe8 from "@/assets/kebbit_batata.jpg";
 import recipe9 from "@/assets/maple_glazed_walnut_and_sugar_bun.jpg";
 import recipe10 from "@/assets/pear_and_ricotta_tart.jpg";
 import recipe11 from "@/assets/chocolate_and_whisky_fingers.jpg";
+import recipe12 from "@/assets/potato_crusted_swiss_chard_tart.jpg";
+import recipe13 from "@/assets/chocolate_banana_and_apple_syrup_tarte_tatin.jpg"
 
 export interface RecipeSection {
   title?: string;
@@ -564,4 +566,111 @@ export const recipes: Recipe[] = [
     rating: 5.0,
     date_published: "2021-04-17"
   },
+  {
+    id: "12",
+    title: "Potato-Crusted Swiss Chard Tart",
+    slug: "potato-crusted-swiss-chard-tart",
+    short_description: "Potato-crusted tart with Swiss chard, onions, garlic, eggs, cream, and mozzarella—golden, soft, and comforting.",
+    description: "Tender mashed potatoes form a crisp-edged crust that’s filled with a silky mix of sautéed onion, garlic, and Swiss chard bound with eggs and cream, then finished with mozzarella and baked until set and deeply golden.",
+    image: recipe12,
+    prepTime: 45,
+    cookTime: 60,
+    totalTime: 105,
+    servings: "8",
+    difficulty: "Easy",
+    cuisine: "European",
+    course: "Main",
+    tags: ["vegetarian", "potato crust", "swiss chard", "family dinner"],
+    ingredients: [
+      {
+        title: "For the Potato Base",
+        items: [
+          "6–7 medium-small potatoes, boiled with skins on",
+          "Salt, to taste",
+          "Crushed black pepper, to taste"
+        ]
+      },
+      {
+        title: "For the Filling",
+        items: [
+          "1 large onion, finely chopped",
+          "6 cloves garlic, crushed",
+          "500g Swiss chard, steamed and well squeezed",
+          "1 tbsp extra-virgin olive oil",
+          "Sea salt, to taste",
+          "Crushed black pepper, to taste",
+          "500ml cooking cream",
+          "3 eggs",
+          "250g mozzarella cheese, shredded"
+        ]
+      }
+    ],
+    instructions: [
+      {
+        title: "Potato Base",
+        items: [
+          "Preheat oven to 170°C.",
+          "Boil potatoes with skins until tender; drain.",
+          "Mash potatoes directly in a tart pan; season with salt and pepper.",
+          "Press mashed potatoes evenly over the base and up the sides to form a crust."
+        ]
+      },
+      {
+        title: "Filling & Bake",
+        items: [
+          "In a pan, sauté the onion in olive oil until soft and golden.",
+          "Add crushed garlic and cook for 1–2 minutes.",
+          "Stir in the steamed Swiss chard; season with salt and pepper and cook briefly. Remove from heat.",
+          "In a bowl, whisk the eggs with the cooking cream, then add the chard mixture and mix well.",
+          "Pour the filling into the potato crust and spread evenly.",
+          "Sprinkle mozzarella evenly on top.",
+          "Bake for 20–25 minutes, or until the top is golden and the filling is set.",
+          "Rest a few minutes before slicing and serving."
+        ]
+      }
+    ],
+    video_url: "https://www.instagram.com/p/DP31Dr4iBh2/",
+    featured: false,
+    rating: 5.0,
+    date_published: "2025-10-19"
+  },
+  {
+    id: "13",
+    title: "Chocolate–Banana Apple-Syrup Tarte Tatin",
+    slug: "chocolate-banana-apple-syrup-tarte-tatin",
+    short_description: "Skillet tarte tatin of bananas set in an apple-syrup butter caramel with melted dark chocolate, baked under puff pastry and flipped to serve.",
+    description: "A no-fuss twist on tarte tatin: butter and apple syrup are simmered, enriched with dark chocolate, then layered with halved bananas and covered with puff pastry. Baked until deeply golden, flipped out, and showered with toasted hazelnuts—perfect warm with vanilla ice cream.",
+    image: recipe13,
+    prepTime: 20,
+    cookTime: 35,
+    totalTime: 55,
+    servings: "8",
+    difficulty: "Easy",
+    cuisine: "French (European)",
+    course: "Dessert",
+    tags: ["tarte tatin", "banana", "dark chocolate", "puff pastry", "apple syrup"],
+    ingredients: [
+      "150g unsalted butter, chopped",
+      "1/4 cup apple syrup",
+      "50g dark chocolate, finely chopped",
+      "1kg bananas (about 6), peeled and halved lengthways",
+      "1 sheet butter puff pastry, thawed",
+      "1/4 cup hazelnuts, roughly chopped, toasted",
+      "Vanilla ice cream, to serve"
+    ],
+    instructions: [
+      "Preheat oven to 200°C. Place a 21cm heavy, ovenproof skillet on high heat.",
+      "Add butter and apple syrup; bring to a simmer and cook for 30 seconds.",
+      "Remove from heat and stir in the dark chocolate until smooth.",
+      "Arrange the banana halves, cut-side down and slightly overlapping, over the chocolate mixture.",
+      "Lay the puff pastry over the bananas and gently press to secure; make 3 small slits in the centre to vent.",
+      "Set the pan on an oven tray and bake for 30–35 minutes, until the pastry is dark golden.",
+      "Cool in the pan for 2 minutes, then invert onto a serving plate.",
+      "Top with toasted hazelnuts and serve warm with vanilla ice cream."
+    ],
+    video_url: "",
+    featured: false,
+    rating: 5.0,
+    date_published: "2025-10-22"
+  }
 ];

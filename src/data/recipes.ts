@@ -8,6 +8,7 @@ import recipe7 from "@/assets/Loubiyeh_bi_zeit.jpg";
 import recipe8 from "@/assets/kebbit_batata.jpg";
 import recipe9 from "@/assets/maple_glazed_walnut_and_sugar_bun.jpg";
 import recipe10 from "@/assets/pear_and_ricotta_tart.jpg";
+import recipe11 from "@/assets/chocolate_and_whisky_fingers.jpg";
 
 export interface RecipeSection {
   title?: string;
@@ -527,5 +528,40 @@ export const recipes: Recipe[] = [
     featured: false,
     rating: 5.0,
     date_published: "2021-04-17"
-  }
+  },
+  {
+    id: "11",
+    title: "Chocolate & Whisky Fingers",
+    slug: "chocolate-and-whisky-fingers",
+    short_description: "No-bake dark-chocolate whisky fingers—silky, rich, cocoa-dusted.",
+    description: "Dark chocolate and cream are melted, spiked with whisky, chilled into a dense truffle-like slab, then sliced into cocoa-dusted fingers.",
+    image: recipe11,
+    prepTime: 45,
+    cookTime: 60,
+    totalTime: 105,
+    servings: "8",
+    difficulty: "Easy",
+    cuisine: "European",
+    course: "Dessert",
+    tags: ["light-dessert", "alcohol", "cocoa", "no-bake"],
+    ingredients: [
+    "400g dark chocolate, chopped",
+    "125ml single cream",
+    "2 tbsp whisky",
+    "Cocoa powder, for dusting"
+    ],
+    instructions: [
+      "Set a heatproof bowl over a saucepan of gently simmering water",
+      "Add the chocolate and cream; stir until completely melted and smooth",
+      "Remove from the heat and stir in the whisky",
+      "Line a 20×30cm tin with baking paper and lightly grease",
+      "Pour the mixture into the tin and level the top",
+      "Refrigerate for about 3 hours, until firm",
+      "Lift out, slice into fingers, and dust with cocoa to serve"
+    ],
+    video_url: "https://www.instagram.com/p/CNxpgg0AazD/",
+    featured: false,
+    rating: 5.0,
+    date_published: "2021-04-17"
+  },
 ];

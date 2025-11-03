@@ -673,7 +673,7 @@ export const recipes: Recipe[] = [
       "Cool in the pan for 2 minutes, then invert onto a serving plate.",
       "Top with toasted hazelnuts and serve warm with vanilla ice cream."
     ],
-    video_url: "",
+    video_url: "https://www.instagram.com/p/DQCP65AiOb_/",
     featured: false,
     rating: 5.0,
     date_published: "2025-10-22"
@@ -719,10 +719,10 @@ export const recipes: Recipe[] = [
       "Add another spoon of egg mixture, close the sandwiches, press gently, and cut in half.",
       "Enjoy right away, or wrap and chill for 30 minutes for a perfect café-style texture."
     ],
-    video_url: "",
+    video_url: "https://www.instagram.com/p/DQPXQkRDLqm/",
     featured: false,
     rating: 5.0,
-    date_published: "2025-10-29"
+    date_published: "2025-10-27"
   },
   {
     id: "15",
@@ -752,7 +752,7 @@ export const recipes: Recipe[] = [
       "Stir every day to keep the top from drying out.",
       "Ready in about five days. Serve with labneh or as part of a mezze."
     ],
-    video_url: "",
+    video_url: "https://www.instagram.com/p/DPx0LJXDPZb/",
     featured: false,
     rating: 5.0,
     date_published: "2025-10-15"
@@ -802,7 +802,7 @@ export const recipes: Recipe[] = [
       "Cook over medium-high heat for 2–3 minutes until the sauce thickens and coats the beef and vegetables.",
       "Garnish with toasted sesame seeds and a few cracks of black pepper. Serve over steamed basmati rice."
     ],
-    video_url: "",
+    video_url: "https://www.instagram.com/p/DPRWMq0CKkW/",
     featured: false,
     rating: 5.0,
     date_published: "2025-10-03"
@@ -845,10 +845,10 @@ export const recipes: Recipe[] = [
       "In a small bowl mix Greek yogurt with lemon juice, a drizzle of olive oil, and a bit of grated lemon rind. Stir to combine.",
       "Serve the warm blinis with a generous dollop of the lemony yogurt sauce."
     ],
-    video_url: "",
+    video_url: "https://www.instagram.com/p/DPMCIqQCMo0/",
     featured: false,
     rating: 5.0,
-    date_published: "2025-10-05"
+    date_published: "2025-09-30"
   },
   {
     id: "18",
@@ -884,7 +884,7 @@ export const recipes: Recipe[] = [
       "Place in the freezer for about 1 hour to set.",
       "Cut into bite-sized pieces and enjoy."
     ],
-    video_url: "",
+    video_url: "https://www.instagram.com/p/DO-sTVriFoE/",
     featured: false,
     rating: 5.0,
     date_published: "2025-09-25"

@@ -11,6 +11,11 @@ import recipe10 from "@/assets/pear_and_ricotta_tart.jpg";
 import recipe11 from "@/assets/chocolate_and_whisky_fingers.jpg";
 import recipe12 from "@/assets/potato_crusted_swiss_chard_tart.jpg";
 import recipe13 from "@/assets/chocolate_banana_and_apple_syrup_tarte_tatin.jpg"
+import recipe14 from "@/assets/japanese_style_egg_sandwich.jpg"
+import recipe15 from "@/assets/quick_marinated_green_olives.jpg"
+import recipe16 from "@/assets/beef_stir_fry_mixed_bell_peppers.jpg"
+import recipe17 from "@/assets/mint_pea_quinoa_blinis.jpg"
+import recipe18 from "@/assets/tahini_pistachio_date_bites.jpg"
 
 export interface RecipeSection {
   title?: string;
@@ -672,5 +677,217 @@ export const recipes: Recipe[] = [
     featured: false,
     rating: 5.0,
     date_published: "2025-10-22"
+  },
+  {
+    id: "14",
+    title: "Japanese-Style Egg Sandwich (Tamago Sando vibes)",
+    slug: "japanese-style-egg-sandwich",
+    short_description: "Creamy, fluffy egg salad made by separating yolks and whites, layered on soft pain de mie with avocado.",
+    description: "Separate yolks and whites for a silky yolk-mayo-mustard paste and finely chopped whites. Season with black pepper and either green onions or green za’atar, then pile onto soft bread with avocado for a café-style sandwich.",
+    image: recipe14,
+    prepTime: 15,
+    cookTime: 20,
+    totalTime: 35,
+    servings: "5–6",
+    difficulty: "Easy",
+    cuisine: "Japanese-inspired",
+    course: "Breakfast",
+    tags: ["egg sandwich", "pain de mie", "avocado", "zaatar-or-scallions", "protein"],
+    ingredients: [
+      "10 large eggs",
+      "2 tbsp mayonnaise",
+      "1 tsp Dijon mustard",
+      "1/2 tsp salt, divided",
+      "1/4 tsp freshly ground black pepper",
+      "2 tbsp finely chopped green onions or 1 tbsp green za’atar",
+      "1 ripe avocado, cut in thin slices",
+      "10–12 slices of pain de mie",
+      "Optional: a thin layer of butter for each slice"
+    ],
+    instructions: [
+      "Place the eggs in a pot, cover with cold water, and bring to a boil.",
+      "Once boiling, turn off the heat, cover, and let sit for 10 minutes.",
+      "Transfer to an ice bath, cool completely, then cut in half with a sharp knife.",
+      "Using a teaspoon, scoop the yolks into one bowl and the whites into another.",
+      "Chop the whites finely (not mashed) for a pleasant bite.",
+      "To the yolks add mayonnaise, mustard, and half of the salt.",
+      "Mash together with a fork or small whisk until smooth and creamy.",
+      "Gently fold in the chopped whites, pepper, and the remaining salt.",
+      "Stir in green za’atar or chopped green onions. Taste and adjust.",
+      "Optional: spread a thin layer of butter on the bread slices.",
+      "Spoon a generous layer of the egg mixture onto half the slices and top with avocado.",
+      "Add another spoon of egg mixture, close the sandwiches, press gently, and cut in half.",
+      "Enjoy right away, or wrap and chill for 30 minutes for a perfect café-style texture."
+    ],
+    video_url: "",
+    featured: false,
+    rating: 5.0,
+    date_published: "2025-10-29"
+  },
+  {
+    id: "15",
+    title: "Quick Marinated Green Olives (Zeitoun Marsouss)",
+    slug: "quick-marinated-green-olives",
+    short_description: "Fresh green olives mixed with coarse salt, lemon, chili, and a drop of olive oil. Ready in about five days.",
+    description: "Mix green olives with coarse salt, lemon wedges, an optional chili pepper, and a drop of olive oil. Stir daily to keep the top from drying out. After about five days they are ready to enjoy with breakfast, lunch, and dinner.",
+    image: recipe15,
+    prepTime: 10,
+    cookTime: 0,
+    totalTime: 10,
+    servings: "10",
+    difficulty: "Easy",
+    cuisine: "Lebanese",
+    course: "Salad & Side",
+    tags: ["olives", "mezze", "quick-pickle", "lemon"],
+    ingredients: [
+      "A batch of fresh green olives",
+      "1 tbsp coarse salt",
+      "2 lemon wedges",
+      "1 chili pepper (optional)",
+      "A drop of olive oil"
+    ],
+    instructions: [
+      "Combine olives, coarse salt, lemon wedges, chili pepper if using, and a drop of olive oil in a bowl or jar.",
+      "Mix everything well.",
+      "Stir every day to keep the top from drying out.",
+      "Ready in about five days. Serve with labneh or as part of a mezze."
+    ],
+    video_url: "",
+    featured: false,
+    rating: 5.0,
+    date_published: "2025-10-15"
+  },
+  {
+    id: "16",
+    title: "Beef Stir-Fry with Mixed Bell Peppers",
+    slug: "beef-stir-fry-mixed-bell-peppers",
+    short_description: "Thin-sliced beef and colorful peppers in a glossy soy-oyster sauce with ginger, garlic, and sesame.",
+    description: "Sear beef in sesame oil, stir-fry garlic, ginger, onions, and a rainbow of bell peppers, then toss everything in a quick soy and oyster sauce sweetened with honey. Finish with toasted sesame seeds and serve over steamed rice.",
+    image: recipe16,
+    prepTime: 20,
+    cookTime: 15,
+    totalTime: 35,
+    servings: "4",
+    difficulty: "Easy",
+    cuisine: "Asian-inspired",
+    course: "Main",
+    tags: ["stir-fry", "beef", "bell peppers", "sesame", "weeknight"],
+    ingredients: [
+      // Stir-fry
+      "2 tbsp sesame oil",
+      "1 kg beef fillet, thinly sliced",
+      "2 garlic cloves, minced",
+      "2 tbsp fresh ginger, grated",
+      "1 red bell pepper, sliced",
+      "1 green bell pepper, sliced",
+      "1 orange bell pepper, sliced",
+      "1 yellow bell pepper, sliced",
+      "2 large onions, sliced",
+      "Freshly ground black pepper, to taste",
+      "Toasted sesame seeds, for garnish",
+      // Sauce /////////////////////////////////////////////////////////////////////////////////////////
+      "1/2 cup soy sauce",
+      "1/3 cup oyster sauce",
+      "1 tbsp cornstarch",
+      "1/3 cup water",
+      "1 tbsp honey"
+    ],
+    instructions: [
+      "Heat sesame oil in a large pan or wok over high heat.",
+      "Add the sliced beef and stir-fry until browned and cooked through. Remove and set aside.",
+      "Add a touch more sesame oil if needed. Sauté garlic, ginger, and sliced onion for 1–2 minutes until fragrant.",
+      "Add the bell peppers and stir-fry for 3–4 minutes until just tender but still crisp.",
+      "In a bowl mix soy sauce, oyster sauce, cornstarch, water, and honey until smooth.",
+      "Return the beef to the pan with the vegetables. Pour in the sauce and stir well.",
+      "Cook over medium-high heat for 2–3 minutes until the sauce thickens and coats the beef and vegetables.",
+      "Garnish with toasted sesame seeds and a few cracks of black pepper. Serve over steamed basmati rice."
+    ],
+    video_url: "",
+    featured: false,
+    rating: 5.0,
+    date_published: "2025-10-03"
+  },
+  {
+    id: "17",
+    title: "Mint, Pea and Quinoa Blinis with Lemon Yogurt",
+    slug: "mint-pea-quinoa-blinis",
+    short_description: "Oven-baked blinis of peas, ricotta, quinoa, and mint with a lemony yogurt sauce.",
+    description: "Combine peas, chopped mint, ricotta, eggs, and quinoa. Form small patties, brush with olive oil, and bake until golden. Serve warm with Greek yogurt mixed with lemon juice, olive oil, and grated lemon rind.",
+    image: recipe17,
+    prepTime: 15,
+    cookTime: 20,
+    totalTime: 35,
+    servings: "8",
+    difficulty: "Easy",
+    cuisine: "Mediterranean-inspired",
+    course: "Breakfast",
+    tags: ["blini", "gluten-free", "ricotta", "mint-and-peas"],
+    ingredients: [
+      "1 cup frozen peas, thawed",
+      "1 cup fresh ricotta",
+      "2 eggs",
+      "1/4 cup cooked quinoa",
+      "A bunch of fresh mint leaves, chopped",
+      "Sea salt, to taste",
+      "Cracked black pepper, to taste",
+      "Extra virgin olive oil",
+      "Grated lemon rind (for garnish and yogurt sauce)",
+      // To serve
+      "1 cup Greek yogurt",
+      "1 tsp lemon juice",
+      "A drizzle of olive oil",
+      "Extra grated lemon rind"
+    ],
+    instructions: [
+      "In a large mixing bowl combine peas, chopped mint, ricotta, eggs, quinoa, sea salt, and cracked black pepper. Stir until well mixed.",
+      "Using a spoon or cookie scoop, form the mixture into 8 equal balls. Gently flatten into small patties and lightly brush both sides with olive oil.",
+      "Preheat oven to 180°C. Transfer the blinis to a baking tray and bake for 15–20 minutes, or until golden brown and cooked.",
+      "In a small bowl mix Greek yogurt with lemon juice, a drizzle of olive oil, and a bit of grated lemon rind. Stir to combine.",
+      "Serve the warm blinis with a generous dollop of the lemony yogurt sauce."
+    ],
+    video_url: "",
+    featured: false,
+    rating: 5.0,
+    date_published: "2025-10-05"
+  },
+  {
+    id: "18",
+    title: "Tahini Pistachio Date Bites",
+    slug: "tahini-pistachio-date-bites",
+    short_description: "No-bake date and tahini bites rolled in pistachio and cardamom. Naturally sweet.",
+    description: "Blend dates with tahini, cocoa powder, cinnamon, and moringa to a smooth, sticky paste. Fold in chopped pistachios and a splash of orange blossom water, roll in a pistachio–cardamom coating, chill, and slice.",
+    image: recipe18,
+    prepTime: 15,
+    cookTime: 0,
+    totalTime: 75,
+    servings: "24",
+    difficulty: "Easy",
+    cuisine: "Middle Eastern",
+    course: "Dessert",
+    tags: ["date balls", "tahini", "pistachio", "no-sugar-added"],
+    ingredients: [
+      "40 pitted dates",
+      "1 tbsp tahini",
+      "1 tsp cocoa powder",
+      "1 tsp cinnamon",
+      "1 tsp moringa powder",
+      "1 cup roughly chopped pistachios",
+      "1 tbsp orange blossom water",
+      "1/2 cup finely ground pistachios",
+      "1/2 tsp ground cardamom"
+    ],
+    instructions: [
+      "Place dates, tahini, cocoa powder, cinnamon, and moringa powder into a food processor or mixer. Blend until smooth and sticky.",
+      "Add 1 cup roughly chopped pistachios and 1 tbsp orange blossom water. Pulse to combine.",
+      "On a clean surface mix 1/2 cup finely ground pistachios with 1/2 tsp ground cardamom.",
+      "Roll the date mixture into a log over the pistachio–cardamom coating until evenly covered.",
+      "Place in the freezer for about 1 hour to set.",
+      "Cut into bite-sized pieces and enjoy."
+    ],
+    video_url: "",
+    featured: false,
+    rating: 5.0,
+    date_published: "2025-09-25"
   }
+
 ];

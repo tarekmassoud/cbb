@@ -2,11 +2,11 @@
 
 ## Overview
 
-Recipes are stored as markdown files in `/content/recipes/` with YAML frontmatter. Images are in `/public/images/recipes/`. A build script generates a lightweight index for fast listing pages.
+Recipes are stored as markdown files in `/public/content/recipes/` with YAML frontmatter. Images are in `/public/images/recipes/`. A build script generates a lightweight index for fast listing pages.
 
 ## Adding a New Recipe
 
-1. **Create markdown file**: `/content/recipes/your-recipe-slug.md`
+1. **Create markdown file**: `/public/content/recipes/your-recipe-slug.md`
 
 ```markdown
 ---

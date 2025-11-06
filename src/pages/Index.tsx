@@ -1,12 +1,13 @@
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import { Link } from "react-router-dom";
 import { Search, ArrowRight } from "lucide-react";
+import { useQuery } from "@tanstack/react-query";
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
 import { RecipeCard } from "@/components/RecipeCard";
 import { WelcomeOverlay } from "@/components/WelcomeOverlay";
 import { Navigation } from "@/components/Navigation";
-import { recipes } from "@/data/recipes";
+import { fetchRecipesIndex } from "@/lib/recipesIndex";
 import { Badge } from "@/components/ui/badge";
 import chefHero from "@/assets/chef-hero.jpg";
 
@@ -17,6 +18,11 @@ const Index = () => {
   const [searchTerm, setSearchTerm] = useState("");
   const [activeFilter, setActiveFilter] = useState<string | null>(null);
   
+  const { data: recipes = [], isLoading } = useQuery({
+    queryKey: ['recipes-index'],
+    queryFn: fetchRecipesIndex
+  });
+
   const featuredRecipes = recipes.filter(recipe => recipe.featured).slice(0, 5);
   
   const categories = [
@@ -33,8 +39,8 @@ const Index = () => {
     const matchesSearch = searchTerm
       ? recipe.title.toLowerCase().includes(searchTerm.toLowerCase()) ||
         recipe.short_description.toLowerCase().includes(searchTerm.toLowerCase()) ||
-        recipe.ingredients.some(ing => ing.toLowerCase().includes(searchTerm.toLowerCase())) ||
-        recipe.tags.some(tag => tag.toLowerCase().includes(searchTerm.toLowerCase()))
+        recipe.tags.some(tag => tag.toLowerCase().includes(searchTerm.toLowerCase())) ||
+        (recipe.keywords && recipe.keywords.some(kw => kw.toLowerCase().includes(searchTerm.toLowerCase())))
       : false;
 
     const matchesFilter = activeFilter ? recipe.course === activeFilter : true;
@@ -51,6 +57,14 @@ const Index = () => {
     setShowWelcome(false);
   };
 
+  if (isLoading) {
+    return (
+      <div className="min-h-screen flex items-center justify-center">
+        <p className="text-muted-foreground">Loading recipes...</p>
+      </div>
+    );
+  }
+
   return (
     <>
       <WelcomeOverlay onEnter={handleEnterSite} isVisible={showWelcome} />
@@ -64,7 +78,7 @@ const Index = () => {
           <div className="container mx-auto relative z-10 flex-1 flex items-center justify-center">
             <div className="max-w-3xl mx-auto text-center">
               <h1 className="font-serif text-5xl md:text-6xl font-bold mb-6 text-foreground">
-                Search 150+ Recipes
+                Search {recipes.length}+ Recipes
               </h1>
               <p className="text-xl text-muted-foreground mb-8">
                 Discover Mediterranean and Lebanese favorites, from weeknight dinners to special occasions
@@ -75,7 +89,7 @@ const Index = () => {
                 <Search className="absolute left-4 top-1/2 transform -translate-y-1/2 text-muted-foreground w-6 h-6" />
                 <Input
                   type="text"
-                  placeholder="Search 150+ recipes... (pasta, chicken, vegan...)"
+                  placeholder={`Search ${recipes.length}+ recipes... (pasta, chicken, vegan...)`}
                   value={searchTerm}
                   onChange={(e) => setSearchTerm(e.target.value)}
                   className="pl-14 h-16 text-lg border-2 focus:border-primary"

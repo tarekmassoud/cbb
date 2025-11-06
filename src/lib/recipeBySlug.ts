@@ -108,6 +108,11 @@ export async function fetchRecipeBySlug(slug: string): Promise<Recipe | null> {
     
     if (!meta) return null;
     
+    // Prepend BASE_URL to image path if it starts with /
+    if (meta.image && meta.image.startsWith('/')) {
+      meta.image = BASE_URL + meta.image.substring(1);
+    }
+    
     return { meta: meta as RecipeMeta, ingredients, instructions };
   } catch {
     return null;

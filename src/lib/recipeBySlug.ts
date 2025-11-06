@@ -43,7 +43,7 @@ function parseFrontmatter(content: string) {
     if (colonIndex === -1) continue;
     
     const key = line.slice(0, colonIndex).trim();
-    let value = line.slice(colonIndex + 1).trim();
+    let value: any = line.slice(colonIndex + 1).trim();
     
     if (value.startsWith('"') && value.endsWith('"')) value = value.slice(1, -1);
     if (value.startsWith('[')) value = JSON.parse(value);

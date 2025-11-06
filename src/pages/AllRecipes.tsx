@@ -1,7 +1,8 @@
 import { useState, useEffect } from "react";
 import { useSearchParams } from "react-router-dom";
+import { useQuery } from "@tanstack/react-query";
 import { RecipeCard } from "@/components/RecipeCard";
-import { recipes } from "@/data/recipes";
+import { fetchRecipesIndex } from "@/lib/recipesIndex";
 import { Navigation } from "@/components/Navigation";
 import { Input } from "@/components/ui/input";
 import { Search } from "lucide-react";
@@ -23,6 +24,11 @@ const AllRecipes = () => {
   const [activeCategory, setActiveCategory] = useState<string | null>(
     categoryParam || null
   );
+
+  const { data: recipes = [], isLoading } = useQuery({
+    queryKey: ['recipes-index'],
+    queryFn: fetchRecipesIndex
+  });
 
   useEffect(() => {
     if (categoryParam) {
@@ -53,8 +59,8 @@ const AllRecipes = () => {
     const matchesSearch = searchTerm
       ? recipe.title.toLowerCase().includes(searchTerm.toLowerCase()) ||
         recipe.short_description.toLowerCase().includes(searchTerm.toLowerCase()) ||
-        recipe.ingredients.some(ing => ing.toLowerCase().includes(searchTerm.toLowerCase())) ||
-        recipe.tags.some(tag => tag.toLowerCase().includes(searchTerm.toLowerCase()))
+        recipe.tags.some(tag => tag.toLowerCase().includes(searchTerm.toLowerCase())) ||
+        (recipe.keywords && recipe.keywords.some(kw => kw.toLowerCase().includes(searchTerm.toLowerCase())))
       : true;
 
     const matchesCategory = activeCategory 
@@ -72,6 +78,17 @@ const AllRecipes = () => {
     filteredRecipes = [...filteredRecipes].sort((a, b) => a.prepTime - b.prepTime);
   } else if (sortBy === "rating") {
     filteredRecipes = [...filteredRecipes].sort((a, b) => (b.rating || 0) - (a.rating || 0));
+  }
+
+  if (isLoading) {
+    return (
+      <div className="min-h-screen">
+        <Navigation />
+        <div className="flex items-center justify-center py-16">
+          <p className="text-muted-foreground">Loading recipes...</p>
+        </div>
+      </div>
+    );
   }
 
   return (

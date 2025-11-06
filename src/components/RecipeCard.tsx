@@ -1,21 +1,22 @@
 import { Link } from "react-router-dom";
 import { Clock, Users, Star } from "lucide-react";
-import { Recipe } from "@/data/recipes";
+import { RecipeIndexItem } from "@/lib/recipesIndex";
 import { Card, CardContent } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
 
 interface RecipeCardProps {
-  recipe: Recipe;
+  recipe: RecipeIndexItem;
 }
 
 export const RecipeCard = ({ recipe }: RecipeCardProps) => {
   return (
-    <Link to={`/recipe/${recipe.id}`} className="group">
+    <Link to={`/recipe/${recipe.slug}`} className="group">
       <Card className="overflow-hidden border-none card-shadow hover:card-hover-shadow transition-smooth h-full">
         <div className="aspect-square overflow-hidden relative">
           <img
             src={recipe.image}
             alt={recipe.title}
+            loading="lazy"
             className="w-full h-full object-cover group-hover:scale-105 transition-smooth"
           />
           {recipe.rating && (

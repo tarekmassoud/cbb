@@ -29,6 +29,9 @@ jobs:
       - name: Install
         run: npm ci
 
+      - name: Build recipe index
+        run: node scripts/build-recipes-index.mjs
+      
       - name: Build
         run: npm run build
 

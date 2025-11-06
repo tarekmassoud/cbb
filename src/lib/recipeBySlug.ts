@@ -98,7 +98,8 @@ function parseMarkdownSections(content: string) {
 
 export async function fetchRecipeBySlug(slug: string): Promise<Recipe | null> {
   try {
-    const response = await fetch(`/content/recipes/${slug}.md`);
+    const BASE_URL = import.meta.env.BASE_URL || '/';
+    const response = await fetch(`${BASE_URL}content/recipes/${slug}.md`);
     if (!response.ok) return null;
     
     const content = await response.text();

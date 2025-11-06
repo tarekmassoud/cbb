@@ -889,5 +889,4 @@ export const recipes: Recipe[] = [
     rating: 5.0,
     date_published: "2025-09-25"
   }
-
 ];

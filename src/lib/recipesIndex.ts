@@ -357,7 +357,7 @@ const recipesData: RecipeIndexItem[] = [
     keywords: ["سندويش سلمون", "خبز العجين المخمر"],
     featured: false,
     rating: 4.7,
-    date_published: "2024-09-21"
+    date_published: "2025-09-21"
   },
   {
     id: "21",
@@ -374,7 +374,7 @@ const recipesData: RecipeIndexItem[] = [
     keywords: ["لبن امّو", "مرق لبن"],
     featured: false,
     rating: 4.9,
-    date_published: "2024-09-16"
+    date_published: "2025-09-16"
   },
   {
     id: "22",
@@ -391,7 +391,7 @@ const recipesData: RecipeIndexItem[] = [
     keywords: ["مقرمشات العدس"],
     featured: false,
     rating: 4.6,
-    date_published: "2024-09-10"
+    date_published: "2025-09-10"
   },
   {
     id: "23",
@@ -408,7 +408,7 @@ const recipesData: RecipeIndexItem[] = [
     keywords: ["روبيان", "خضار", "قلي سريع"],
     featured: false,
     rating: 4.7,
-    date_published: "2024-09-09"
+    date_published: "2025-09-09"
   },
   {
     id: "24",
@@ -425,7 +425,7 @@ const recipesData: RecipeIndexItem[] = [
     keywords: ["لوبيا باللحمة"],
     featured: false,
     rating: 4.6,
-    date_published: "2024-09-04"
+    date_published: "2025-09-04"
   },
   {
     id: "25",
@@ -442,7 +442,7 @@ const recipesData: RecipeIndexItem[] = [
     keywords: ["سلق", "لوبية"],
     featured: false,
     rating: 4.8,
-    date_published: "2024-09-01"
+    date_published: "2025-09-01"
   },
   {
     id: "26",
@@ -698,8 +698,179 @@ const recipesData: RecipeIndexItem[] = [
     featured: false,
     rating: 4.9,
     date_published: "2025-06-22"
+  },
+  {
+    id: "41",
+    title: "Sunday Eggs with Garden Greens & Lemon",
+    slug: "sunday-eggs-garden-greens-lemon",
+    short_description: "Baked eggs with sautéed kale & chard, lemon, sumac, and chili.",
+    image: `${BASE_URL}images/recipes/sunday_eggs_garden_greens_lemon.jpg`,
+    prepTime: 15,
+    servings: "4–6",
+    difficulty: "Easy",
+    cuisine: "Lebanese",
+    course: "Breakfast",
+    tags: ["eggs", "kale", "chard", "lemon"],
+    keywords: [],
+    featured: false,
+    rating: 4.8,
+    date_published: "2025-07-16"
+  },
+  {
+    id: "42",
+    title: "Tuna Sandwich",
+    slug: "tuna-sandwich",
+    short_description: "Classic tuna, mayo, and Dijon with herbs, capers, and crisp greens.",
+    image: `${BASE_URL}images/recipes/tuna_sandwich.jpg`,
+    prepTime: 10,
+    servings: "2–3",
+    difficulty: "Easy",
+    cuisine: "International",
+    course: "Main",
+    tags: ["sandwich", "tuna", "lunch"],
+    keywords: [],
+    featured: false,
+    rating: 4.7,
+    date_published: "2025-06-16"
+  },
+  {
+    id: "43",
+    title: "Mnazlit el Khodra (Vegetable Stew)",
+    slug: "mnazlit-el-khodra",
+    short_description: "Cozy Lebanese vegetable stew: onion, eggplant, zucchini, peppers, chickpeas, tomato.",
+    image: `${BASE_URL}images/recipes/mnazlit_el_khodra.jpg`,
+    prepTime: 15,
+    servings: "4–6",
+    difficulty: "Easy",
+    cuisine: "Lebanese",
+    course: "Main",
+    tags: ["stew", "eggplant", "zucchini", "chickpeas", "vegan"],
+    keywords: [],
+    featured: false,
+    rating: 4.8,
+    date_published: "2025-06-11"
+  },
+  {
+    id: "44",
+    title: "Mrabba el Jozz (Green Walnut Preserve)",
+    slug: "mrabba-el-jozz",
+    short_description: "Traditional green walnut jam—aromatic, glossy, and celebratory.",
+    image: `${BASE_URL}images/recipes/mrabba_el_jozz.jpg`,
+    prepTime: 60,
+    servings: "10–12 jars",
+    difficulty: "Advanced",
+    cuisine: "Levantine",
+    course: "Dessert",
+    tags: ["preserve", "walnut", "syrup", "dessert"],
+    keywords: ["مربى الجوز"],
+    featured: false,
+    rating: 4.9,
+    date_published: "2025-06-06"
+  },
+  {
+    id: "45",
+    title: "Rocky Road Bars",
+    slug: "rocky-road-bars",
+    short_description: "No-bake chocolate bars with biscuits, marshmallows, pistachios, hazelnuts, and peanuts.",
+    image: `${BASE_URL}images/recipes/rocky_road_bars.jpg`,
+    prepTime: 15,
+    servings: "16 squares",
+    difficulty: "Easy",
+    cuisine: "International",
+    course: "Dessert",
+    tags: ["no-bake", "chocolate", "bars"],
+    keywords: [],
+    featured: false,
+    rating: 4.8,
+    date_published: "2025-05-27"
+  },
+  {
+    id: "46",
+    title: "Labneh Balls in Olive Oil",
+    slug: "labneh-balls-olive-oil",
+    short_description: "Rich, tangy labneh rolled into balls and preserved in extra virgin olive oil.",
+    image: `${BASE_URL}images/recipes/labneh_balls_olive_oil.jpg`,
+    prepTime: 30,
+    servings: "2–3 jars",
+    difficulty: "Medium",
+    cuisine: "Lebanese",
+    course: "Sauce",
+    tags: ["labneh", "preserve", "mezze"],
+    keywords: ["لبنة"],
+    featured: false,
+    rating: 5.0,
+    date_published: "2025-05-25"
+  },
+  {
+    id: "47",
+    title: "Mograbieh (Lebanese Couscous with Chicken & Lamb)",
+    slug: "mograbieh-lebanese-couscous",
+    short_description: "Pearl couscous with spiced broth, lamb shanks, chicken, pearl onions, and chickpeas.",
+    image: `${BASE_URL}images/recipes/mograbieh_lebanese_couscous.jpg`,
+    prepTime: 40,
+    servings: "6–8",
+    difficulty: "Medium",
+    cuisine: "Lebanese",
+    course: "Main",
+    tags: ["couscous", "chicken", "lamb", "stew"],
+    keywords: ["مغربية"],
+    featured: false,
+    rating: 4.9,
+    date_published: "2025-05-21"
+  },
+  {
+    id: "48",
+    title: "Homemade Labneh",
+    slug: "homemade-labneh",
+    short_description: "Strained yogurt turned into tangy, spreadable labneh.",
+    image: `${BASE_URL}images/recipes/homemade_labneh.jpg`,
+    prepTime: 10,
+    servings: "4 cups",
+    difficulty: "Easy",
+    cuisine: "Lebanese",
+    course: "Sauce",
+    tags: ["yogurt", "labneh", "homemade"],
+    keywords: [],
+    featured: false,
+    rating: 4.9,
+    date_published: "2025-05-19"
+  },
+  {
+    id: "49",
+    title: "Homemade Yogurt",
+    slug: "homemade-yogurt",
+    short_description: "Just milk and a spoon of yogurt—no preservatives, creamy and fresh.",
+    image: `${BASE_URL}images/recipes/homemade_yogurt.jpg`,
+    prepTime: 10,
+    servings: "1 kg",
+    difficulty: "Easy",
+    cuisine: "Lebanese",
+    course: "Sauce",
+    tags: ["yogurt", "homemade", "basic"],
+    keywords: [],
+    featured: false,
+    rating: 5.0,
+    date_published: "2025-05-15"
+  },
+  {
+    id: "50",
+    title: "Cauliflower Fatteh with Labban & Tahini",
+    slug: "cauliflower-fatteh-labban-tahini",
+    short_description: "Roasted cauliflower, chickpeas, and pine nuts layered with garlicky labban–tahini and pomegranate.",
+    image: `${BASE_URL}images/recipes/cauliflower_fatteh_labban_tahini.jpg`,
+    prepTime: 20,
+    servings: "4–6",
+    difficulty: "Easy",
+    cuisine: "Middle Eastern",
+    course: "Main",
+    tags: ["fatteh", "cauliflower", "tahini", "labban"],
+    keywords: ["فتة"],
+    featured: false,
+    rating: 4.8,
+    date_published: "2025-05-13"
   }
-  
+
+
 ];
 
 export async function fetchRecipesIndex(): Promise<RecipeIndexItem[]> {

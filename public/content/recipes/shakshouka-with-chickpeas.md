@@ -40,7 +40,7 @@ date_published: "2025-08-27"
 - Sliced avocado  
 - Fresh bread, for dipping
 
-## Method
+## Instructions
 
 1. Preheat the oven to 190°C.  
 2. In a large ovenproof pan, heat olive oil over medium heat. Add onion, cumin, paprika, and thyme; cook ~8 minutes until the onion is soft and fragrant.  

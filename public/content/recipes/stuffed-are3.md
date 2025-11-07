@@ -33,7 +33,7 @@ date_published: "2025-08-07"
 - 1 Tbsp dried mint  
 - 1 Tbsp verjuice (optional, for serving)
 
-## Method
+## Instructions
 
 1. Peel the courgettes and trim the ends. Using a vegetable corer, hollow carefully without piercing the bottoms.  
 2. Rinse and briefly soak the hollowed courgettes in lemony water to prevent browning.  

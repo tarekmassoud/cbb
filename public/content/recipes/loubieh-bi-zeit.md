@@ -29,7 +29,7 @@ date_published: "2025-08-04"
 - 2 Tbsp olive oil (plus more to finish)  
 - Sea salt flakes
 
-## Method
+## Instructions
 
 1. Wash and trim tough ends from beans; halve if large.  
 2. Peel and dice tomatoes. Peel and slice onions.  

@@ -27,7 +27,7 @@ date_published: "2025-08-22"
 - 300 g chocolate, melted (bain-marie)  
 - 1 Tbsp coconut oil (melted with the chocolate)
 
-## Method
+## Instructions
 
 1. Peel bananas, split lengthwise, and spread peanut butter inside; reassemble and insert popsicle sticks.  
 2. Freeze until firm.  

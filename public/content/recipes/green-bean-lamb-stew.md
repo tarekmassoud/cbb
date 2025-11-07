@@ -35,7 +35,7 @@ date_published: "2025-09-04"
 - Additional salt and pepper to taste
 - 1 cup of water (extra for simmering)
 
-## Method
+## Instructions
 
 1. In a large pot, heat olive oil and sauté the diced onion until slightly golden.
 2. Add the lamb and cook until browned.

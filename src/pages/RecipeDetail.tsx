@@ -255,9 +255,12 @@ const RecipeDetail = () => {
                               <span className="font-semibold text-primary mr-2">
                                 {idx + 1}.
                               </span>
-                              <span className={`${checkedSteps.has(globalIdx) ? 'line-through text-muted-foreground' : ''}`}>
-                                {step}
-                              </span>
+                             <span 
+                                className={`${checkedSteps.has(globalIdx) ? 'line-through text-muted-foreground' : ''}`}
+                                dangerouslySetInnerHTML={{ 
+                                  __html: step.replace(/\*\*(.+?)\*\*/g, '<strong>$1</strong>') 
+                                }}
+                              />
                             </div>
                           </div>
                         </li>

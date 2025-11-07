@@ -71,7 +71,7 @@ function parseMarkdownSections(content: string) {
     
     if (!hasSubheadings) {
       return lines.filter(l => l.startsWith('-') || /^\d+\./.test(l))
-        .map(l => l.replace(/^[-\d.]\s*/, '').trim());
+        .map(l => l.replace(/^(-|\d+\.)\s*/, '').trim());
     }
     
     const sections: RecipeSection[] = [];
@@ -82,7 +82,7 @@ function parseMarkdownSections(content: string) {
         if (currentSection) sections.push(currentSection);
         currentSection = { title: line.replace(/^###\s*/, '').trim(), items: [] };
       } else if (currentSection && (line.startsWith('-') || /^\d+\./.test(line))) {
-        currentSection.items.push(line.replace(/^[-\d.]\s*/, '').trim());
+        currentSection.items.push(line.replace(/^(-|\d+\.)\s*/, '').trim());
       }
     }
     if (currentSection) sections.push(currentSection);

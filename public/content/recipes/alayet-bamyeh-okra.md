@@ -34,8 +34,8 @@ date_published: "2025-08-19"
 
 ## Instructions
 
-**Roast the cherry tomatoes:** Heat oven to high. Arrange tomatoes on a tray, drizzle with olive oil, season with salt and pepper, and add two chilies (optional). Roast 15–20 minutes until they soften and burst. Set aside.  
-- **Cook the okra:** In a large skillet, heat olive oil over medium (not smoking). Add green chilies, sliced onions, and garlic; stir-fry until onions are translucent without browning.  
+1. **Roast the cherry tomatoes:** Heat oven to high. Arrange tomatoes on a tray, drizzle with olive oil, season with salt and pepper, and add two chilies (optional). Roast 15–20 minutes until they soften and burst. Set aside.  
+2. **Cook the okra:** In a large skillet, heat olive oil over medium (not smoking). Add green chilies, sliced onions, and garlic; stir-fry until onions are translucent without browning.  
 3. Add okra, season with salt and pepper, and cook, tossing occasionally, until tender. If too dry, add 1/4 cup water to help it cook through.  
 4. Stir in chopped coriander, followed by the roasted tomatoes. Toss gently.  
 5. Remove from heat, drizzle with pomegranate molasses, and serve with warm bread and lemon wedges.

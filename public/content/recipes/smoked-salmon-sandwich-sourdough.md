@@ -32,7 +32,7 @@ date_published: "2025-09-21"
 - Red onion
 - Salt and pepper
 
-## Method
+## Instructions
 
 1. Mash the avocado and mix with a squeeze of lemon juice, salt, and pepper.
 2. Mix the cottage cheese with the dill.

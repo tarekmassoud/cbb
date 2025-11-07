@@ -37,7 +37,7 @@ date_published: "2025-08-15"
 - 1 cup sugar  
 - 1 vanilla bean, split and seeds scraped
 
-## Method
+## Instructions
 
 1. Preheat oven to 160°C (325°F). Line a 24 cm round springform tin with baking paper.  
 2. Whisk eggs, sugar, yogurt, oil, and vanilla.  

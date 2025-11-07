@@ -1,7 +1,7 @@
 ---
 id: "19"
 title: "Mini Labneh & Makdouss Cups"
-slug: "mini-labneh-makdouss-cups"
+slug: "mini-labneh-and-makdous-cups"
 short_description: "Bite-sized cups with creamy labneh, tangy makdouss, and fresh mint."
 description: "Perfect for a get-together with friends over drinks. These bite-sized cups combine creamy labneh, tangy makdouss, and fresh mint for a flavorful Mediterranean snack."
 image: "/images/recipes/mini_labneh_makdouss_cups.jpg"

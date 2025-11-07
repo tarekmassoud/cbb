@@ -328,7 +328,7 @@ const recipesData: RecipeIndexItem[] = [
   {
   id: "19",
   title: "Mini Labneh & Makdouss Cups",
-  slug: "mini-labneh-makdouss-cups",
+  slug: "mini-labneh-and-makdouss-cups",
   short_description: "Bite-sized cups with creamy labneh, tangy makdouss, and fresh mint.",
   image: `${BASE_URL}images/recipes/mini_labneh_makdouss_cups.jpg`,
   prepTime: 15,

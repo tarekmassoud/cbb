@@ -4,7 +4,7 @@ title: "No-Bake Date Peanut Bars"
 slug: "no-bake-date-peanut-bars"
 short_description: "Chewy date–peanut butter layer with puffed rice and peanuts, topped with milk chocolate."
 description: "Gather the ingredients, bring your kids into the kitchen, and have fun making these healthy snacks together. They’ll love packing a couple for school and showing them off to their friends."
-image: "${BASE_URL}images/recipes/no_bake_date_peanut_bars.jpg"
+image: "images/recipes/no_bake_date_peanut_bars.jpg"
 prepTime: 20
 cookTime: 0
 totalTime: 20

@@ -1316,7 +1316,7 @@ const recipesData: RecipeIndexItem[] = [
     title: "Khebzit Souraya (Greek Tsoureki)",
     slug: "khebzit-souraya-greek-tsoureki",
     short_description: "Soft, fragrant braided Easter bread flavored with mahlepi, mastic, and orange.",
-    image: `${BASE_URL}images/recipes/khezbit_souraya_tsoureki.jpg`,
+    image: `${BASE_URL}images/recipes/khebzit_souraya_tsoureki.jpg`,
     prepTime: 30,
     servings: "1 large loaf",
     difficulty: "Medium",

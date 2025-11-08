@@ -4,7 +4,7 @@ title: "Chicken Fennel Lettuce Cups"
 slug: "chicken-fennel-lettuce-cups"
 short_description: "Zesty chicken salad with capers and olives spooned into crisp lettuce leaves."
 description: "My son requested one of his favorite appetizers: chicken fennel cups. So simple and delicious—I’m planning to prepare it more often."
-image: `${BASE_URL}images/recipes/chicken_fennel_lettuce_cups.jpg`
+image: "images/recipes/chicken_fennel_lettuce_cups.jpg"
 prepTime: 20
 cookTime: 0
 totalTime: 20

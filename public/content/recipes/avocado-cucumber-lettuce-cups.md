@@ -4,7 +4,7 @@ title: "Avocado Cucumber Lettuce Cups"
 slug: "avocado-cucumber-lettuce-cups"
 short_description: "Light, fresh cups of Chinese cabbage with a crunchy avocado–cucumber mix."
 description: "A quick, family-favorite appetizer: Chinese cabbage leaves filled with diced cucumber and avocado tossed in a sesame-soy dressing."
-image: `${BASE_URL}images/recipes/avocado_cucumber_lettuce_cups.jpg`
+image: "images/recipes/avocado_cucumber_lettuce_cups.jpg"
 prepTime: 15
 cookTime: 0
 totalTime: 15

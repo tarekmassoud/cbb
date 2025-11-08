@@ -4,7 +4,7 @@ title: "Broccoli–Pumpkin Goat-Cheese Tart (Almond Crust)"
 slug: "broccoli-pumpkin-goat-cheese-tart-almond-crust"
 short_description: "Carb-light tart with a broccoli-Parmesan–almond crust, roasted pumpkin, and goat cheese."
 description: "During an anti-inflammatory regimen, I experimented with several carb-free dough recipes. This broccoli–Parmesan dough was fantastic, so I had to share it."
-image: "${BASE_URL}images/recipes/broccoli_pumpkin_goat_cheese_tart.jpg"
+image: "images/recipes/broccoli_pumpkin_goat_cheese_tart.jpg"
 prepTime: 25
 cookTime: 30
 totalTime: 55

@@ -4,7 +4,7 @@ title: "Dauphinoise with Brie, Caramelized Onions & Gruyère"
 slug: "dauphinoise-brie-caramelized-onions-gruyere"
 short_description: "Silky potato gratin layered with caramelized onions, thyme, Gruyère, and a gooey brie top."
 description: "One of my go-to dishes for impressing guests. Engaging all the senses, it makes a perfect side alongside meat or chicken roast."
-image: `${BASE_URL}images/recipes/dauphinoise_brie_caramelized_onions_gruyere.jpg`
+image: "images/recipes/dauphinoise_brie_caramelized_onions_gruyere.jpg"
 prepTime: 30
 cookTime: 75
 totalTime: 105

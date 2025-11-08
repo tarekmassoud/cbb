@@ -4,7 +4,7 @@ title: "Roasted Cauliflower, Chickpea & Spinach Salad"
 slug: "roasted-cauliflower-chickpea-spinach-salad"
 short_description: "Bold flavors and crunchy textures—seeds, spices, dates, and greens make this a satisfying main or side."
 description: "I came across this salad on Instagram—cauliflower, spinach, mint leaves, dates, seeds, and spices. The mix of flavors was incredible and I had to share it."
-image: "${BASE_URL}images/recipes/roasted_cauliflower_chickpea_spinach_salad.jpg"
+image: "images/recipes/roasted_cauliflower_chickpea_spinach_salad.jpg"
 prepTime: 20
 cookTime: 25
 totalTime: 45

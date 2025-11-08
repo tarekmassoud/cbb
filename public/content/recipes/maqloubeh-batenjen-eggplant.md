@@ -4,7 +4,7 @@ title: "Maqloubeh Batenjen (Eggplant Maqloubeh)"
 slug: "maqloubeh-batenjen-eggplant"
 short_description: "A show-stopping upside-down rice with eggplant, cauliflower, carrots, and chicken."
 description: "Hands down one of the most amazing Mediterranean dishes I’ve ever made. It’s the look, the taste, everything."
-image: "${BASE_URL}images/recipes/maqloubeh_batenjen.jpg"
+image: "images/recipes/maqloubeh_batenjen.jpg"
 prepTime: 45
 cookTime: 75
 totalTime: 120

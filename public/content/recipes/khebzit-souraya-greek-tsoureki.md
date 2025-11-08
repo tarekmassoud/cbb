@@ -4,7 +4,7 @@ title: "Khebzit Souraya (Greek Tsoureki)"
 slug: "khebzit-souraya-greek-tsoureki"
 short_description: "Soft, fragrant braided Easter bread flavored with mahlepi, mastic, and orange."
 description: "When I was growing up, we had a kind neighbor who brought this bread every Easter. I searched for a recipe that tastes just like it—soft, fragrant, and full of warmth. This is it."
-image: "images/recipes/khezbit_souraya_tsoureki.jpg"
+image: "images/recipes/khebzit_souraya_tsoureki.jpg"
 prepTime: 30
 cookTime: 30
 totalTime: 180

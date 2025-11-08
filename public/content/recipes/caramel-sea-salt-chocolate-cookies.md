@@ -4,7 +4,7 @@ title: "Caramel Sea Salt Chocolate Cookies"
 slug: "caramel-sea-salt-chocolate-cookies"
 short_description: "Chunky, chocolatey cookies dotted with caramel sea salt pieces—crispy edges, soft centers."
 description: "Those caramel sea salt cookies are chewy, chocolaty, and full of flavor. You’ll be shocked by how delicious they are."
-image: "${BASE_URL}images/recipes/caramel_sea_salt_chocolate_cookies.jpg"
+image: "images/recipes/caramel_sea_salt_chocolate_cookies.jpg"
 prepTime: 20
 cookTime: 12
 totalTime: 32

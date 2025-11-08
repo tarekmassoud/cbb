@@ -1,10 +1,10 @@
 ---
 id: "99"
-title: "Ultimate Chocolate Chunk Cookies"
-slug: "ultimate-chocolate-chunk-cookies"
+title: "Chocolate Chunk Cookies"
+slug: "chocolate-chunk-cookies"
 short_description: "Big bakery-style cookies packed with dark and strawberry chocolate chips."
 description: "Quite possibly the most delicious chocolate chunk cookies we’ve baked: soft centers, golden edges, and pools of chocolate."
-image: `${BASE_URL}images/recipes/ultimate_chocolate_chunk_cookies.jpg`
+image: "images/recipes/ultimate_chocolate_chunk_cookies.jpg"
 prepTime: 15
 cookTime: 15
 totalTime: 60

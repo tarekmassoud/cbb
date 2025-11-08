@@ -4,7 +4,7 @@ title: "Broccoli Gratin with Ricotta"
 slug: "broccoli-gratin-with-ricotta"
 short_description: "Rescue yellowing broccoli with this easy béchamel gratin—cheddar inside, ricotta on top."
 description: "Don’t throw away tired broccoli. Blanch, fold into a simple white sauce with cheddar, top with ricotta, and bake until bubbling and caramelized."
-image: "${BASE_URL}images/recipes/broccoli_gratin_ricotta.jpg"
+image: "images/recipes/broccoli_gratin_ricotta.jpg"
 prepTime: 15
 cookTime: 30
 totalTime: 45

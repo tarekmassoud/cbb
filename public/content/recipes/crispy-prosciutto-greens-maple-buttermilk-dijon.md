@@ -4,7 +4,7 @@ title: "Crispy Prosciutto & Greens with Maple–Buttermilk Dijon"
 slug: "crispy-prosciutto-greens-maple-buttermilk-dijon"
 short_description: "Roasted jambon de Parme shards over fresh garden greens with a tangy maple–buttermilk dressing."
 description: "A simple three-ingredient salad became my go-to favorite: layers of glazed prosciutto paired with garden greens—ideal for special occasions."
-image: `${BASE_URL}images/recipes/crispy_prosciutto_greens_salad.jpg`
+image: "images/recipes/crispy_prosciutto_greens_salad.jpg"
 prepTime: 15
 cookTime: 15
 totalTime: 30

@@ -4,7 +4,7 @@ title: "Chicken Mushroom Noodle Bake"
 slug: "chicken-mushroom-noodle-bake"
 short_description: "Creamy, cozy nouille bake with chicken, sautéed mushrooms, and a Parm-white sauce."
 description: "Whenever you’re craving creamy comfort, this chicken mushroom nouille recipe delivers — golden, bubbling, and irresistible."
-image: `${BASE_URL}images/recipes/chicken_mushroom_noodle_bake.jpg`
+image: "images/recipes/chicken_mushroom_noodle_bake.jpg"
 prepTime: 25
 cookTime: 45
 totalTime: 70

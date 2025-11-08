@@ -4,7 +4,7 @@ title: "Poached Pear Ricotta Almond Cake"
 slug: "poached-pear-ricotta-almond-cake"
 short_description: "Tender almond–ricotta cake studded with cinnamon-poached pears; snowy icing sugar finish."
 description: "It’s Christmas—time to spread a little kindness and warmth. This cake feels special yet comforting."
-image: `${BASE_URL}images/recipes/poached_pear_ricotta_almond_cake.jpg`
+image: "images/recipes/poached_pear_ricotta_almond_cake.jpg"
 prepTime: 25
 cookTime: 60
 totalTime: 85

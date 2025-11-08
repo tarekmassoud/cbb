@@ -4,7 +4,7 @@ title: "Kebbeh bel Sayniyeh (Tray Kebbeh)"
 slug: "kebbeh-bel-sayniyeh-tray-kebbeh"
 short_description: "Classic baked kebbeh: bulgur–meat shell layered with spiced lamb and pine nuts."
 description: "With just a few ingredients and your hands, you can whip it up in no time. One of my forever favorites, taught by Mom and perfected over time."
-image: `${BASE_URL}images/recipes/kebbeh_bel_sayniyeh.jpg`
+image: "images/recipes/kebbeh_bel_sayniyeh.jpg"
 prepTime: 40
 cookTime: 40
 totalTime: 80

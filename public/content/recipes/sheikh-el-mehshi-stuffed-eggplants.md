@@ -4,7 +4,7 @@ title: "Sheikh el Mehshi (Stuffed Baby Eggplants)"
 slug: "sheikh-el-mehshi-stuffed-eggplants"
 short_description: "Baby eggplants stuffed with spiced meat and pine nuts, nestled on tomato sauce—garnished with pomegranate."
 description: "My kids aren’t fans of the traditional version with rice, but they loved this meat-stuffed take—now they eat five aubergines instead of just two."
-image: `${BASE_URL}images/recipes/sheikh_el_mehshi_stuffed_eggplants.jpg`
+image: "images/recipes/sheikh_el_mehshi_stuffed_eggplants.jpg"
 prepTime: 30
 cookTime: 40
 totalTime: 70

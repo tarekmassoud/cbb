@@ -4,7 +4,7 @@ title: "Christmas Trifle Loaf (Mascarpone & Berries)"
 slug: "christmas-trifle-loaf-mascarpone-berries"
 short_description: "A simpler, spectacular trifle built in a loaf tin—sponge fingers, mascarpone cream, and berries."
 description: "Have you thought about making a bûche de Noël at home, but it feels complicated? This trifle loaf is a game-changer—just as spectacular, much easier to make."
-image: `${BASE_URL}images/recipes/christmas_trifle_loaf.jpg`
+image: "images/recipes/christmas_trifle_loaf.jpg"
 prepTime: 25
 cookTime: 0
 totalTime: 25

@@ -4,7 +4,7 @@ title: "Popcorn Honeycomb on Caramel Popcorn"
 slug: "popcorn-honeycomb-on-caramel-popcorn"
 short_description: "Ridiculously fun honeycomb poured over caramel popcorn — smash into shards and share."
 description: "Dangerously moreish and 90% sugar-good: bubbly honeycomb made with sugar, syrup, and baking soda, set over caramel popcorn, then cracked into bite-size pieces."
-image: `${BASE_URL}images/recipes/popcorn_honeycomb_caramel_popcorn.jpg`
+image: "images/recipes/popcorn_honeycomb_caramel_popcorn.jpg"
 prepTime: 15
 cookTime: 20
 totalTime: 50

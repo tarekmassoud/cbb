@@ -4,7 +4,7 @@ title: "Vanilla Bean Panna Cotta (Cup Version)"
 slug: "vanilla-bean-panna-cotta"
 short_description: "Snow-white panna cotta infused with real vanilla seeds and topped with fresh raspberries."
 description: "The quality of the vanilla bean makes all the difference, which is why I always stock great vanilla pods and extract at home."
-image: `${BASE_URL}images/recipes/vanilla_bean_panna_cotta.jpg`
+image: "images/recipes/vanilla_bean_panna_cotta.jpg"
 prepTime: 15
 cookTime: 10
 totalTime: 25

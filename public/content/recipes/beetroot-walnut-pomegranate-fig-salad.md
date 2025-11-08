@@ -4,7 +4,7 @@ title: "Beetroot, Walnut, Pomegranate & Fig Salad"
 slug: "beetroot-walnut-pomegranate-fig-salad"
 short_description: "Vibrant roasted-beet salad with candied walnuts, figs, sorrel, and a tangy goat-cheese dressing."
 description: "A festive red-hued salad: thinly sliced beetroots with olive oil and white balsamic, caramelized walnuts, fresh figs, baby sorrel, and pomegranate, finished with a creamy goat-cheese dressing."
-image: `${BASE_URL}images/recipes/beetroot_walnut_pomegranate_fig_salad.jpg`
+image: "images/recipes/beetroot_walnut_pomegranate_fig_salad.jpg"
 prepTime: 20
 cookTime: 10
 totalTime: 30

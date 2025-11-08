@@ -4,7 +4,7 @@ title: "Veg-Peel Crisps with Curry Salt"
 slug: "veg-peel-crisps-with-curry-salt"
 short_description: "Crispy baked peels (carrot, parsnip, potato, radish) tossed in an easy curry salt."
 description: "A healthy snack from Olive magazine. One downside is they don’t store well—enjoy them right away for the best crunch."
-image: "${BASE_URL}images/recipes/veg_peel_crisps_curry_salt.jpg"
+image: "images/recipes/veg_peel_crisps_curry_salt.jpg"
 prepTime: 15
 cookTime: 25
 totalTime: 40

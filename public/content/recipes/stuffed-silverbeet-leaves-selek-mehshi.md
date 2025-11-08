@@ -4,7 +4,7 @@ title: "Stuffed Silverbeet Leaves (Selek Mehshi)"
 slug: "stuffed-silverbeet-leaves-selek-mehshi"
 short_description: "Tender chard leaves filled with rice, chickpeas, tomato, parsley, and mint—finished with lemon."
 description: "Lebanese food is an act of love. Tomatoes, parsley, chickpeas, and rice get hugged and kissed by silverbeet leaves to create a hearty meal filled with love."
-image: "${BASE_URL}images/recipes/stuffed_silverbeet_leaves.jpg"
+image: "images/recipes/stuffed_silverbeet_leaves.jpg"
 prepTime: 35
 cookTime: 30
 totalTime: 65

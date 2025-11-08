@@ -4,7 +4,7 @@ title: "Baba Ghanouj (Smoky Eggplant Dip)"
 slug: "baba-ghanouj-smoky-eggplant-dip"
 short_description: "Charred aubergines mashed by hand with tahini, lemon, garlic, and olive oil—garnished with pomegranate."
 description: "It’s baba ghanouj of course—made with smoky, grilled aubergines. Don’t throw it all into a processor; those beautiful aubergines deserve to be hand-mixed and crushed with care."
-image: `${BASE_URL}images/recipes/baba_ghanouj_smoky_eggplant_dip.jpg`
+image: "images/recipes/baba_ghanouj_smoky_eggplant_dip.jpg"
 prepTime: 15
 cookTime: 30
 totalTime: 45

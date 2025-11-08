@@ -4,7 +4,7 @@ title: "Beef & Broccoli Stir-Fry"
 slug: "beef-and-broccoli-stir-fry"
 short_description: "Tender steak, crisp broccoli, and a glossy garlic–ginger sauce. Better than takeout."
 description: "I learned how to prepare Beef & Broccoli Stir-Fry during a time when Chinese restaurants in Lebanon were scarce. Do you like Chinese food like I do? Give this recipe a try—you’ll love it."
-image: `${BASE_URL}images/recipes/beef_broccoli_stir_fry.jpg`
+image: "images/recipes/beef_broccoli_stir_fry.jpg"
 prepTime: 20
 cookTime: 15
 totalTime: 35

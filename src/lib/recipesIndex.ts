@@ -1313,7 +1313,7 @@ const recipesData: RecipeIndexItem[] = [
   },
   {
     id: "77",
-    title: "Khezbit Souraya (Greek Tsoureki)",
+    title: "Khebzit Souraya (Greek Tsoureki)",
     slug: "khebzit-souraya-greek-tsoureki",
     short_description: "Soft, fragrant braided Easter bread flavored with mahlepi, mastic, and orange.",
     image: `${BASE_URL}images/recipes/khezbit_souraya_tsoureki.jpg`,
@@ -1687,8 +1687,8 @@ const recipesData: RecipeIndexItem[] = [
   },
   {
     id: "99",
-    title: "Ultimate Chocolate Chunk Cookies",
-    slug: "ultimate-chocolate-chunk-cookies",
+    title: "Chocolate Chunk Cookies",
+    slug: "chocolate-chunk-cookies",
     short_description: "Big bakery-style cookies packed with dark and strawberry chocolate chips.",
     image: `${BASE_URL}images/recipes/ultimate_chocolate_chunk_cookies.jpg`,
     prepTime: 15,

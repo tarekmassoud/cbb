@@ -4,7 +4,7 @@ title: "Triple-Layer Chocolate Coconut Bars"
 slug: "triple-layer-chocolate-coconut-bars"
 short_description: "Date-walnut cocoa base, creamy coconut middle, and a glossy chocolate top."
 description: "A healthy snack for you and your kids. Chill for 3–4 hours, slice, and enjoy."
-image: "${BASE_URL}images/recipes/triple_layer_chocolate_coconut_bars.jpg"
+image: "images/recipes/triple_layer_chocolate_coconut_bars.jpg"
 prepTime: 25
 cookTime: 0
 totalTime: 25

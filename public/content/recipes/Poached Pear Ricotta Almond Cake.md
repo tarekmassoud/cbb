@@ -39,7 +39,7 @@ date_published: "2024-12-17"
 - 2 tsp vanilla extract  
 - Icing sugar, to finish
 
-## Method
+## Instructions
 1. Heat oven to 160°C. Poach pears with sugar, cinnamon, and water 10 minutes until just tender. Cool slightly.  
 2. Whisk eggs and sugar until pale. Fold in ricotta, almond meal, flour, baking powder, cinnamon, and vanilla.  
 3. Pour into a 24 cm springform lined with baking paper. Arrange pears over the batter; press slightly in.  

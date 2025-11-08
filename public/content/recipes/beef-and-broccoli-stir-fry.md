@@ -49,7 +49,7 @@ date_published: "2025-01-13"
 - 1 tsp rice vinegar  
 - Cooked white rice, for serving
 
-## Method
+## Instructions
 1. In a bowl, combine steak with oyster sauce, soy, cornstarch, salt, pepper, and rice wine. Mix well; refrigerate 20–30 minutes.  
 2. Whisk sauce ingredients: water, cornstarch, soy, oyster sauce, rice vinegar, sugar, pepper. Set aside.  
 3. Bring a pot of salted water to a boil. Add broccoli; blanch 1 minute. Drain and set aside.  

@@ -1,6 +1,6 @@
 ---
 id: "77"
-title: "Khezbit Souraya (Greek Tsoureki)"
+title: "Khebzit Souraya (Greek Tsoureki)"
 slug: "khezbit-souraya-greek-tsoureki"
 short_description: "Soft, fragrant braided Easter bread flavored with mahlepi, mastic, and orange."
 description: "When I was growing up, we had a kind neighbor who brought this bread every Easter. I searched for a recipe that tastes just like it—soft, fragrant, and full of warmth. This is it."
@@ -34,7 +34,7 @@ date_published: "2025-02-12"
 - 1 egg, beaten  
 - 1 tbsp water or milk
 
-## Method
+## Instructions
 1. In a small bowl, dissolve yeast in warm milk with 1 tsp sugar. Let sit 10 minutes until frothy.  
 2. In a large bowl, whisk together flour, sugar, mahlepi, mastika, orange zest, and salt. Make a well; add yeast mixture, eggs, and melted butter. Mix until a soft, slightly sticky dough forms.  
 3. Knead about 10 minutes until smooth and elastic. Place in a greased bowl, cover, and let rise in a warm place 1–2 hours (or until doubled).  

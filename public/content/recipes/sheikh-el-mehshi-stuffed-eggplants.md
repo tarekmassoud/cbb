@@ -37,7 +37,7 @@ date_published: "2024-12-19"
 - Olive oil for frying or vegetable oil for deep frying  
 - Tomatoes + tomato paste + water (for simmering sauce)
 
-## Method
+## Instructions
 1. **Prepare the mince:** Sauté onion in olive oil; add mince and salt; cook 10–15 minutes. Toast pine nuts; fold into mince.  
 2. **Make the sauce:** Simmer chopped tomatoes, tomato paste, and water 20 minutes; blend until smooth; season with salt.  
 3. **Prepare eggplants:** Slit eggplants lengthwise 3/4 through; pat dry. Fry 10–15 minutes until tender; drain.  

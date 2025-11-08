@@ -27,7 +27,7 @@ date_published: "2025-01-02"
 - 1 cup icing sugar  
 - 1 vanilla bean, split and scraped
 
-## Method
+## Instructions
 1. Sprinkle gelatin over water; let sit 5 minutes.  
 2. In a saucepan, warm cream, icing sugar, and vanilla pod (scrape out seeds).  
 3. Add gelatin mixture; simmer on low 4 minutes until fully dissolved. Remove from heat; cool to room temperature.  

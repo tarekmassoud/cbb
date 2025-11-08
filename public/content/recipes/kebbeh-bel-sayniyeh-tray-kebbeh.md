@@ -36,7 +36,7 @@ date_published: "2024-12-21"
 - 1 tsp salt  
 - 1/2 tsp pepper
 
-## Method
+## Instructions
 1. Process onion to a paste; mix with bulgur and half the meat in a processor until combined. Remove; add salt and pepper; knead like a dough.  
 2. For stuffing, sauté ground meat in a non-stick pan with a drizzle of oil; add pine nuts; cook 5–6 minutes. Set aside.  
 3. Heat oven to 200°C. Oil a tray.  

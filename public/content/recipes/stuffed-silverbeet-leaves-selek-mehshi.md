@@ -35,7 +35,7 @@ date_published: "2025-01-26"
 - 2 to 3 tbsp sumac  
 - 3/4 cup olive oil
 
-## Method
+## Instructions
 1. Combine filling ingredients in a large bowl; mix well.  
 2. Wash the silverbeet leaves; drop into a pot of hot water for a few seconds; drain and remove the stalks.  
 3. Place a leaf on a board; put 1 tbsp filling in the center, fold sides, and roll tightly.  

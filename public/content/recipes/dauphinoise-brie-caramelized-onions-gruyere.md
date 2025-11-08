@@ -32,7 +32,7 @@ date_published: "2025-01-10"
 - 2 cups Gruyère cheese, shredded  
 - 2–3 cold brie rounds, cut in half horizontally
 
-## Method
+## Instructions
 1. Peel and thinly slice onions (mandoline helps). Melt butter over medium heat; add onions, salt, and pepper. Cook 10 minutes; reduce heat and continue to caramelize 40–50 minutes until deeply golden. Add garlic; sauté 2–3 minutes. Remove from heat.  
 2. Boil sliced potatoes in salted water 8–10 minutes; drain.  
 3. Heat oven to 180°C.  

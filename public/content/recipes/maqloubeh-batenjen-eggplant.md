@@ -36,7 +36,7 @@ date_published: "2025-02-05"
 - 1/3 cup roasted pine nuts  
 - Olive oil
 
-## Method
+## Instructions
 1. Cut eggplants into thick slices; sprinkle with salt and set aside 10 minutes. Pat dry.  
 2. Season lamb or chicken with salt and spices. Roast at 210°C for about 10 minutes; set aside.  
 3. Toss cauliflower florets with olive oil, season, and roast 10–15 minutes until tender.  

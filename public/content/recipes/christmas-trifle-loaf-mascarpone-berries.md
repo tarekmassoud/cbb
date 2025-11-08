@@ -30,7 +30,7 @@ date_published: "2024-12-23"
 - 1 cup (250 ml) extra cream, whipped  
 - 1 tbsp icing sugar (for topping)
 
-## Method
+## Instructions
 1. In a bowl, whisk mascarpone, cream, and brown sugar until soft peaks.  
 2. Line a 7×32 cm loaf tin with baking paper.  
 3. Dip 6 sponge fingers in wine; arrange in base. Layer half the strawberries and half the mascarpone. Repeat with another 6 biscuits, berries, and remaining mascarpone.  

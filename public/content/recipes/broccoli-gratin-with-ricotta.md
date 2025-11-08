@@ -30,7 +30,7 @@ date_published: "2025-02-08"
 - 100 g ricotta cheese  
 - Sea salt and pepper
 
-## Method
+## Instructions
 1. Heat oven to 200°C. Blanch broccoli florets in lightly salted boiling water for 2 minutes; drain thoroughly.  
 2. In a pan, melt butter; add flour and cook 2–3 minutes until golden and fragrant. Gradually whisk in milk until a smooth sauce forms.  
 3. Stir in nutmeg and cheddar; season.  

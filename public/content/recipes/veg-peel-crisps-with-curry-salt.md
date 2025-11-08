@@ -32,7 +32,7 @@ date_published: "2025-01-29"
 - 1/8 tsp mild chili powder  
 - 1/4 tsp caster sugar
 
-## Method
+## Instructions
 1. Heat oven to 190°C (170°C fan). Mix curry-salt ingredients.  
 2. Tip veg peelings into a bowl; toss with olive oil and two-thirds of the curry salt.  
 3. Divide between two non-stick trays; bake 20–25 minutes, tossing halfway, until really crisp.  

@@ -37,7 +37,7 @@ date_published: "2025-02-02"
 - 3 tbsp apple cider vinegar  
 - Pinch of sea salt
 
-## Method
+## Instructions
 1. Heat oven to 200°C. Toss cauliflower florets with olive oil and sea salt on a baking tray; roast 20–25 minutes until golden. Add chickpeas for the last 5 minutes.  
 2. In a pan, toast pine, cumin, fennel, and pumpkin seeds for 2–3 minutes; stir occasionally.  
 3. Whisk olive oil, apple cider vinegar, and a pinch of sea salt.  

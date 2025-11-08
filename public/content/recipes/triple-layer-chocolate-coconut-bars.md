@@ -41,7 +41,7 @@ date_published: "2025-01-20"
 - 1 1/2 cups chocolate chips  
 - 2 tbsp coconut oil
 
-## Method
+## Instructions
 1. Blend base ingredients to a sticky crumble; press into a lined 20×20 cm pan.  
 2. Mix coconut layer; spread evenly over the base.  
 3. Melt chocolate with coconut oil; pour over the top and smooth.  

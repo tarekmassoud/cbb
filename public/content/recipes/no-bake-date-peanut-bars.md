@@ -28,7 +28,7 @@ date_published: "2025-02-18"
 - 1/4 cup (70 g) unsalted peanuts  
 - 1 bar milk chocolate (for topping)
 
-## Method
+## Instructions
 1. Line a 10×20 cm loaf tin with non-stick baking paper.  
 2. Place the dates, vanilla, and peanut butter in a food processor; process until the mixture comes together into a paste.  
 3. Transfer to a large bowl, add the puffed rice and peanuts; mix to combine.  

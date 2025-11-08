@@ -30,6 +30,6 @@ date_published: "2025-01-04"
 - 1/2 cup (40 g) pitted green olives, chopped  
 - Sucrine lettuce leaves, trimmed
 
-## Method
+## Instructions
 1. In a bowl, mix lemon juice, mayonnaise, and garlic. Add chicken, fennel, olives, and capers; toss to coat evenly.  
 2. Spoon into lettuce cups and enjoy the crunch.

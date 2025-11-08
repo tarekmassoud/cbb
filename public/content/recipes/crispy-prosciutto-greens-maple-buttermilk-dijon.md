@@ -30,7 +30,7 @@ date_published: "2024-12-28"
 - Mixed green salad leaves  
 - Parmesan, for garnish
 
-## Method
+## Instructions
 1. Heat oven to 160°C. Line two trays with baking paper; arrange prosciutto, brush with maple syrup, and roast 15 minutes until crisp. Cool on a rack.  
 2. Whisk buttermilk, Dijon, vinegar, salt, and pepper.  
 3. Arrange leaves on a platter; top with prosciutto. Drizzle with half the dressing. Garnish with freshly grated Parmesan and serve the rest on the side.

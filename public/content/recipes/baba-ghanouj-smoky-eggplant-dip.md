@@ -28,7 +28,7 @@ date_published: "2025-01-07"
 - 1/4 cup tahini  
 - Pomegranate seeds, za’atar, drizzle of olive oil (for serving)
 
-## Method
+## Instructions
 1. Chop and mash the warm grilled eggplants by hand.  
 2. Mix in lemon juice, garlic, salt, and tahini until creamy.  
 3. Spread on a plate; garnish with pomegranate, a sprinkle of za’atar, and a drizzle of olive oil. Serve.

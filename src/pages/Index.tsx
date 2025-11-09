@@ -77,7 +77,7 @@ const Index = () => {
 
           <div className="container mx-auto relative z-10 flex-1 flex items-center justify-center">
             <div className="max-w-3xl mx-auto text-center">
-              <h1 className="font-serif text-3xl md:text-6xl font-bold mb-6 text-foreground">
+              <h1 className="font-serif text-4xl md:text-6xl font-bold mb-6 text-foreground">
                 Search {recipes.length}+ Recipes
               </h1>
               <p className="text-base md:text-xl text-muted-foreground mb-8">
@@ -175,7 +175,7 @@ const Index = () => {
           <section className="py-16 px-6 bg-accent/20">
             <div className="container mx-auto">
               <div className="text-center mb-12">
-                <h2 className="font-serif text-2xl md:text-4xl font-bold mb-4 text-foreground">
+                <h2 className="font-serif text-3xl md:text-4xl font-bold mb-4 text-foreground">
                   Featured Recipes
                 </h2>
                 <p className="text-muted-foreground text-base md:text-lg">
@@ -212,7 +212,7 @@ const Index = () => {
                 <section key={cat.value} className="py-16 px-6">
                   <div className="container mx-auto">
                     <div className="flex justify-between items-center mb-8">
-                      <h2 className="font-serif text-xl md:text-3xl font-bold text-foreground">
+                      <h2 className="font-serif text-2xl md:text-3xl font-bold text-foreground">
                         {cat.name}
                       </h2>
                       <Link 

@@ -151,7 +151,7 @@ const Index = () => {
                   Found {filteredRecipes.length} recipe{filteredRecipes.length !== 1 ? 's' : ''}
                 </p>
                 {filteredRecipes.length > 0 ? (
-                  <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-6">
+                  <div className="grid grid-cols-1 gap-4">
                     {filteredRecipes.slice(0, 9).map(recipe => (
                       <RecipeCard key={recipe.id} recipe={recipe} />
                     ))}
@@ -167,7 +167,7 @@ const Index = () => {
             {/* Category Results */}
             {!searchTerm && activeFilter && (
               <div className="max-w-6xl mx-auto">
-                <div className="grid sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-5 gap-6">
+                <div className="grid grid-cols-1 gap-4">
                   {filteredRecipes.map(recipe => (
                     <RecipeCard key={recipe.id} recipe={recipe} />
                   ))}

@@ -153,7 +153,7 @@ const Index = () => {
                 {filteredRecipes.length > 0 ? (
                   <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-5 gap-6">
                     {filteredRecipes.slice(0, 9).map(recipe => (
-                      <RecipeCard key={recipe.id} recipe={recipe} />
+                      <RecipeCard key={recipe.id} recipe={recipe} showMobileLayout={false} />
                     ))}
                   </div>
                 ) : (
@@ -169,7 +169,7 @@ const Index = () => {
               <div className="max-w-6xl mx-auto px-4 md:px-0">
                 <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-5 gap-6">
                   {filteredRecipes.map(recipe => (
-                    <RecipeCard key={recipe.id} recipe={recipe} />
+                    <RecipeCard key={recipe.id} recipe={recipe} showMobileLayout={false} />
                   ))}
                 </div>
               </div>
@@ -196,7 +196,7 @@ const Index = () => {
                   <CarouselContent>
                     {featuredRecipes.map(recipe => (
                       <CarouselItem key={recipe.id}>
-                        <RecipeCard recipe={recipe} />
+                        <RecipeCard recipe={recipe} showMobileLayout={false} />
                       </CarouselItem>
                     ))}
                   </CarouselContent>
@@ -208,7 +208,7 @@ const Index = () => {
               {/* Desktop Grid */}
               <div className="hidden md:grid sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-5 gap-6 mb-8">
                 {featuredRecipes.map(recipe => (
-                  <RecipeCard key={recipe.id} recipe={recipe} />
+                  <RecipeCard key={recipe.id} recipe={recipe} showMobileLayout={false} />
                 ))}
               </div>
 
@@ -252,7 +252,7 @@ const Index = () => {
                         <CarouselContent>
                           {catRecipes.map(recipe => (
                             <CarouselItem key={recipe.id}>
-                              <RecipeCard recipe={recipe} />
+                              <RecipeCard recipe={recipe} showMobileLayout={false} />
                             </CarouselItem>
                           ))}
                         </CarouselContent>
@@ -264,7 +264,7 @@ const Index = () => {
                     {/* Desktop Grid */}
                     <div className="hidden md:grid sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-5 gap-6">
                       {catRecipes.map(recipe => (
-                        <RecipeCard key={recipe.id} recipe={recipe} />
+                        <RecipeCard key={recipe.id} recipe={recipe} showMobileLayout={false} />
                       ))}
                     </div>
                   </div>

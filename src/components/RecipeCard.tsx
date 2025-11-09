@@ -6,13 +6,14 @@ import { Badge } from "@/components/ui/badge";
 
 interface RecipeCardProps {
   recipe: RecipeIndexItem;
+  showMobileLayout?: boolean;
 }
 
-export const RecipeCard = ({ recipe }: RecipeCardProps) => {
+export const RecipeCard = ({ recipe, showMobileLayout = true }: RecipeCardProps) => {
   return (
     <Link to={`/recipe/${recipe.slug}`} className="group">
       {/* Desktop Card Layout */}
-      <Card className="hidden md:block overflow-hidden border card-shadow hover:card-hover-shadow transition-smooth h-full">
+      <Card className={`${showMobileLayout ? 'hidden md:block' : 'block'} overflow-hidden border card-shadow hover:card-hover-shadow transition-smooth h-full`}>
         <div className="aspect-square overflow-hidden relative">
           <img
             src={recipe.image}
@@ -48,7 +49,8 @@ export const RecipeCard = ({ recipe }: RecipeCardProps) => {
       </Card>
 
       {/* Mobile Compact Layout */}
-      <Card className="md:hidden overflow-hidden border card-shadow hover:card-hover-shadow transition-smooth">
+      {showMobileLayout && (
+        <Card className="md:hidden overflow-hidden border card-shadow hover:card-hover-shadow transition-smooth">
         <div className="flex gap-3 p-3">
           <div className="w-16 h-16 flex-shrink-0 overflow-hidden rounded">
             <img
@@ -75,6 +77,7 @@ export const RecipeCard = ({ recipe }: RecipeCardProps) => {
           </div>
         </div>
       </Card>
+      )}
     </Link>
   );
 };

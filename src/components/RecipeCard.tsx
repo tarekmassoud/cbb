@@ -12,7 +12,7 @@ export const RecipeCard = ({ recipe }: RecipeCardProps) => {
   return (
     <Link to={`/recipe/${recipe.slug}`} className="group">
       {/* Desktop Card Layout */}
-      <Card className="hidden md:block overflow-hidden border-none card-shadow hover:card-hover-shadow transition-smooth h-full">
+      <Card className="hidden md:block overflow-hidden border card-shadow hover:card-hover-shadow transition-smooth h-full">
         <div className="aspect-square overflow-hidden relative">
           <img
             src={recipe.image}
@@ -48,7 +48,7 @@ export const RecipeCard = ({ recipe }: RecipeCardProps) => {
       </Card>
 
       {/* Mobile Compact Layout */}
-      <Card className="md:hidden overflow-hidden border-none card-shadow hover:card-hover-shadow transition-smooth">
+      <Card className="md:hidden overflow-hidden border card-shadow hover:card-hover-shadow transition-smooth">
         <div className="flex gap-4 p-4">
           <div className="w-20 h-20 flex-shrink-0 overflow-hidden rounded">
             <img

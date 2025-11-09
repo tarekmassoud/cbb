@@ -49,8 +49,8 @@ export const RecipeCard = ({ recipe }: RecipeCardProps) => {
 
       {/* Mobile Compact Layout */}
       <Card className="md:hidden overflow-hidden border-none card-shadow hover:card-hover-shadow transition-smooth">
-        <div className="flex gap-3 p-3">
-          <div className="w-24 h-24 flex-shrink-0 overflow-hidden rounded">
+        <div className="flex gap-4 p-4">
+          <div className="w-20 h-20 flex-shrink-0 overflow-hidden rounded">
             <img
               src={recipe.image}
               alt={recipe.title}
@@ -58,8 +58,8 @@ export const RecipeCard = ({ recipe }: RecipeCardProps) => {
               className="w-full h-full object-cover"
             />
           </div>
-          <div className="flex-1 flex flex-col justify-between min-w-0">
-            <h3 className="font-serif text-base font-semibold text-foreground line-clamp-2 group-hover:text-primary transition-smooth">
+          <div className="flex-1 flex flex-col justify-center items-center text-center gap-2 min-w-0">
+            <h3 className="font-serif text-base font-semibold text-foreground line-clamp-2 group-hover:text-primary transition-smooth w-full">
               {recipe.title}
             </h3>
             <div className="flex items-center gap-3 text-xs text-muted-foreground">

@@ -9,6 +9,13 @@ import { WelcomeOverlay } from "@/components/WelcomeOverlay";
 import { Navigation } from "@/components/Navigation";
 import { fetchRecipesIndex } from "@/lib/recipesIndex";
 import { Badge } from "@/components/ui/badge";
+import {
+  Carousel,
+  CarouselContent,
+  CarouselItem,
+  CarouselNext,
+  CarouselPrevious,
+} from "@/components/ui/carousel";
 import chefHero from "@/assets/chef-hero.jpg";
 
 const Index = () => {
@@ -183,7 +190,23 @@ const Index = () => {
                 </p>
               </div>
               
-              <div className="grid sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-5 gap-6 mb-8">
+              {/* Mobile Carousel */}
+              <div className="md:hidden mb-8">
+                <Carousel className="w-full max-w-sm mx-auto">
+                  <CarouselContent>
+                    {featuredRecipes.map(recipe => (
+                      <CarouselItem key={recipe.id}>
+                        <RecipeCard recipe={recipe} />
+                      </CarouselItem>
+                    ))}
+                  </CarouselContent>
+                  <CarouselPrevious />
+                  <CarouselNext />
+                </Carousel>
+              </div>
+
+              {/* Desktop Grid */}
+              <div className="hidden md:grid sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-5 gap-6 mb-8">
                 {featuredRecipes.map(recipe => (
                   <RecipeCard key={recipe.id} recipe={recipe} />
                 ))}
@@ -223,7 +246,23 @@ const Index = () => {
                       </Link>
                     </div>
                     
-                    <div className="grid sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-5 gap-6">
+                    {/* Mobile Carousel */}
+                    <div className="md:hidden">
+                      <Carousel className="w-full max-w-sm mx-auto">
+                        <CarouselContent>
+                          {catRecipes.map(recipe => (
+                            <CarouselItem key={recipe.id}>
+                              <RecipeCard recipe={recipe} />
+                            </CarouselItem>
+                          ))}
+                        </CarouselContent>
+                        <CarouselPrevious />
+                        <CarouselNext />
+                      </Carousel>
+                    </div>
+
+                    {/* Desktop Grid */}
+                    <div className="hidden md:grid sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-5 gap-6">
                       {catRecipes.map(recipe => (
                         <RecipeCard key={recipe.id} recipe={recipe} />
                       ))}

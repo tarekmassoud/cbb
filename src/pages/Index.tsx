@@ -146,7 +146,7 @@ const Index = () => {
 
             {/* Search Results */}
             {searchTerm && (
-              <div className="max-w-6xl mx-auto">
+              <div className="max-w-6xl mx-auto px-4 md:px-0">
                 <p className="text-muted-foreground mb-6 text-center">
                   Found {filteredRecipes.length} recipe{filteredRecipes.length !== 1 ? 's' : ''}
                 </p>
@@ -166,7 +166,7 @@ const Index = () => {
 
             {/* Category Results */}
             {!searchTerm && activeFilter && (
-              <div className="max-w-6xl mx-auto">
+              <div className="max-w-6xl mx-auto px-4 md:px-0">
                 <div className="grid grid-cols-1 gap-4">
                   {filteredRecipes.map(recipe => (
                     <RecipeCard key={recipe.id} recipe={recipe} />

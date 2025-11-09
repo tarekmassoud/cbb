@@ -77,10 +77,10 @@ const Index = () => {
 
           <div className="container mx-auto relative z-10 flex-1 flex items-center justify-center">
             <div className="max-w-3xl mx-auto text-center">
-              <h1 className="font-serif text-5xl md:text-6xl font-bold mb-6 text-foreground">
+              <h1 className="font-serif text-3xl md:text-6xl font-bold mb-6 text-foreground">
                 Search {recipes.length}+ Recipes
               </h1>
-              <p className="text-xl text-muted-foreground mb-8">
+              <p className="text-base md:text-xl text-muted-foreground mb-8">
                 Discover Mediterranean and Lebanese favorites, from weeknight dinners to special occasions
               </p>
 
@@ -92,7 +92,7 @@ const Index = () => {
                   placeholder={`Search ${recipes.length}+ recipes... (pasta, chicken, vegan...)`}
                   value={searchTerm}
                   onChange={(e) => setSearchTerm(e.target.value)}
-                  className="pl-14 h-16 text-lg border-2 focus:border-primary"
+                  className="pl-14 h-16 text-base md:text-lg border-2 focus:border-primary"
                 />
               </div>
 
@@ -102,7 +102,7 @@ const Index = () => {
                   <Badge
                     key={cat.value}
                     variant={activeFilter === cat.value ? "default" : "outline"}
-                    className="cursor-pointer px-4 py-2 text-base hover:bg-primary hover:text-primary-foreground transition-smooth"
+                    className="cursor-pointer px-4 py-2 text-sm md:text-base hover:bg-primary hover:text-primary-foreground transition-smooth"
                     onClick={() => {
                       setSearchTerm("");
                       setActiveFilter(activeFilter === cat.value ? null : cat.value);
@@ -175,10 +175,10 @@ const Index = () => {
           <section className="py-16 px-6 bg-accent/20">
             <div className="container mx-auto">
               <div className="text-center mb-12">
-                <h2 className="font-serif text-4xl font-bold mb-4 text-foreground">
+                <h2 className="font-serif text-2xl md:text-4xl font-bold mb-4 text-foreground">
                   Featured Recipes
                 </h2>
-                <p className="text-muted-foreground text-lg">
+                <p className="text-muted-foreground text-base md:text-lg">
                   My favorite dishes of the moment
                 </p>
               </div>
@@ -212,7 +212,7 @@ const Index = () => {
                 <section key={cat.value} className="py-16 px-6">
                   <div className="container mx-auto">
                     <div className="flex justify-between items-center mb-8">
-                      <h2 className="font-serif text-3xl font-bold text-foreground">
+                      <h2 className="font-serif text-xl md:text-3xl font-bold text-foreground">
                         {cat.name}
                       </h2>
                       <Link 

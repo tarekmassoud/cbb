@@ -7,6 +7,7 @@ import { Navigation } from "@/components/Navigation";
 import { Button } from "@/components/ui/button";
 import { Badge } from "@/components/ui/badge";
 import { Checkbox } from "@/components/ui/checkbox";
+import { Carousel, CarouselContent, CarouselItem } from "@/components/ui/carousel";
 import { toast } from "sonner";
 
 const RecipeDetail = () => {
@@ -164,23 +165,33 @@ const RecipeDetail = () => {
             )}
           </div>
 
-          <div className="flex gap-3 print:hidden">
-            <Button onClick={handleCopyIngredients} variant="outline">
-              <Copy className="mr-2 w-4 h-4" />
-              Copy Ingredients
-            </Button>
-            <Button onClick={handlePrint} variant="outline">
-              <Printer className="mr-2 w-4 h-4" />
-              Print
-            </Button>
-            {meta.video_url && (
-              <Button asChild variant="outline">
-                <a href={meta.video_url} target="_blank" rel="noopener noreferrer">
-                  <Instagram className="mr-2 w-4 h-4" />
-                  Watch Video
-                </a>
-              </Button>
-            )}
+          <div className="print:hidden">
+            <Carousel opts={{ dragFree: true, align: "start" }}>
+              <CarouselContent className="-ml-2">
+                <CarouselItem className="basis-auto pl-2">
+                  <Button onClick={handleCopyIngredients} variant="outline">
+                    <Copy className="mr-2 w-4 h-4" />
+                    Copy Ingredients
+                  </Button>
+                </CarouselItem>
+                <CarouselItem className="basis-auto pl-2">
+                  <Button onClick={handlePrint} variant="outline">
+                    <Printer className="mr-2 w-4 h-4" />
+                    Print
+                  </Button>
+                </CarouselItem>
+                {meta.video_url && (
+                  <CarouselItem className="basis-auto pl-2">
+                    <Button asChild variant="outline">
+                      <a href={meta.video_url} target="_blank" rel="noopener noreferrer">
+                        <Instagram className="mr-2 w-4 h-4" />
+                        Watch Video
+                      </a>
+                    </Button>
+                  </CarouselItem>
+                )}
+              </CarouselContent>
+            </Carousel>
           </div>
         </header>
 

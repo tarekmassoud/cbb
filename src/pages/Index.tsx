@@ -232,7 +232,7 @@ const Index = () => {
               if (catRecipes.length === 0) return null;
 
               return (
-                <section key={cat.value} className="py-16 px-6">
+                <section key={cat.value} className="py-8 px-6">
                   <div className="container mx-auto">
                     <div className="flex justify-between items-center mb-8">
                       <h2 className="font-serif text-2xl md:text-3xl font-bold text-foreground">

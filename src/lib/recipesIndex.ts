@@ -53,108 +53,7 @@ const recipesData: RecipeIndexItem[] = [
     rating: 4.9,
     date_published: "2025-10-10"
   },
-  {
-    id: "3",
-    title: "Cooked Artichokes",
-    slug: "cooked-artichokes",
-    short_description: "Cooked artichokes Lebanese mezze",
-    image: `${BASE_URL}images/recipes/cooked_artichokes.jpg`,
-    prepTime: 15,
-    servings: "4",
-    difficulty: "Easy",
-    cuisine: "Lebanese",
-    course: "Salad & Side",
-    tags: ["artichokes", "mezze", "side"],
-    keywords: [],
-    featured: true,
-    rating: 5.0,
-    date_published: "2020-05-06"
-  },
-  {
-    id: "4",
-    title: "Roast Beef",
-    slug: "roast-beef",
-    short_description: "Garlic-studded roast beef with green beans, mash, and silky pan gravy.",
-    image: `${BASE_URL}images/recipes/Roast_beef.jpg`,
-    prepTime: 20,
-    servings: "4",
-    difficulty: "Advanced",
-    cuisine: "Lebanese",
-    course: "Main",
-    tags: ["main", "roast beef"],
-    keywords: [],
-    featured: true,
-    rating: 4.7,
-    date_published: "2020-04-25"
-  },
-  {
-    id: "5",
-    title: "Chocolate & Red Berries Cupcakes",
-    slug: "chocoalte-and-red-berries-cupcakes",
-    short_description: "Rich chocolate cupcakes with fresh red berries.",
-    image: `${BASE_URL}images/recipes/Chocolate_and_red_berries_cupcakes.jpg`,
-    prepTime: 30,
-    servings: "12",
-    difficulty: "Easy",
-    cuisine: "European",
-    course: "Dessert",
-    tags: ["chocolate", "berries", "cupcakes"],
-    keywords: [],
-    featured: true,
-    rating: 4.9,
-    date_published: "2020-05-02"
-  },
-  {
-    id: "6",
-    title: "Small Fluffy Japanese Milk Buns (Tangzhong)",
-    slug: "small-fluffy-japanese-milk-buns",
-    short_description: "Fluffy Japanese milk buns (tangzhong)—pillowy, lightly sweet, golden and soft.",
-    image: `${BASE_URL}images/recipes/small_japanese_pain_au_lait.jpg`,
-    prepTime: 15,
-    servings: "6",
-    difficulty: "Medium",
-    cuisine: "Japanese",
-    course: "Breakfast",
-    tags: ["breakfast", "japanese", "bread"],
-    keywords: [],
-    featured: false,
-    rating: 4.8,
-    date_published: "2020-04-15"
-  },
-  {
-    id: "7",
-    title: "Loubiyeh bi Zeit",
-    slug: "loubiyeh-bi-zeit",
-    short_description: "Lebanese green beans cooked in olive oil and tomatoes.",
-    image: `${BASE_URL}images/recipes/Loubiyeh_bi_zeit.jpg`,
-    prepTime: 15,
-    servings: "4",
-    difficulty: "Easy",
-    cuisine: "Lebanese",
-    course: "Salad & Side",
-    tags: ["vegan", "healthy", "beans"],
-    keywords: [],
-    featured: false,
-    rating: 4.7,
-    date_published: "2020-05-15"
-  },
-  {
-    id: "8",
-    title: "Kebbit Batata",
-    slug: "kebbit-batata",
-    short_description: "Lebanese potato kibbeh with meat filling.",
-    image: `${BASE_URL}images/recipes/kebbit_batata.jpg`,
-    prepTime: 45,
-    servings: "6",
-    difficulty: "Medium",
-    cuisine: "Lebanese",
-    course: "Main",
-    tags: ["potato", "kibbeh", "traditional"],
-    keywords: [],
-    featured: false,
-    rating: 4.8,
-    date_published: "2020-06-01"
-  },
+  // 3 -> 8 /////////////////////////////////////////////////////////////////////////////////////////////////////////////
   {
     id: "9",
     title: "Maple Glazed Walnut & Sugar Bun",
@@ -969,7 +868,7 @@ const recipesData: RecipeIndexItem[] = [
     keywords: [],
     featured: false,
     rating: 4.8,
-    date_published: "2024-04-15"
+    date_published: "2025-04-15"
   },
   {
     id: "57",
@@ -986,7 +885,7 @@ const recipesData: RecipeIndexItem[] = [
     keywords: [],
     featured: false,
     rating: 4.7,
-    date_published: "2024-04-13"
+    date_published: "2025-04-13"
   },
   {
     id: "58",
@@ -1003,7 +902,7 @@ const recipesData: RecipeIndexItem[] = [
     keywords: [],
     featured: false,
     rating: 4.8,
-    date_published: "2024-04-08"
+    date_published: "2025-04-08"
   },
   {
     id: "59",
@@ -1020,7 +919,7 @@ const recipesData: RecipeIndexItem[] = [
     keywords: [],
     featured: false,
     rating: 4.9,
-    date_published: "2024-04-05"
+    date_published: "2025-04-05"
   },
   {
     id: "60",
@@ -1037,7 +936,7 @@ const recipesData: RecipeIndexItem[] = [
     keywords: [],
     featured: false,
     rating: 4.6,
-    date_published: "2024-04-02"
+    date_published: "2025-04-02"
   },
   {
     id: "61",
@@ -1054,7 +953,7 @@ const recipesData: RecipeIndexItem[] = [
     keywords: [],
     featured: false,
     rating: 4.7,
-    date_published: "2024-03-31"
+    date_published: "2025-03-31"
   },
   {
     id: "62",
@@ -1071,7 +970,7 @@ const recipesData: RecipeIndexItem[] = [
     keywords: [],
     featured: false,
     rating: 4.6,
-    date_published: "2024-03-27"
+    date_published: "2025-03-27"
   },
   {
     id: "63",
@@ -1088,7 +987,7 @@ const recipesData: RecipeIndexItem[] = [
     keywords: [],
     featured: false,
     rating: 4.7,
-    date_published: "2024-03-25"
+    date_published: "2025-03-25"
   },
   {
     id: "64",
@@ -1105,7 +1004,7 @@ const recipesData: RecipeIndexItem[] = [
     keywords: [],
     featured: false,
     rating: 4.6,
-    date_published: "2024-03-23"
+    date_published: "2025-03-23"
   },
   {
     id: "65",
@@ -1122,7 +1021,7 @@ const recipesData: RecipeIndexItem[] = [
     keywords: [],
     featured: false,
     rating: 4.8,
-    date_published: "2024-03-17"
+    date_published: "2025-03-17"
   },
   {
     id: "66",
@@ -1139,7 +1038,7 @@ const recipesData: RecipeIndexItem[] = [
     keywords: [],
     featured: false,
     rating: 4.6,
-    date_published: "2024-03-14"
+    date_published: "2025-03-14"
   },
   {
     id: "67",
@@ -1156,7 +1055,7 @@ const recipesData: RecipeIndexItem[] = [
     keywords: [],
     featured: false,
     rating: 4.7,
-    date_published: "2024-03-11"
+    date_published: "2025-03-11"
   },
   {
     id: "68",
@@ -1173,7 +1072,7 @@ const recipesData: RecipeIndexItem[] = [
     keywords: [],
     featured: false,
     rating: 4.6,
-    date_published: "2024-03-09"
+    date_published: "2025-03-09"
   },
   {
     id: "69",
@@ -1190,7 +1089,7 @@ const recipesData: RecipeIndexItem[] = [
     keywords: [],
     featured: false,
     rating: 4.7,
-    date_published: "2024-03-07"
+    date_published: "2025-03-07"
   },
   {
     id: "70",
@@ -1207,7 +1106,7 @@ const recipesData: RecipeIndexItem[] = [
     keywords: [],
     featured: false,
     rating: 4.8,
-    date_published: "2024-03-05"
+    date_published: "2025-03-05"
   },
   {
     id: "71",
@@ -1224,7 +1123,7 @@ const recipesData: RecipeIndexItem[] = [
     keywords: [],
     featured: false,
     rating: 4.7,
-    date_published: "2024-03-03"
+    date_published: "2025-03-03"
   },
   {
     id: "72",
@@ -1241,7 +1140,7 @@ const recipesData: RecipeIndexItem[] = [
     keywords: [],
     featured: false,
     rating: 4.9,
-    date_published: "2024-03-01"
+    date_published: "2025-03-01"
   },
   {
     id: "73",
@@ -1258,7 +1157,7 @@ const recipesData: RecipeIndexItem[] = [
     keywords: [],
     featured: false,
     rating: 4.6,
-    date_published: "2024-02-26"
+    date_published: "2025-02-26"
   },
   {
     id: "74",
@@ -1275,7 +1174,7 @@ const recipesData: RecipeIndexItem[] = [
     keywords: [],
     featured: false,
     rating: 4.8,
-    date_published: "2024-02-24"
+    date_published: "2025-02-24"
   },
   {
     id: "75",
@@ -1292,7 +1191,7 @@ const recipesData: RecipeIndexItem[] = [
     keywords: [],
     featured: false,
     rating: 4.7,
-    date_published: "2024-02-21"
+    date_published: "2025-02-21"
   },
   {
     id: "76",

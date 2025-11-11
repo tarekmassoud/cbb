@@ -255,7 +255,7 @@ const recipesData: RecipeIndexItem[] = [
     keywords: [],
     featured: false,
     rating: 4.9,
-    date_published: "2020-07-20"
+    date_published: "2025-10-26"
   },
   {
     id: "15",
@@ -289,7 +289,7 @@ const recipesData: RecipeIndexItem[] = [
     keywords: [],
     featured: false,
     rating: 4.6,
-    date_published: "2020-08-10"
+    date_published: "2025-10-03"
   },
   {
     id: "17",

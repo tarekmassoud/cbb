@@ -356,7 +356,7 @@ const recipesData: RecipeIndexItem[] = [
     course: "Breakfast",
     tags: ["eggs", "tomato", "one-pan", "brunch", "chickpeas"],
     keywords: ["شكشوكة"],
-    featured: false,
+    featured: true,
     rating: 4.8,
     date_published: "2025-08-27"
   },
@@ -407,7 +407,7 @@ const recipesData: RecipeIndexItem[] = [
     course: "Dessert",
     tags: ["cake", "plum", "vanilla", "summer"],
     keywords: [],
-    featured: false,
+    featured: true,
     rating: 4.8,
     date_published: "2025-08-15"
   },
@@ -441,7 +441,7 @@ const recipesData: RecipeIndexItem[] = [
     course: "Main",
     tags: ["green-beans", "olive-oil", "tomato", "vegan", "stew"],
     keywords: ["لوبية بزيت"],
-    featured: false,
+    featured: true,
     rating: 4.9,
     date_published: "2025-08-04"
   },

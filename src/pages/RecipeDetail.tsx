@@ -1,7 +1,7 @@
 import { useState, useEffect } from "react";
 import { useParams, Link } from "react-router-dom";
 import { useQuery } from "@tanstack/react-query";
-import { ArrowLeft, Clock, Users, ChefHat, Printer, Copy, Instagram } from "lucide-react";
+import { ArrowLeft, Clock, Users, ChefHat, Printer, Copy, Instagram, Minus, Plus } from "lucide-react";
 import { fetchRecipeBySlug } from "@/lib/recipeBySlug";
 import { Navigation } from "@/components/Navigation";
 import { Button } from "@/components/ui/button";
@@ -9,11 +9,13 @@ import { Badge } from "@/components/ui/badge";
 import { Checkbox } from "@/components/ui/checkbox";
 import { Carousel, CarouselContent, CarouselItem } from "@/components/ui/carousel";
 import { toast } from "sonner";
+import { scaleIngredient, parseServings } from "@/lib/recipeScaling";
 
 const RecipeDetail = () => {
   const { slug } = useParams<{ slug: string }>();
   const [checkedIngredients, setCheckedIngredients] = useState<Set<number>>(new Set());
   const [checkedSteps, setCheckedSteps] = useState<Set<number>>(new Set());
+  const [servings, setServings] = useState<number | null>(null);
 
   const { data: recipe, isLoading, error } = useQuery({
     queryKey: ['recipe', slug],
@@ -23,7 +25,16 @@ const RecipeDetail = () => {
 
   useEffect(() => {
     window.scrollTo(0, 0);
+    setServings(null); // Reset servings when recipe changes
   }, [slug]);
+
+  // Initialize servings when recipe loads
+  useEffect(() => {
+    if (recipe && servings === null) {
+      const originalServings = parseServings(recipe.meta.servings);
+      setServings(originalServings);
+    }
+  }, [recipe, servings]);
 
   const toggleIngredient = (index: number) => {
     setCheckedIngredients(prev => {
@@ -52,11 +63,9 @@ const RecipeDetail = () => {
   const handleCopyIngredients = () => {
     if (!recipe) return;
     
-    const flatIngredients = Array.isArray(recipe.ingredients[0])
-      ? recipe.ingredients.flatMap((section: any) => 
-          section.title ? [`\n${section.title}`, ...section.items] : section.items
-        )
-      : recipe.ingredients;
+    const flatIngredients = scaledIngredientsList.flatMap((section: any) => 
+      section.title ? [`\n${section.title}`, ...section.items] : section.items
+    );
     
     const text = flatIngredients.join('\n');
     navigator.clipboard.writeText(text);
@@ -107,6 +116,28 @@ const RecipeDetail = () => {
 
   const ingredientsList = isGrouped(recipe.ingredients) ? recipe.ingredients : [{ items: recipe.ingredients as string[] }];
   const instructionsList = isGrouped(recipe.instructions) ? recipe.instructions : [{ items: recipe.instructions as string[] }];
+
+  // Calculate scaling factor
+  const originalServings = parseServings(meta.servings);
+  const scalingFactor = servings ? servings / originalServings : 1;
+
+  // Scale ingredients
+  const scaledIngredientsList = ingredientsList.map(section => ({
+    ...section,
+    items: section.items.map(ingredient => scaleIngredient(ingredient, scalingFactor))
+  }));
+
+  const handleServingsChange = (delta: number) => {
+    setServings(prev => {
+      const current = prev || originalServings;
+      const newValue = Math.max(1, current + delta);
+      return newValue;
+    });
+  };
+
+  const resetServings = () => {
+    setServings(originalServings);
+  };
 
   return (
     <div className="min-h-screen print:bg-white">
@@ -206,11 +237,50 @@ const RecipeDetail = () => {
 
         <div className="grid md:grid-cols-2 gap-8 mb-12">
           <section>
-            <h2 className="font-serif text-2xl font-bold mb-4 text-foreground">
-              Ingredients
-            </h2>
+            <div className="flex items-center justify-between mb-4">
+              <h2 className="font-serif text-2xl font-bold text-foreground">
+                Ingredients
+              </h2>
+              <div className="flex items-center gap-3 print:hidden">
+                <span className="text-sm text-muted-foreground">
+                  Servings:
+                </span>
+                <div className="flex items-center gap-2 border rounded-lg p-1 bg-background">
+                  <Button
+                    variant="ghost"
+                    size="icon"
+                    className="h-7 w-7"
+                    onClick={() => handleServingsChange(-1)}
+                    disabled={servings === 1}
+                  >
+                    <Minus className="h-3 w-3" />
+                  </Button>
+                  <span className="font-semibold min-w-[2rem] text-center">
+                    {servings}
+                  </span>
+                  <Button
+                    variant="ghost"
+                    size="icon"
+                    className="h-7 w-7"
+                    onClick={() => handleServingsChange(1)}
+                  >
+                    <Plus className="h-3 w-3" />
+                  </Button>
+                </div>
+                {scalingFactor !== 1 && (
+                  <Button
+                    variant="ghost"
+                    size="sm"
+                    onClick={resetServings}
+                    className="text-xs"
+                  >
+                    Reset
+                  </Button>
+                )}
+              </div>
+            </div>
             <div className="space-y-4">
-              {ingredientsList.map((section, sectionIdx) => (
+              {scaledIngredientsList.map((section, sectionIdx) => (
                 <div key={sectionIdx}>
                   {section.title && (
                     <h3 className="font-semibold text-lg mb-2 text-foreground">

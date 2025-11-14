@@ -168,7 +168,8 @@ export function scaleIngredient(ingredientText: string, factor: number): string 
 /**
  * Parse servings from text (handles "4", "4-6", "4 servings", etc.)
  */
-export function parseServings(servingsText: string): number {
-  const match = servingsText.match(/(\d+)/);
+export function parseServings(servingsText: string | number): number {
+  const text = String(servingsText);
+  const match = text.match(/(\d+)/);
   return match ? parseInt(match[1]) : 1;
 }

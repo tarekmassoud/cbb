@@ -4,7 +4,7 @@ title: "Chocolate Granola"
 slug: "chocolate-granola"
 short_description: "Crispy, chocolatey, nutty granola you’ll love—easy to bake and hard to stop eating."
 description: "The best chocolate granola ever—try it! Mix oats, chopped nuts, coconut, cocoa, a touch of salt, maple syrup, coconut oil, and vanilla. Bake until toasty, cool, then fold in chocolate. Store and enjoy within 2 weeks."
-image: "/images/recipes/best-chocolate-granola.jpg"
+image: "/images/recipes/chocolate-granola.jpg"
 prepTime: 15
 cookTime: 30
 totalTime: 45

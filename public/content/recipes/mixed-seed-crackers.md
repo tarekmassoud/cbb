@@ -4,7 +4,7 @@ title: "Mixed Seed Crackers"
 slug: "mixed-seed-crackers"
 short_description: "Crunchy, nourishing crackers packed with seeds and herbs."
 description: "A healthy swap for bread—sunflower, pumpkin, sesame, flax, and chia seeds with oregano and a touch of salt. Naturally gluten-free."
-image: "/images/recipes/mixed-seed-crackers.jpg"
+image: "/images/recipes/mixed_seed_crackers.jpg"
 prepTime: 10
 cookTime: 60
 totalTime: 70

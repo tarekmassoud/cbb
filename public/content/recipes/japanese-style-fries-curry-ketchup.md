@@ -1,3 +1,4 @@
+---
 id: "157"
 title: "Japanese Style Fries with Curry Ketchup"
 slug: "japanese-style-fries-curry-ketchup"

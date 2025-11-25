@@ -1,3 +1,4 @@
+---
 id: "154"
 title: "Bulgur Bil Banadoura with Garlic-Cucumber Yogurt"
 slug: "bulgur-banadoura-garlic-cucumber-yogurt"

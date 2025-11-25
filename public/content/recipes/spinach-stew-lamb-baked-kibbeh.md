@@ -1,3 +1,4 @@
+---
 id: "158"
 title: "Spinach Stew with Lamb and Baked Kibbeh"
 slug: "spinach-stew-lamb-baked-kibbeh"

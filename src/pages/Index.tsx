@@ -56,7 +56,10 @@ const Index = () => {
   });
 
   const categoryRecipes = (category: string) => {
-    return recipes.filter(r => r.course === category).slice(0, 5);
+    return recipes
+      .filter(r => r.course === category)
+      .sort((a, b) => new Date(a.date_published).getTime() - new Date(b.date_published).getTime())
+      .slice(0, 5);
   };
 
   const handleEnterSite = () => {

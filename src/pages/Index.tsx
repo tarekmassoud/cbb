@@ -58,8 +58,9 @@ const Index = () => {
   const categoryRecipes = (category: string) => {
     return recipes
       .filter(r => r.course === category)
-      .sort((a, b) => new Date(a.date_published).getTime() - new Date(b.date_published).getTime())
-      .slice(0, 5);
+      .sort((a, b) => new Date(b.date_published).getTime() - new Date(a.date_published).getTime()) // Sort newest first
+      .slice(0, 5) // Take the 5 most recent
+      .reverse(); // Reverse to display oldest-to-newest (left to right)
   };
 
   const handleEnterSite = () => {

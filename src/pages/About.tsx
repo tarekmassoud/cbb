@@ -1,7 +1,6 @@
 import { Instagram } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { Navigation } from "@/components/Navigation";
-import chefHero from "@/assets/chef-hero.jpg";
 
 const About = () => {
   return (
@@ -22,7 +21,7 @@ const About = () => {
           <div className="grid md:grid-cols-2 gap-12 items-center mb-16">
             <div className="aspect-[3/4] rounded-2xl overflow-hidden card-shadow">
               <img 
-                src={chefHero}
+                src="/images/chef-hero.jpg"
                 alt="Chef Katia in the kitchen"
                 className="w-full h-full object-cover"
               />

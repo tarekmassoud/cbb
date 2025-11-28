@@ -29,20 +29,20 @@ export const RecipeCard = ({ recipe, showMobileLayout = true }: RecipeCardProps)
           )}
         </div>
         <CardContent className="p-6 flex flex-col min-h-[180px]">
-          <h3 className="font-serif text-xl font-semibold mb-2 text-foreground group-hover:text-primary transition-smooth line-clamp-2">
+          <h3 className="font-serif text-xl font-semibold mb-2 text-foreground group-hover:text-primary transition-smooth line-clamp-2 h-[3.5rem]">
             {recipe.title}
           </h3>
           <p className="text-muted-foreground text-sm mb-4 flex-grow line-clamp-3">
             {recipe.short_description}
           </p>
-          <div className="flex items-center gap-4 text-sm text-muted-foreground">
-            <div className="flex items-center gap-1">
+          <div className="flex items-center gap-4 text-sm text-muted-foreground flex-nowrap">
+            <div className="flex items-center gap-1 flex-shrink-0">
               <Clock className="w-4 h-4" />
-              <span>{recipe.prepTime} min</span>
+              <span className="whitespace-nowrap">{recipe.prepTime} min</span>
             </div>
-            <div className="flex items-center gap-1">
-              <Users className="w-4 h-4" />
-              <span>{recipe.servings}</span>
+            <div className="flex items-center gap-1 min-w-0">
+              <Users className="w-4 h-4 flex-shrink-0" />
+              <span className="truncate">{recipe.servings}</span>
             </div>
           </div>
         </CardContent>
@@ -61,17 +61,17 @@ export const RecipeCard = ({ recipe, showMobileLayout = true }: RecipeCardProps)
             />
           </div>
           <div className="flex-1 flex flex-col justify-between text-center gap-1.5 min-w-0 pr-2">
-            <h3 className="font-serif text-sm font-semibold text-foreground line-clamp-1 group-hover:text-primary transition-smooth w-full">
+            <h3 className="font-serif text-sm font-semibold text-foreground line-clamp-1 group-hover:text-primary transition-smooth w-full h-[1.25rem]">
               {recipe.title}
             </h3>
-            <div className="flex items-center justify-center gap-4 text-xs text-muted-foreground mt-auto">
-              <div className="flex items-center gap-1.5">
+            <div className="flex items-center justify-center gap-4 text-xs text-muted-foreground mt-auto flex-nowrap">
+              <div className="flex items-center gap-1.5 flex-shrink-0">
                 <Clock className="w-3.5 h-3.5 flex-shrink-0" />
-                <span>{recipe.prepTime} min</span>
+                <span className="whitespace-nowrap">{recipe.prepTime} min</span>
               </div>
-              <div className="flex items-center gap-1.5">
+              <div className="flex items-center gap-1.5 min-w-0">
                 <Users className="w-3.5 h-3.5 flex-shrink-0" />
-                <span>{recipe.servings}</span>
+                <span className="truncate">{recipe.servings}</span>
               </div>
             </div>
           </div>

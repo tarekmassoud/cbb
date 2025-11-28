@@ -29,7 +29,7 @@ export const RecipeCard = ({ recipe, showMobileLayout = true }: RecipeCardProps)
           )}
         </div>
         <CardContent className="p-6 flex flex-col min-h-[180px]">
-          <h3 className="font-serif text-xl font-semibold mb-2 text-foreground group-hover:text-primary transition-smooth">
+          <h3 className="font-serif text-xl font-semibold mb-2 text-foreground group-hover:text-primary transition-smooth line-clamp-2">
             {recipe.title}
           </h3>
           <p className="text-muted-foreground text-sm mb-4 flex-grow line-clamp-3">

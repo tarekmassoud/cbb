@@ -194,7 +194,7 @@ const Index = () => {
               </div>
               
               {/* Mobile Carousel */}
-              <div className="md:hidden mb-8">
+              <div className="sm:hidden mb-8">
                 <Carousel className="w-full max-w-sm mx-auto">
                   <CarouselContent>
                     {featuredRecipes.map(recipe => (
@@ -208,10 +208,12 @@ const Index = () => {
                 </Carousel>
               </div>
 
-              {/* Desktop Grid */}
-              <div className="hidden md:grid sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-5 gap-6 mb-8">
+              {/* Desktop/Laptop - Flex layout that scales */}
+              <div className="hidden sm:flex gap-4 mb-8 overflow-x-auto">
                 {featuredRecipes.map(recipe => (
-                  <RecipeCard key={recipe.id} recipe={recipe} showMobileLayout={false} />
+                  <div key={recipe.id} className="flex-1 min-w-0">
+                    <RecipeCard recipe={recipe} showMobileLayout={false} />
+                  </div>
                 ))}
               </div>
 
@@ -250,7 +252,7 @@ const Index = () => {
                     </div>
                     
                     {/* Mobile Carousel */}
-                    <div className="md:hidden">
+                    <div className="sm:hidden">
                       <Carousel className="w-full max-w-sm mx-auto">
                         <CarouselContent>
                           {catRecipes.map(recipe => (
@@ -264,10 +266,12 @@ const Index = () => {
                       </Carousel>
                     </div>
 
-                    {/* Desktop Grid */}
-                    <div className="hidden md:grid sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-5 gap-6">
+                    {/* Desktop/Laptop - Flex layout that scales */}
+                    <div className="hidden sm:flex gap-4">
                       {catRecipes.map(recipe => (
-                        <RecipeCard key={recipe.id} recipe={recipe} showMobileLayout={false} />
+                        <div key={recipe.id} className="flex-1 min-w-0">
+                          <RecipeCard recipe={recipe} showMobileLayout={false} />
+                        </div>
                       ))}
                     </div>
                   </div>

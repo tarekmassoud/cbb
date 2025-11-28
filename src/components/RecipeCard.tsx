@@ -28,14 +28,14 @@ export const RecipeCard = ({ recipe, showMobileLayout = true }: RecipeCardProps)
             </Badge>
           )}
         </div>
-        <CardContent className="p-6 flex flex-col h-full">
+        <CardContent className="p-6 flex flex-col min-h-[180px]">
           <h3 className="font-serif text-xl font-semibold mb-2 text-foreground group-hover:text-primary transition-smooth">
             {recipe.title}
           </h3>
-          <p className="text-muted-foreground text-sm mb-4 line-clamp-3 flex-grow">
+          <p className="text-muted-foreground text-sm mb-4 flex-grow line-clamp-3">
             {recipe.short_description}
           </p>
-          <div className="flex items-center gap-4 text-sm text-muted-foreground mt-auto">
+          <div className="flex items-center gap-4 text-sm text-muted-foreground">
             <div className="flex items-center gap-1">
               <Clock className="w-4 h-4" />
               <span>{recipe.prepTime} min</span>

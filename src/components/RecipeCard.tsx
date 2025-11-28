@@ -28,14 +28,14 @@ export const RecipeCard = ({ recipe, showMobileLayout = true }: RecipeCardProps)
             </Badge>
           )}
         </div>
-        <CardContent className="p-6">
+        <CardContent className="p-6 flex flex-col h-full">
           <h3 className="font-serif text-xl font-semibold mb-2 text-foreground group-hover:text-primary transition-smooth">
             {recipe.title}
           </h3>
-          <p className="text-muted-foreground text-sm mb-4 line-clamp-2">
+          <p className="text-muted-foreground text-sm mb-4 line-clamp-3 flex-grow">
             {recipe.short_description}
           </p>
-          <div className="flex items-center gap-4 text-sm text-muted-foreground">
+          <div className="flex items-center gap-4 text-sm text-muted-foreground mt-auto">
             <div className="flex items-center gap-1">
               <Clock className="w-4 h-4" />
               <span>{recipe.prepTime} min</span>
@@ -60,11 +60,11 @@ export const RecipeCard = ({ recipe, showMobileLayout = true }: RecipeCardProps)
               className="w-full h-full object-cover"
             />
           </div>
-          <div className="flex-1 flex flex-col justify-center items-center text-center gap-2 min-w-0 pr-2">
-            <h3 className="font-serif text-sm font-semibold text-foreground line-clamp-2 group-hover:text-primary transition-smooth w-full">
+          <div className="flex-1 flex flex-col justify-between text-center gap-1.5 min-w-0 pr-2">
+            <h3 className="font-serif text-sm font-semibold text-foreground line-clamp-1 group-hover:text-primary transition-smooth w-full">
               {recipe.title}
             </h3>
-            <div className="flex items-center gap-4 text-xs text-muted-foreground">
+            <div className="flex items-center justify-center gap-4 text-xs text-muted-foreground mt-auto">
               <div className="flex items-center gap-1.5">
                 <Clock className="w-3.5 h-3.5 flex-shrink-0" />
                 <span>{recipe.prepTime} min</span>

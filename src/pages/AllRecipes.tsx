@@ -31,9 +31,7 @@ const AllRecipes = () => {
   });
 
   useEffect(() => {
-    if (categoryParam) {
-      setActiveCategory(categoryParam);
-    }
+    setActiveCategory(categoryParam || null);
   }, [categoryParam]);
 
   const categories = [

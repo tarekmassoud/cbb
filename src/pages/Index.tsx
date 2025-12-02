@@ -102,7 +102,7 @@ const Index = () => {
                   placeholder={`Search ${recipes.length}+ recipes... (pasta, chicken, vegan...)`}
                   value={searchTerm}
                   onChange={(e) => setSearchTerm(e.target.value)}
-                  className="pl-14 h-16 text-base md:text-lg border-2 focus:border-primary"
+                  className="pl-14 h-16 text-base md:text-lg border-2 focus:border-primary glow-primary"
                 />
               </div>
 

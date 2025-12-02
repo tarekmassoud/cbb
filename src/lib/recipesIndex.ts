@@ -53,7 +53,114 @@ const recipesData: RecipeIndexItem[] = [
     rating: 4.9,
     date_published: "2025-10-10"
   },
-  // 3 -> 8 /////////////////////////////////////////////////////////////////////////////////////////////////////////////
+  {
+  id: "3",
+  title: "Date & Cinnamon Heart Biscuits",
+  slug: "date-cinnamon-heart-biscuits",
+  short_description:
+    "Tender, lightly spiced cookies sweetened with dates and brown sugar.",
+  image: `${BASE_URL}images/recipes/date_cinnamon_heart_biscuits.jpg`,
+  prepTime: 20,
+  servings: "24 cookies",
+  difficulty: "Easy",
+  cuisine: "International",
+  course: "Dessert",
+  tags: ["cookies", "dates", "cinnamon", "baking"],
+  keywords: [],
+  featured: false,
+  rating: 4.8,
+  date_published: "2023-04-19"
+  },
+  {
+    id: "4",
+    title: "Vegetable Cannelloni with Béchamel",
+    slug: "vegetable-cannelloni-with-bechamel",
+    short_description:
+      "Spinach, leeks, carrots, zucchini, and mushrooms tucked into tubes with silky béchamel.",
+    image: `${BASE_URL}images/recipes/vegetable_cannelloni_bechamel.jpg`,
+    prepTime: 35,
+    servings: "6",
+    difficulty: "Medium",
+    cuisine: "Italian",
+    course: "Main",
+    tags: ["pasta", "vegetarian", "spinach", "mushroom", "baked"],
+    keywords: [],
+    featured: false,
+    rating: 4.9,
+    date_published: "2023-04-16"
+  },
+  {
+    id: "5",
+    title: "Chocolate Cake with Glossy Ganache",
+    slug: "chocolate-cake-glossy-ganache",
+    short_description:
+      "Moist cocoa butter cake crowned with a rich, shiny chocolate frosting.",
+    image: `${BASE_URL}images/recipes/chocolate_cake_glossy_ganache.jpg`,
+    prepTime: 25,
+    servings: "10–12",
+    difficulty: "Medium",
+    cuisine: "International",
+    course: "Dessert",
+    tags: ["chocolate", "cake", "ganache", "baking"],
+    keywords: [],
+    featured: false,
+    rating: 5,
+    date_published: "2023-04-15"
+  },
+  {
+    id: "6",
+    title: "No-Bake Chocolate Biscuit Cake (Lucky 555)",
+    slug: "no-bake-chocolate-biscuit-cake-lucky-555",
+    short_description:
+      "Lebanese classic: crushed biscuits bound with cocoa syrup and topped with ganache.",
+    image: `${BASE_URL}images/recipes/no_bake_chocolate_biscuit_cake.jpg`,
+    prepTime: 25,
+    servings: "10–12",
+    difficulty: "Easy",
+    cuisine: "Lebanese",
+    course: "Dessert",
+    tags: ["no-bake", "chocolate", "biscuit-cake", "make-ahead"],
+    keywords: [],
+    featured: false,
+    rating: 4.9,
+    date_published: "2023-04-11"
+  },
+  {
+    id: "7",
+    title: "Onion Jam & Gorgonzola Focaccia",
+    slug: "onion-jam-gorgonzola-focaccia",
+    short_description:
+      "Airy focaccia with sweet white-onion jam and pockets of tangy blue cheese.",
+    image: `${BASE_URL}images/recipes/onion_jam_gorgonzola_focaccia.jpg`,
+    prepTime: 25,
+    servings: "1 tray (10–12 pieces)",
+    difficulty: "Medium",
+    cuisine: "Italian",
+    course: "Bread",
+    tags: ["bread", "focaccia", "onion", "gorgonzola"],
+    keywords: [],
+    featured: false,
+    rating: 4.9,
+    date_published: "2023-04-10"
+  },
+  {
+    id: "8",
+    title: "Spiced Duck Confit with Crisp Skin",
+    slug: "spiced-duck-confit-with-crisp-skin",
+    short_description:
+      "Fragrant mustard–fennel–cumin spice rub and slow-baked duck legs finished skin-side-up.",
+    image: `${BASE_URL}images/recipes/spiced_duck_confit.jpg`,
+    prepTime: 20,
+    servings: "4",
+    difficulty: "Medium",
+    cuisine: "International",
+    course: "Main",
+    tags: ["duck", "main", "confit", "spiced"],
+    keywords: [],
+    featured: false,
+    rating: 4.8,
+    date_published: "2023-04-02"
+  },
   {
     id: "9",
     title: "Maple Glazed Walnut & Sugar Bun",
@@ -3503,6 +3610,42 @@ const recipesData: RecipeIndexItem[] = [
   featured: false,
   rating: 4.9,
   date_published: "2023-05-07",
+},
+{
+  id: "209",
+  title: "Lemon–Chard Lentil Soup (3adass bi Hamoud)",
+  slug: "lemon-chard-lentil-soup-3adass-bi-hamoud",
+  short_description:
+    "Comforting Lebanese lentil soup brightened with lemon and fresh chard.",
+  image: `${BASE_URL}images/recipes/lemon_chard_lentil_soup.jpg`,
+  prepTime: 15,
+  servings: "6",
+  difficulty: "Easy",
+  cuisine: "Lebanese",
+  course: "Main",
+  tags: ["soup", "lentil", "lemon", "chard", "comfort-food"],
+  keywords: [],
+  featured: false,
+  rating: 4.9,
+  date_published: "2023-04-29"
+},
+{
+  id: "210",
+  title: "Avocado Kimchi Nori Salad Rolls",
+  slug: "avocado-kimchi-nori-salad-rolls",
+  short_description:
+    "Crisp veggie-packed nori rolls with a zesty coconut-amino dipping sauce.",
+  image: `${BASE_URL}images/recipes/avocado_kimchi_nori_rolls.jpg`,
+  prepTime: 25,
+  servings: "8 rolls",
+  difficulty: "Easy",
+  cuisine: "Asian-inspired",
+  course: "Salad & Side",
+  tags: ["nori", "avocado", "kimchi", "no-cook", "healthy"],
+  keywords: [],
+  featured: false,
+  rating: 4.8,
+  date_published: "2023-04-27"
 }
 
 ];

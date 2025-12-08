@@ -185,7 +185,7 @@ const Index = () => {
           <section className="py-16 px-6 bg-accent/20">
             <div className="container mx-auto">
               <div className="text-center mb-12">
-                <h2 className="font-serif text-3xl md:text-4xl font-bold mb-2 text-foreground">
+                <h2 className="font-serif text-3xl md:text-4xl font-bold mb-0 text-foreground">
                   Featured Recipes
                 </h2>
                 <p className="text-muted-foreground text-base md:text-lg">

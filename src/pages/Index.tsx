@@ -188,9 +188,9 @@ const Index = () => {
                 <h2 className="font-serif text-3xl md:text-4xl font-bold mb-1 text-foreground">
                   Featured Recipes
                 </h2>
-                <p className="text-muted-foreground text-base md:text-lg">
-                  My favorite dishes of the moment
-                </p>
+              <p className="text-muted-foreground text-sm md:text-base">
+                My favorite dishes of the moment
+              </p>
               </div>
               
               {/* Mobile Carousel */}

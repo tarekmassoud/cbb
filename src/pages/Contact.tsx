@@ -77,7 +77,7 @@ const Contact = () => {
                 <Mail className="w-12 h-12 text-primary mx-auto mb-4" />
                 <h3 className="text-xl font-semibold mb-2 text-foreground">Email</h3>
                 <p className="text-muted-foreground mb-4">Direct inquiries</p>
-                <a href="mailto:hello@cookingbelbeit.com">
+                <a href="mailto:katia_massoud@hotmail.com"> 
                   <Button variant="outline">
                     Send me an Email
                   </Button>

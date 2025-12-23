@@ -79,7 +79,7 @@ const Contact = () => {
                 <p className="text-muted-foreground mb-4">Direct inquiries</p>
                 <a href="mailto:hello@cookingbelbeit.com">
                   <Button variant="outline">
-                    Send Email
+                    Send me an Email
                   </Button>
                 </a>
               </CardContent>

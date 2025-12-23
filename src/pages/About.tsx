@@ -11,7 +11,7 @@ const About = () => {
         <div className="container mx-auto max-w-4xl">
           <div className="text-center mb-12">
             <h1 className="font-serif text-5xl font-bold mb-4 text-foreground">
-              About Chef Katia
+              About me
             </h1>
             <p className="text-xl text-muted-foreground">
               Cooking from the heart, sharing with the world
@@ -22,14 +22,14 @@ const About = () => {
             <div className="aspect-[3/4] rounded-2xl overflow-hidden card-shadow">
               <img 
                 src="/cbb/images/chef-hero.jpg"
-                alt="Chef Katia in the kitchen"
+                alt="Katia in the kitchen"
                 className="w-full h-full object-cover"
               />
             </div>
 
             <div className="space-y-6">
               <p className="text-lg text-foreground leading-relaxed">
-                Welcome to Cooking bel beit! I'm Chef Katia, and I've been sharing 
+                Welcome to Cooking bel beit! I'm Katia, and I've been sharing 
                 the joy of Lebanese cooking with food lovers around 
                 the world through my Instagram page.
               </p>
@@ -70,7 +70,7 @@ const About = () => {
                   Authentic Recipes
                 </h3>
                 <p className="text-muted-foreground">
-                  Traditional Lebanese and Mediterranean dishes made with authentic 
+                  Traditional Lebanese and International dishes made with authentic 
                   ingredients and techniques.
                 </p>
               </div>

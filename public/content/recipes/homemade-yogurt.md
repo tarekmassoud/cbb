@@ -11,7 +11,7 @@ totalTime: 480
 servings: "1 kg"
 difficulty: "Easy"
 cuisine: "Lebanese"
-course: "Sauce"
+course: "Dairy"
 tags: ["yogurt", "homemade", "basic"]
 keywords: []
 video_url: "https://www.instagram.com/p/DJoy2beo2Xv/"

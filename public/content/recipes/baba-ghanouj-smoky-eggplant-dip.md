@@ -11,7 +11,7 @@ totalTime: 45
 servings: "6"
 difficulty: "Easy"
 cuisine: "Levantine"
-course: "Sauce"
+course: "Salad & Side"
 tags: ["dip", "eggplant", "tahini", "mezze", "vegan"]
 keywords: []
 video_url: "https://www.instagram.com/p/DEhXKsbol-D/"

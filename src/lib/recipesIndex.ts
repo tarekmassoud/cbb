@@ -1514,7 +1514,7 @@ const recipesData: RecipeIndexItem[] = [
     servings: "6",
     difficulty: "Easy",
     cuisine: "Levantine",
-    course: "Sauce",
+    course: "Salad & Side",
     tags: ["dip", "eggplant", "tahini", "mezze", "vegan"],
     keywords: [],
     featured: false,

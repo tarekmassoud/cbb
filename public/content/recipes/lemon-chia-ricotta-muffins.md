@@ -11,7 +11,7 @@ totalTime: 37
 servings: "12 muffins"
 difficulty: "Easy"
 cuisine: "International"
-course: "Breakfast"
+course: "Dessert"
 tags: ["muffins", "lemon", "chia", "ricotta", "baked"]
 keywords: []
 video_url: "https://www.instagram.com/p/CnuWuUPAQPM/"

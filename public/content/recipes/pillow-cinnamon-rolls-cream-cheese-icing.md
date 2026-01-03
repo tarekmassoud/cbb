@@ -11,7 +11,7 @@ totalTime: 55
 servings: "12 rolls"
 difficulty: "Medium"
 cuisine: "International"
-course: "Bread"
+course: "Dessert"
 tags: ["cinnamon-rolls", "yeast-dough", "brunch", "cream-cheese", "bake"]
 keywords: []
 video_url: "https://www.instagram.com/p/CnKX7LGAhql/"

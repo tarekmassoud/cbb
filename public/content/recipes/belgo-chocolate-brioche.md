@@ -11,7 +11,7 @@ totalTime: 65
 servings: "8–10"
 difficulty: "Medium"
 cuisine: "French"
-course: "Bread"
+course: "Dessert"
 tags: ["brioche", "chocolate", "bread", "belgo"]
 keywords: []
 video_url: "https://www.instagram.com/p/CfB52YVjuon/"

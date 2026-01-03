@@ -11,7 +11,7 @@ totalTime: 38
 servings: "12 scones"
 difficulty: "Easy"
 cuisine: "British"
-course: "Bread"
+course: "Dessert"
 tags: ["scones", "chocolate", "baking", "tea-time", "vanilla"]
 keywords: []
 video_url: "https://www.instagram.com/p/Cn1_kkGIZzG/"

@@ -4,7 +4,7 @@ title: "Mdardara (Lentils with Rice & Caramelized Onions)"
 slug: "mdardara-lentils-with-rice-and-onions"
 short_description: "A beloved Lebanese staple—lentils and rice finished with sweet caramelized onions."
 description: "Mdardara embodies the simplicity and heartiness of Lebanese cuisine. Lentils are cooked with rice and onions, creating a delightful contrast of textures, and served alongside fresh vegetables."
-image: "/images/recipes/mdardara-lentils-with-rice-and-onions.jpg"
+image: "/images/recipes/mdardara_lentils_with_rice_and_onions.jpg"
 prepTime: 15
 cookTime: 60
 totalTime: 75

@@ -4,7 +4,7 @@ title: "Grilled Calamari Salad"
 slug: "grilled-calamari-salad"
 short_description: "Tender marinated calamari grilled and served over fresh salad—lean protein, big flavor."
 description: "When treated properly, calamari is lean, delicious, and affordable. With the right marinade and grilling technique, you get tender, flavorful calamari perfect for a protein-packed meal."
-image: "/images/recipes/grilled-calamari-salad.jpg"
+image: "/images/recipes/grilled_calamari_salad.jpg"
 prepTime: 15
 cookTime: 10
 totalTime: 85

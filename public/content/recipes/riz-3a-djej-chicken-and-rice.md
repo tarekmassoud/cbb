@@ -4,7 +4,7 @@ title: "Riz 3a Djej (Chicken and Rice)"
 slug: "riz-3a-djej-chicken-and-rice"
 short_description: "Butter-scented rice topped with juicy organic chicken, spices, and nuts."
 description: "One of our beloved Lebanese dishes—Riz 3a Djej (Chicken and Rice). Incredibly easy to make, perfectly tender rice (never mushy), and juicy organic chicken with fragrant spices. The ultimate comfort food."
-image: "/images/recipes/riz-3a-djej-chicken-and-rice.jpg"
+image: "/images/recipes/riz_3a_djej_chicken_and_rice.jpg"
 prepTime: 20
 cookTime: 75
 totalTime: 95

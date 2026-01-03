@@ -4,7 +4,7 @@ title: "Pumpkin Kibbeh Tart (Two Fillings)"
 slug: "pumpkin-kibbeh-tart-two-fillings"
 short_description: "A modern single-layer pumpkin kibbeh with your choice of two savory fillings."
 description: "Tried a different take on kibbeh lakteen—a simplified, home-style version with just one layer of kibbeh. The flavors of the filling really come through and the dish looks even more appetizing. Perfect for a table that’s meant to impress."
-image: "/images/recipes/pumpkin-kibbeh-tart-two-fillings.jpg"
+image: "/images/recipes/pumpkin_kibbeh_tart_two_fillings.jpg"
 prepTime: 30
 cookTime: 40
 totalTime: 70

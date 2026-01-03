@@ -4,7 +4,7 @@ title: "Bulgur bi Dfin"
 slug: "bulgur-bi-dfin"
 short_description: "Traditional bulgur cooked under pressure with chickpeas, lamb flavors, and warm spices."
 description: "Ever wondered why it’s called Bulgur bi Dfin? The name comes from the traditional method—‘dfin’ means steamed or covered—referring to how bulgur absorbs rich flavors while cooking under a tight cover. Comforting and nostalgic."
-image: "/images/recipes/bulgur-bi-dfin.jpg"
+image: "/images/recipes/bulgur_bi_dfin.jpg"
 prepTime: 20
 cookTime: 70
 totalTime: 90

@@ -4,7 +4,7 @@ title: "Mjadara (Brown Lentil Purée)"
 slug: "mjadara-brown-lentil-puree"
 short_description: "A traditional Lebanese lentil dish—simple, hearty, and deeply comforting."
 description: "Mjadara is found on almost every Lebanese table. As a child it didn’t seem the most appetizing—so brown, so simple—but now it’s one of the most delicious vegetarian dishes. The fact that my family loves it is all the reason to prepare it."
-image: "/images/recipes/mjadara-brown-lentil-puree.jpg"
+image: "/images/recipes/mjadara_brown_lentil_puree.jpg"
 prepTime: 10
 cookTime: 55
 totalTime: 65

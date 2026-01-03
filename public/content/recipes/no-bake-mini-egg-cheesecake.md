@@ -4,7 +4,7 @@ title: "No-Bake Mini Egg Cheesecake"
 slug: "no-bake-mini-egg-cheesecake"
 short_description: "Creamy, light no-bake cheesecake topped with pistachio cream and mini chocolate bunnies."
 description: "This no-bake mini egg cheesecake is as fun to make as it is to eat. Creamy, light, and bursting with Easter charm—no oven required. The cutest little chocolate bunnies make it a perfect centerpiece."
-image: "/images/recipes/no-bake-mini-egg-cheesecake.jpg"
+image: "/images/recipes/no_bake_mini_egg_cheesecake.jpg"
 prepTime: 25
 cookTime: 0
 totalTime: 25

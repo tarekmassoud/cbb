@@ -4,7 +4,7 @@ title: "Rice Pudding with Strawberries & Pistachios"
 slug: "rice-pudding-with-strawberries-and-pistachios"
 short_description: "Turn leftover rice into the most delicious rice pudding with cream, honey, and vanilla."
 description: "Leftover steamed rice? Turn it into a super treat. Creamy blend of milk, honey, and vanilla with fresh strawberries and pistachios, plus a dash of rosewater for an extra layer of flavor."
-image: "/images/recipes/rice-pudding-with-strawberries-and-pistachios.jpg"
+image: "/images/recipes/rice_pudding_with_strawberries_and_pistachios.jpg"
 prepTime: 10
 cookTime: 15
 totalTime: 25

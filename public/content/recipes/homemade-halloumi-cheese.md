@@ -4,7 +4,7 @@ title: "Homemade Halloumi Cheese"
 slug: "homemade-halloumi-cheese"
 short_description: "Step-by-step halloumi made at home with simple ingredients."
 description: "Ingredients: 10 liters of non-pasteurized goat or cow milk and 1/4 tsp rennet (majbané). Follow this guided, home-friendly method—from heating and curdling to pressing and storing—for delicious halloumi."
-image: "/images/recipes/homemade-halloumi-cheese.jpg"
+image: "/images/recipes/homemade_halloumi_cheese.jpg"
 prepTime: 30
 cookTime: 150
 totalTime: 180

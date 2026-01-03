@@ -11,7 +11,7 @@ totalTime: 1440
 servings: "4 cups"
 difficulty: "Easy"
 cuisine: "Lebanese"
-course: "Sauce"
+course: "Dairy"
 tags: ["yogurt", "labneh", "homemade"]
 keywords: []
 video_url: "https://www.instagram.com/p/DJyKkvQIDqH/"

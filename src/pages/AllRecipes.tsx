@@ -40,8 +40,9 @@ const AllRecipes = () => {
     { name: "Mains", value: "main" },
     { name: "Desserts", value: "dessert" },
     { name: "Salads & Sides", value: "salad-side" },
-    { name: "Breads", value: "bread" },
-    { name: "Sauces", value: "sauce" }
+    { name: "Breads & Sandwiches", value: "bread" },
+    { name: "Sauces", value: "sauce" },
+    { name: "Dairy", value: "dairy" }
   ];
 
   const categoryMap: Record<string, string> = {
@@ -50,7 +51,8 @@ const AllRecipes = () => {
     "dessert": "Dessert",
     "salad-side": "Salad & Side",
     "bread": "Bread",
-    "sauce": "Sauce"
+    "sauce": "Sauce",
+    "dairy": "Dairy"
   };
 
   let filteredRecipes = recipes.filter(recipe => {

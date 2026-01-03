@@ -11,7 +11,7 @@ totalTime: 4320
 servings: "2–3 jars"
 difficulty: "Medium"
 cuisine: "Lebanese"
-course: "Sauce"
+course: "Dairy"
 tags: ["labneh", "preserve", "mezze"]
 keywords: ["لبنة"]
 video_url: "https://www.instagram.com/p/DJ_utW_ouok/"

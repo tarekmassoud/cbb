@@ -14,8 +14,9 @@ export const Navigation = () => {
     { name: "Mains", path: "/recipes?category=main" },
     { name: "Desserts", path: "/recipes?category=dessert" },
     { name: "Salads & Sides", path: "/recipes?category=salad-side" },
-    { name: "Breads", path: "/recipes?category=bread" },
+    { name: "Breads & Sandwiches", path: "/recipes?category=bread" },
     { name: "Sauces", path: "/recipes?category=sauce" },
+    { name: "Dairy", path: "/recipes?category=dairy" },
   ];
 
   return (

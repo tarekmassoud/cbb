@@ -37,8 +37,9 @@ const Index = () => {
     { name: "Mains", value: "Main" },
     { name: "Desserts", value: "Dessert" },
     { name: "Salads & Sides", value: "Salad & Side" },
-    { name: "Breads", value: "Bread" },
-    { name: "Sauces", value: "Sauce" }
+    { name: "Breads & Sandwiches", value: "Bread" },
+    { name: "Sauces", value: "Sauce" },
+    { name: "Dairy", value: "Dairy" }
   ];
 
   // Filter recipes based on search and category

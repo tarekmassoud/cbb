@@ -11,7 +11,7 @@ totalTime: 180
 servings: "12 pieces"
 difficulty: "Advanced"
 cuisine: "Lebanese"
-course: "Salad & Side"
+course: "Dairy"
 tags: ["cheese", "halloumi", "from-scratch", "preserving"]
 keywords: []
 video_url: "https://www.instagram.com/p/DIBxjBvImYf/"

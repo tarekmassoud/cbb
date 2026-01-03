@@ -42,18 +42,20 @@ const Index = () => {
   ];
 
   // Filter recipes based on search and category
-  const filteredRecipes = recipes.filter(recipe => {
-    const matchesSearch = searchTerm
-      ? recipe.title.toLowerCase().includes(searchTerm.toLowerCase()) ||
-        recipe.short_description.toLowerCase().includes(searchTerm.toLowerCase()) ||
-        recipe.tags.some(tag => tag.toLowerCase().includes(searchTerm.toLowerCase())) ||
-        (recipe.keywords && recipe.keywords.some(kw => kw.toLowerCase().includes(searchTerm.toLowerCase())))
-      : false;
+  const filteredRecipes = recipes
+    .filter(recipe => {
+      const matchesSearch = searchTerm
+        ? recipe.title.toLowerCase().includes(searchTerm.toLowerCase()) ||
+          recipe.short_description.toLowerCase().includes(searchTerm.toLowerCase()) ||
+          recipe.tags.some(tag => tag.toLowerCase().includes(searchTerm.toLowerCase())) ||
+          (recipe.keywords && recipe.keywords.some(kw => kw.toLowerCase().includes(searchTerm.toLowerCase())))
+        : false;
 
-    const matchesFilter = activeFilter ? recipe.course === activeFilter : true;
+      const matchesFilter = activeFilter ? recipe.course === activeFilter : true;
 
-    return searchTerm ? matchesSearch : matchesFilter;
-  });
+      return searchTerm ? matchesSearch : matchesFilter;
+    })
+    .sort((a, b) => new Date(b.date_published).getTime() - new Date(a.date_published).getTime());
 
   const categoryRecipes = (category: string) => {
     return recipes

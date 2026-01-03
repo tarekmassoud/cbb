@@ -10,7 +10,7 @@ export interface RecipeIndexItem {
   servings: string;
   difficulty: "Easy" | "Medium" | "Advanced";
   cuisine: string;
-  course: "Breakfast" | "Main" | "Dessert" | "Salad & Side" | "Bread" | "Sauce";
+  course: "Breakfast" | "Main" | "Dessert" | "Salad & Side" | "Bread" | "Sauce" | "Dairy";
   tags: string[];
   keywords?: string[];
   featured: boolean;
@@ -800,7 +800,7 @@ const recipesData: RecipeIndexItem[] = [
     servings: "2–3 jars",
     difficulty: "Medium",
     cuisine: "Lebanese",
-    course: "Sauce",
+    course: "Dairy",
     tags: ["labneh", "preserve", "mezze"],
     keywords: ["لبنة"],
     featured: false,
@@ -834,7 +834,7 @@ const recipesData: RecipeIndexItem[] = [
     servings: "4 cups",
     difficulty: "Easy",
     cuisine: "Lebanese",
-    course: "Sauce",
+    course: "Dairy",
     tags: ["yogurt", "labneh", "homemade"],
     keywords: [],
     featured: false,
@@ -851,7 +851,7 @@ const recipesData: RecipeIndexItem[] = [
     servings: "1 kg",
     difficulty: "Easy",
     cuisine: "Lebanese",
-    course: "Sauce",
+    course: "Dairy",
     tags: ["yogurt", "homemade", "basic"],
     keywords: [],
     featured: false,
@@ -1021,7 +1021,7 @@ const recipesData: RecipeIndexItem[] = [
     servings: "12 pieces",
     difficulty: "Advanced",
     cuisine: "Lebanese",
-    course: "Salad & Side",
+    course: "Dairy",
     tags: ["cheese", "halloumi", "from-scratch", "preserving"],
     keywords: [],
     featured: false,

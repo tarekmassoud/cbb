@@ -297,7 +297,8 @@ const RecipeDetail = () => {
                             onCheckedChange={() => toggleIngredient(globalIdx)}
                             className="mt-1 print:hidden"
                           />
-                          <span className={`${checkedIngredients.has(globalIdx) ? 'line-through text-muted-foreground' : ''}`}>
+                          <span className="hidden print:inline-block w-4 h-4 border border-gray-400 rounded-full mt-1 shrink-0" />
+                          <span className={`${checkedIngredients.has(globalIdx) ? 'line-through text-muted-foreground print:no-underline print:text-foreground' : ''}`}>
                             {ingredient}
                           </span>
                         </li>
@@ -332,12 +333,13 @@ const RecipeDetail = () => {
                               onCheckedChange={() => toggleStep(globalIdx)}
                               className="mt-1 print:hidden"
                             />
+                            <span className="hidden print:inline-block w-4 h-4 border border-gray-400 rounded-full mt-1 shrink-0" />
                             <div className="flex-1">
                               <span className="font-semibold text-primary mr-2">
                                 {idx + 1}.
                               </span>
                              <span 
-                                className={`${checkedSteps.has(globalIdx) ? 'line-through text-muted-foreground' : ''}`}
+                                className={`${checkedSteps.has(globalIdx) ? 'line-through text-muted-foreground print:no-underline print:text-foreground' : ''}`}
                                 dangerouslySetInnerHTML={{ 
                                   __html: step.replace(/\*\*(.+?)\*\*/g, '<strong>$1</strong>') 
                                 }}

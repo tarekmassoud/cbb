@@ -226,7 +226,7 @@ const RecipeDetail = () => {
           </div>
         </header>
 
-        <div className="mb-8 rounded-lg overflow-hidden print:mb-4 print:h-[240px] print:break-inside-avoid">
+        <div className="mb-8 rounded-lg overflow-hidden print:mb-4 print:h-[480px] print:break-inside-avoid">
           <img
             src={meta.image}
             alt={meta.title}

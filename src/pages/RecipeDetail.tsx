@@ -235,7 +235,7 @@ const RecipeDetail = () => {
           />
         </div>
 
-        <div className="grid md:grid-cols-2 gap-8 mb-12">
+        <div className="grid md:grid-cols-2 gap-8 mb-12 print:block print:break-before-page">
           <section>
             <div className="flex items-center justify-between mb-4">
               <h2 className="font-serif text-2xl font-bold text-foreground">

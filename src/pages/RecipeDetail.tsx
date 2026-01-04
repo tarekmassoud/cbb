@@ -154,11 +154,11 @@ const RecipeDetail = () => {
           Back to Recipes
         </Link>
 
-        <header className="mb-8">
-          <h1 className="font-serif text-4xl md:text-5xl font-bold mb-4 text-foreground">
+        <header className="mb-8 print:mb-4">
+          <h1 className="font-serif text-4xl md:text-5xl print:text-3xl font-bold mb-4 text-foreground">
             {meta.title}
           </h1>
-          <p className="text-xl text-muted-foreground mb-6">
+          <p className="text-xl print:text-base text-muted-foreground mb-6 print:mb-4">
             {meta.description}
           </p>
 
@@ -171,7 +171,7 @@ const RecipeDetail = () => {
             ))}
           </div>
 
-          <div className="flex flex-wrap gap-6 text-muted-foreground mb-6">
+          <div className="flex flex-wrap gap-6 text-muted-foreground mb-6 print:mb-4">
             <div className="flex items-center gap-2">
               <Clock className="w-5 h-5" />
               <span>Prep: {meta.prepTime} min</span>
@@ -226,11 +226,11 @@ const RecipeDetail = () => {
           </div>
         </header>
 
-        <div className="mb-8 rounded-lg overflow-hidden print:max-h-[40vh] print:mb-4">
+        <div className="mb-8 rounded-lg overflow-hidden print:mb-4 print:h-[240px] print:break-inside-avoid">
           <img
             src={meta.image}
             alt={meta.title}
-            className="w-full h-auto object-cover print:max-h-[40vh] print:w-auto print:mx-auto"
+            className="w-full h-auto object-cover print:h-full print:w-full"
             loading="eager"
           />
         </div>

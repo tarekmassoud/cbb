@@ -226,11 +226,11 @@ const RecipeDetail = () => {
           </div>
         </header>
 
-        <div className="mb-8 rounded-lg overflow-hidden">
+        <div className="mb-8 rounded-lg overflow-hidden print:max-h-[40vh] print:mb-4">
           <img
             src={meta.image}
             alt={meta.title}
-            className="w-full h-auto object-cover"
+            className="w-full h-auto object-cover print:max-h-[40vh] print:w-auto print:mx-auto"
             loading="eager"
           />
         </div>

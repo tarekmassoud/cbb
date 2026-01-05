@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-import { Instagram, Menu, ChevronDown } from "lucide-react";
+import { Instagram, Youtube, Facebook, Menu, ChevronDown } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import {
   DropdownMenu,
@@ -67,6 +67,24 @@ export const Navigation = () => {
             >
               <Instagram className="w-5 h-5" />
             </a>
+
+            <a 
+              href="https://www.youtube.com/@cookingbelbeit/featured" 
+              target="_blank" 
+              rel="noopener noreferrer"
+              className="flex items-center gap-2 text-foreground hover:text-primary transition-smooth"
+            >
+              <Youtube className="w-5 h-5" />
+            </a>
+
+            <a 
+              href="https://www.facebook.com/people/Cookingbelbeit/61558611525210/" 
+              target="_blank" 
+              rel="noopener noreferrer"
+              className="flex items-center gap-2 text-foreground hover:text-primary transition-smooth"
+            >
+              <Facebook className="w-5 h-5" />
+            </a>
           </div>
 
           {/* Mobile Navigation */}
@@ -95,6 +113,16 @@ export const Navigation = () => {
                 <DropdownMenuItem asChild>
                   <a href="https://instagram.com/cooking_bel_beit/" target="_blank" rel="noopener noreferrer">
                     Instagram
+                  </a>
+                </DropdownMenuItem>
+                <DropdownMenuItem asChild>
+                  <a href="https://www.youtube.com/@cookingbelbeit/featured" target="_blank" rel="noopener noreferrer">
+                    YouTube
+                  </a>
+                </DropdownMenuItem>
+                <DropdownMenuItem asChild>
+                  <a href="https://www.facebook.com/people/Cookingbelbeit/61558611525210/" target="_blank" rel="noopener noreferrer">
+                    Facebook
                   </a>
                 </DropdownMenuItem>
               </DropdownMenuContent>

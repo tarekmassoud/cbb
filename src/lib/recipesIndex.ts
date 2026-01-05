@@ -4859,7 +4859,7 @@ const recipesData: RecipeIndexItem[] = [
   title: "Orange & Fennel Roasted Chicken",
   slug: "orange-fennel-roasted-chicken",
   short_description: "Festive roast chicken with orange, fennel, herbs, and glossy citrus pan juices.",
-  image: `${BASE_URL}images/recipes/orange_fennel_roasted_chicken.jpeg`,
+  image: `${BASE_URL}images/recipes/orange_fennel_roasted_chicken.jpg`,
   prepTime: 25,
   servings: "4–6",
   difficulty: "Medium",

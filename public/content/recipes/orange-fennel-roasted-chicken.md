@@ -4,7 +4,7 @@ title: "Orange & Fennel Roasted Chicken"
 slug: "orange-fennel-roasted-chicken"
 short_description: "Juicy spatchcock chicken roasted with orange, fennel, fresh herbs, and warm spices."
 description: "A festive roast chicken infused with orange zest and juice, fennel, coriander, and sage. Spatchcocked for even cooking and finished with glossy citrus pan juices, this is a vibrant alternative to traditional holiday roasts."
-image: "/images/recipes/orange_fennel_roasted_chicken.jpeg"
+image: "/images/recipes/orange_fennel_roasted_chicken.jpg"
 prepTime: 25
 cookTime: 45
 totalTime: 70

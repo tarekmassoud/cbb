@@ -211,10 +211,10 @@ const Index = () => {
                 </Carousel>
               </div>
 
-              {/* Desktop/Laptop - Flex layout that scales */}
-              <div className="hidden sm:flex gap-4 mb-8 overflow-x-auto">
+              {/* Desktop/Laptop - Fixed width cards */}
+              <div className="hidden sm:flex gap-4 mb-8">
                 {featuredRecipes.map(recipe => (
-                  <div key={recipe.id} className="flex-1 min-w-0">
+                  <div key={recipe.id} className="w-[calc(20%-0.8rem)]">
                     <RecipeCard recipe={recipe} showMobileLayout={false} />
                   </div>
                 ))}
@@ -269,10 +269,10 @@ const Index = () => {
                       </Carousel>
                     </div>
 
-                    {/* Desktop/Laptop - Flex layout that scales */}
+                    {/* Desktop/Laptop - Fixed width cards */}
                     <div className="hidden sm:flex gap-4">
                       {catRecipes.map(recipe => (
-                        <div key={recipe.id} className="flex-1 min-w-0">
+                        <div key={recipe.id} className="w-[calc(20%-0.8rem)]">
                           <RecipeCard recipe={recipe} showMobileLayout={false} />
                         </div>
                       ))}

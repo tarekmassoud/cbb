@@ -4872,7 +4872,7 @@ const recipesData: RecipeIndexItem[] = [
   date_published: "2025-12-22",
 },
 {
-  id: "682",
+  id: "282",
   title: "Homemade Panettone",
   slug: "homemade-panettone",
   short_description: "Classic Italian panettone with dried fruit, chocolate, and citrus.",
@@ -4889,7 +4889,7 @@ const recipesData: RecipeIndexItem[] = [
   date_published: "2025-12-26",
 },
 {
-  id: "683",
+  id: "283",
   title: "Pear & Blue Cheese Salad",
   slug: "pear-blue-cheese-salad",
   short_description: "Fresh salad with pears, fennel, rocket, and blue cheese.",
@@ -4906,7 +4906,7 @@ const recipesData: RecipeIndexItem[] = [
   date_published: "2025-12-30",
 },
 {
-  id: "684",
+  id: "284",
   title: "Lemon Caper Butter Salmon",
   slug: "lemon-caper-butter-salmon",
   short_description: "Seared salmon with lemon, capers, and buttery white wine sauce.",

@@ -1,5 +1,5 @@
 ---
-id: "684"
+id: "284"
 title: "Lemon Caper Butter Salmon"
 slug: "lemon-caper-butter-salmon"
 short_description: "Pan-seared salmon finished with lemon, capers, and silky butter sauce."

@@ -1,5 +1,5 @@
 ---
-id: "682"
+id: "282"
 title: "Homemade Panettone"
 slug: "homemade-panettone"
 short_description: "A tall, fluffy Italian panettone packed with dried fruit, chocolate, and citrus peel."

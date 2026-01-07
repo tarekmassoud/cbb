@@ -188,12 +188,6 @@ const RecipeDetail = () => {
               <Users className="w-5 h-5" />
               <span>{meta.servings} servings</span>
             </div>
-            {meta.rating && (
-              <div className="flex items-center gap-2">
-                <ChefHat className="w-5 h-5" />
-                <span>Rating: {meta.rating}/5</span>
-              </div>
-            )}
           </div>
 
           <div className="print:hidden">

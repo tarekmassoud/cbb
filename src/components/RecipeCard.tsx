@@ -21,12 +21,6 @@ export const RecipeCard = ({ recipe, showMobileLayout = true }: RecipeCardProps)
             loading="lazy"
             className="w-full h-full object-cover group-hover:scale-105 transition-smooth"
           />
-          {recipe.rating && (
-            <Badge className="absolute top-3 right-3 bg-background/90 text-foreground">
-              <Star className="w-3 h-3 mr-1 fill-primary text-primary" />
-              {recipe.rating}
-            </Badge>
-          )}
         </div>
         <CardContent className="p-6 flex flex-col min-h-[180px]">
           <h3 className="font-serif text-xl font-semibold mb-2 text-foreground group-hover:text-primary transition-smooth line-clamp-2 h-[3.5rem]">

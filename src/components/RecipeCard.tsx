@@ -45,32 +45,22 @@ export const RecipeCard = ({ recipe, showMobileLayout = true }: RecipeCardProps)
       {/* Mobile Compact Layout */}
       {showMobileLayout && (
         <Card className="md:hidden overflow-hidden border card-shadow hover:card-hover-shadow transition-smooth">
-        <div className="flex gap-3 p-3">
-          <div className="w-16 h-16 flex-shrink-0 overflow-hidden rounded">
-            <img
-              src={recipe.image}
-              alt={recipe.title}
-              loading="lazy"
-              className="w-full h-full object-cover"
-            />
-          </div>
-          <div className="flex-1 flex flex-col justify-between text-center gap-1.5 min-w-0 pr-2">
-            <h3 className="font-serif text-sm font-semibold text-foreground line-clamp-1 group-hover:text-primary transition-smooth w-full h-[1.25rem]">
-              {recipe.title}
-            </h3>
-            <div className="flex items-center justify-center gap-4 text-xs text-muted-foreground mt-auto flex-nowrap">
-              <div className="flex items-center gap-1.5 flex-shrink-0">
-                <Clock className="w-3.5 h-3.5 flex-shrink-0" />
-                <span className="whitespace-nowrap">{recipe.prepTime} min</span>
-              </div>
-              <div className="flex items-center gap-1.5 min-w-0">
-                <Users className="w-3.5 h-3.5 flex-shrink-0" />
-                <span className="truncate">{recipe.servings}</span>
-              </div>
+          <div className="flex gap-3 p-3">
+            <div className="w-16 h-16 flex-shrink-0 overflow-hidden rounded">
+              <img
+                src={recipe.image}
+                alt={recipe.title}
+                loading="lazy"
+                className="w-full h-full object-cover"
+              />
+            </div>
+            <div className="flex-1 flex items-center justify-center min-w-0 pr-2">
+              <h3 className="font-serif text-sm font-semibold text-foreground text-center group-hover:text-primary transition-smooth">
+                {recipe.title}
+              </h3>
             </div>
           </div>
-        </div>
-      </Card>
+        </Card>
       )}
     </Link>
   );

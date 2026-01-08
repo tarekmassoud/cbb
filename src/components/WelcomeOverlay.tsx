@@ -21,7 +21,7 @@ export const WelcomeOverlay = ({ onEnter, isVisible }: WelcomeOverlayProps) => {
             <div className="relative md:order-2">
               <div className="aspect-[3/4] rounded-2xl overflow-hidden card-shadow max-w-sm mx-auto md:max-w-none">
                 <img 
-                  src="/cbb/images/chef-hero.jpg"
+                  src="/images/chef-hero.jpg"
                   alt="Chef Katia smiling in the kitchen"
                   className="w-full h-full object-cover"
                 />

@@ -8,7 +8,7 @@ const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
 
 export default defineConfig(({ mode }) => ({
-  base: "/cbb/",                  // GitHub Pages project path
+  base: "/",                  // GitHub Pages project path
   server: { host: "::", port: 8080 },
   build: { sourcemap: true },     // <-- show real file/line in prod
 

@@ -32,7 +32,7 @@ const recipesData: RecipeIndexItem[] = [
     course: "Main",
     tags: ["coussa", "mehche", "zucchinis"],
     keywords: ["كوسة"],
-    featured: true,
+    featured: false,
     rating: 4.8,
     date_published: "2025-05-31"
   },
@@ -49,7 +49,7 @@ const recipesData: RecipeIndexItem[] = [
     course: "Main",
     tags: ["seafood", "healthy", "fish"],
     keywords: ["صيادية"],
-    featured: true,
+    featured: false,
     rating: 4.9,
     date_published: "2025-10-10"
   },
@@ -463,7 +463,7 @@ const recipesData: RecipeIndexItem[] = [
     course: "Breakfast",
     tags: ["eggs", "tomato", "one-pan", "brunch", "chickpeas"],
     keywords: ["شكشوكة"],
-    featured: true,
+    featured: false,
     rating: 4.8,
     date_published: "2025-08-27"
   },
@@ -514,7 +514,7 @@ const recipesData: RecipeIndexItem[] = [
     course: "Dessert",
     tags: ["cake", "plum", "vanilla", "summer"],
     keywords: [],
-    featured: true,
+    featured: false,
     rating: 4.8,
     date_published: "2025-08-15"
   },
@@ -548,7 +548,7 @@ const recipesData: RecipeIndexItem[] = [
     course: "Main",
     tags: ["green-beans", "olive-oil", "tomato", "vegan", "stew"],
     keywords: ["لوبية بزيت"],
-    featured: true,
+    featured: false,
     rating: 4.9,
     date_published: "2025-08-04"
   },
@@ -4787,7 +4787,7 @@ const recipesData: RecipeIndexItem[] = [
     course: "Dessert",
     tags: ["cookies", "christmas", "spices", "icing"],
     keywords: [],
-    featured: true,
+    featured: false,
     date_published: "2025-12-06"
   },
   {
@@ -4803,7 +4803,7 @@ const recipesData: RecipeIndexItem[] = [
     course: "Dessert",
     tags: ["chocolate", "christmas", "no-bake", "dessert"],
     keywords: [],
-    featured: true,
+    featured: false,
     date_published: "2025-12-09"
   },
   {
@@ -4835,7 +4835,7 @@ const recipesData: RecipeIndexItem[] = [
     course: "Bread",
     tags: ["bread", "garlic", "parmesan", "christmas"],
     keywords: [],
-    featured: true,
+    featured: false,
     date_published: "2025-12-14"
   },
   {
@@ -4851,7 +4851,7 @@ const recipesData: RecipeIndexItem[] = [
     course: "Dessert",
     tags: ["apple", "cake", "french", "baking"],
     keywords: [],
-    featured: false,
+    featured: true,
     date_published: "2025-12-15"
   },
   {
@@ -4867,7 +4867,7 @@ const recipesData: RecipeIndexItem[] = [
   course: "Main",
   tags: ["roast_chicken", "orange", "fennel", "holiday"],
   keywords: [],
-  featured: false,
+  featured: true,
   rating: 4.8,
   date_published: "2025-12-22",
 },
@@ -4884,7 +4884,7 @@ const recipesData: RecipeIndexItem[] = [
   course: "Dessert",
   tags: ["panettone", "christmas", "yeast", "holiday"],
   keywords: [],
-  featured: false,
+  featured: true,
   rating: 4.9,
   date_published: "2025-12-26",
 },
@@ -4901,7 +4901,7 @@ const recipesData: RecipeIndexItem[] = [
   course: "Salad & Side",
   tags: ["salad", "pear", "blue_cheese", "festive"],
   keywords: [],
-  featured: false,
+  featured: true,
   rating: 4.6,
   date_published: "2025-12-30",
 },
@@ -4918,7 +4918,7 @@ const recipesData: RecipeIndexItem[] = [
   course: "Main",
   tags: ["salmon", "lemon", "capers", "seafood"],
   keywords: [],
-  featured: false,
+  featured: true,
   rating: 4.8,
   date_published: "2025-12-31",
 }

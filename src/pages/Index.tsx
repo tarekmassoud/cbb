@@ -1,11 +1,10 @@
-import { useState, useEffect } from "react";
+import { useState } from "react";
 import { Link } from "react-router-dom";
 import { Search, ArrowRight } from "lucide-react";
 import { useQuery } from "@tanstack/react-query";
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
 import { RecipeCard } from "@/components/RecipeCard";
-import { WelcomeOverlay } from "@/components/WelcomeOverlay";
 import { Navigation } from "@/components/Navigation";
 import { fetchRecipesIndex } from "@/lib/recipesIndex";
 import { Badge } from "@/components/ui/badge";
@@ -16,12 +15,8 @@ import {
   CarouselNext,
   CarouselPrevious,
 } from "@/components/ui/carousel";
-import chefHero from "@/assets/chef-hero.jpg";
 
 const Index = () => {
-  const [showWelcome, setShowWelcome] = useState(() => {
-    return sessionStorage.getItem('hasSeenWelcome') !== 'true';
-  });
   const [searchTerm, setSearchTerm] = useState("");
   const [activeFilter, setActiveFilter] = useState<string | null>(null);
   
@@ -65,11 +60,6 @@ const Index = () => {
       .slice(0, 5); // Take the 5 most recent (newest to oldest, left to right)
   };
 
-  const handleEnterSite = () => {
-    sessionStorage.setItem('hasSeenWelcome', 'true');
-    setShowWelcome(false);
-  };
-
   if (isLoading) {
     return (
       <div className="min-h-screen flex items-center justify-center">
@@ -79,10 +69,7 @@ const Index = () => {
   }
 
   return (
-    <>
-      <WelcomeOverlay onEnter={handleEnterSite} isVisible={showWelcome} />
-      
-      <div className={`min-h-screen transition-opacity duration-300 ${showWelcome ? 'opacity-0' : 'opacity-100'}`}>
+    <div className="min-h-screen">
         <Navigation />
 
         {/* Hero Section with Search */}
@@ -301,7 +288,6 @@ const Index = () => {
           </div>
         </footer>
       </div>
-    </>
   );
 };
 

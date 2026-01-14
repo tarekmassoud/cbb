@@ -18,49 +18,7 @@ const About = () => {
             </p>
           </div>
 
-          <div className="grid md:grid-cols-2 gap-12 items-center mb-16">
-            <div className="aspect-[3/4] rounded-2xl overflow-hidden card-shadow">
-              <img 
-                src="/images/chef-hero.jpg"
-                alt="Katia in the kitchen"
-                className="w-full h-full object-cover"
-              />
-            </div>
-
-            <div className="space-y-6">
-              <p className="text-lg text-foreground leading-relaxed">
-                Welcome to Cooking bel beit! I'm Katia, and I've been sharing 
-                the joy of Lebanese cooking with food lovers around 
-                the world through my Instagram page.
-              </p>
-              <p className="text-lg text-foreground leading-relaxed">
-                Growing up in a Lebanese household, I learned that the best meals 
-                are made with love, simple ingredients, and time-tested techniques 
-                passed down through generations. My mission is to make these 
-                authentic flavors accessible to everyone.
-              </p>
-              <p className="text-lg text-foreground leading-relaxed">
-                Every recipe you'll find here is something I've cooked countless 
-                times in my own kitchen. From weeknight favorites to special 
-                occasion dishes, these are the meals that bring my family and 
-                friends together around the table.
-              </p>
-              <div className="pt-4">
-                <a 
-                  href="https://instagram.com/cooking_bel_beit/" 
-                  target="_blank" 
-                  rel="noopener noreferrer"
-                >
-                  <Button size="lg" className="hero-gradient border-0 text-white">
-                    <Instagram className="mr-2 w-5 h-5" />
-                    Follow My Journey
-                  </Button>
-                </a>
-              </div>
-            </div>
-          </div>
-
-          <div className="bg-accent/30 rounded-2xl p-8 md:p-12">
+          <div className="bg-accent/30 rounded-2xl p-8 md:p-12 mb-16">
             <h2 className="font-serif text-3xl font-bold mb-6 text-foreground">
               What You'll Find Here
             </h2>
@@ -99,6 +57,48 @@ const About = () => {
                   Every recipe has been perfected through years of cooking for 
                   family and friends.
                 </p>
+              </div>
+            </div>
+          </div>
+
+          <div className="grid md:grid-cols-2 gap-12 items-center">
+            <div className="aspect-[3/4] rounded-2xl overflow-hidden card-shadow">
+              <img 
+                src="/images/chef-hero.jpg"
+                alt="Katia in the kitchen"
+                className="w-full h-full object-cover"
+              />
+            </div>
+
+            <div className="space-y-6">
+              <p className="text-lg text-foreground leading-relaxed">
+                Welcome to Cooking bel beit! I'm Katia, and I've been sharing 
+                the joy of Lebanese cooking with food lovers around 
+                the world through my Instagram page.
+              </p>
+              <p className="text-lg text-foreground leading-relaxed">
+                Growing up in a Lebanese household, I learned that the best meals 
+                are made with love, simple ingredients, and time-tested techniques 
+                passed down through generations. My mission is to make these 
+                authentic flavors accessible to everyone.
+              </p>
+              <p className="text-lg text-foreground leading-relaxed">
+                Every recipe you'll find here is something I've cooked countless 
+                times in my own kitchen. From weeknight favorites to special 
+                occasion dishes, these are the meals that bring my family and 
+                friends together around the table.
+              </p>
+              <div className="pt-4">
+                <a 
+                  href="https://instagram.com/cooking_bel_beit/" 
+                  target="_blank" 
+                  rel="noopener noreferrer"
+                >
+                  <Button size="lg" className="hero-gradient border-0 text-white">
+                    <Instagram className="mr-2 w-5 h-5" />
+                    Follow My Journey
+                  </Button>
+                </a>
               </div>
             </div>
           </div>

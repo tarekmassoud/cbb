@@ -77,21 +77,58 @@ const About = () => {
           {/* Bio text section below */}
           <div className="space-y-6">
             <p className="text-lg text-foreground leading-relaxed">
-              Welcome to Cooking bel beit! I'm Katia, and I've been sharing 
-              the joy of Lebanese cooking with food lovers around 
-              the world through my Instagram page.
+              Hello, I am Katia the cook Mom behind @cooking_bel_beit. 
             </p>
             <p className="text-lg text-foreground leading-relaxed">
-              Growing up in a Lebanese household, I learned that the best meals 
-              are made with love, simple ingredients, and time-tested techniques 
-              passed down through generations. My mission is to make these 
-              authentic flavors accessible to everyone.
+              My Journey with food started when I became a mother. Introducing 
+              solid food to my babies and the importance of instilling a sense 
+              of good taste and healthy habits from the very beginning got me 
+              hooked to the smells, the pots, the eggs, the sugar, the butter. 
             </p>
             <p className="text-lg text-foreground leading-relaxed">
-              Every recipe you'll find here is something I've cooked countless 
-              times in my own kitchen. From weeknight favorites to special 
-              occasion dishes, these are the meals that bring my family and 
-              friends together around the table.
+              My kitchen became the warmest place in my home, not only because 
+              of the oven heat but because of the warmth of the family and the 
+              warmth of love; the love of cooking.
+            </p>
+            <p className="text-lg text-foreground leading-relaxed">
+              My instagram journey started on a beautiful sunny day. I was grilling 
+              fish when my teenage son took pictures, created an Instagram account, 
+              posted the pictures, and said: “Mom your dishes always bring us 
+              together, lets show your love of food.”
+            </p>
+            <p className="text-lg text-foreground leading-relaxed">
+              And here I am, hooked, cooking and sharing!
+            </p>
+            <p className="text-lg text-foreground leading-relaxed">
+              I am lucky to live in one of the smallest, most beautiful country 
+              in the world, Lebanon. Our healthy cuisine is rich with an abundance 
+              of whole grains, vegetables, fresh Mediterranean fish and olive oil, 
+              lots of olive oil.
+            </p>
+            <p className="text-lg text-foreground leading-relaxed">
+              I live in a tranquil village not far from Beirut, with my husband 
+              and two sons. Our house is surrounded by olive trees and our garden 
+              is a big happy place where cousins grew up together, climbed trees, 
+              lied down on the grass and played with the dog and the cats, and 
+              where adults gathered around a large wooden table under the mulberry 
+              tree raised their glasses of wine and arak and enjoyed healthy 
+              traditional food. My Tabbouleh and Fattouch are always prepared 
+              with fresh vegetables from the garden, and my quiches and cakes 
+              are made from the fresh eggs of our chickens. 
+            </p>
+            <p className="text-lg text-foreground leading-relaxed">
+              Cooking changed my life, it became funnier, and it made me healthier 
+              and closer to nature. My passion is to inspire newly married couples, 
+              especially young moms to cook for their children, families and 
+              friends, and to spread my love for the Lebanese cuisine. 
+            </p>
+            <p className="text-lg text-foreground leading-relaxed">
+              I also love to share cooking tips that I learned over time, and 
+              show the right places where to buy fresh ingredients and shops 
+              where to find beautiful kitchen tools. 
+            </p>
+            <p className="text-lg text-foreground leading-relaxed">
+              Lots of  Lovvvvv.
             </p>
           </div>
         </div>

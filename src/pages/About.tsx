@@ -1,10 +1,8 @@
 import { Instagram } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { Navigation } from "@/components/Navigation";
-
 const About = () => {
-  return (
-    <div className="min-h-screen">
+  return <div className="min-h-screen">
       <Navigation />
 
       <main className="py-16 px-6">
@@ -21,15 +19,11 @@ const About = () => {
           {/* Top section: Image + What You'll Find Here side by side */}
           <div className="grid md:grid-cols-2 gap-8 items-stretch mb-12">
             <div className="aspect-[3/4] rounded-2xl overflow-hidden card-shadow">
-              <img 
-                src="/images/chef-hero.jpg"
-                alt="Katia in the kitchen"
-                className="w-full h-full object-cover"
-              />
+              <img src="/images/chef-hero.jpg" alt="Katia in the kitchen" className="w-full h-full object-cover" />
             </div>
 
             <div className="flex flex-col">
-              <div className="bg-accent/30 rounded-2xl p-6 md:p-8 flex flex-col text-center flex-1">
+              <div className="bg-accent/30 rounded-2xl p-6 md:p-8 text-center flex-1 flex-col gap-[15px] flex items-center justify-start">
                 <h2 className="font-serif text-3xl font-bold mb-4 text-foreground">
                   What You'll Find Here
                 </h2>
@@ -71,12 +65,7 @@ const About = () => {
                   </div>
                 </div>
               </div>
-              <a 
-                href="https://instagram.com/cooking_bel_beit/" 
-                target="_blank" 
-                rel="noopener noreferrer"
-                className="mt-4 w-full"
-              >
+              <a href="https://instagram.com/cooking_bel_beit/" target="_blank" rel="noopener noreferrer" className="mt-4 w-full">
                 <Button size="lg" className="hero-gradient border-0 text-white w-full">
                   <Instagram className="mr-2 w-5 h-5" />
                   Follow My Journey
@@ -112,19 +101,12 @@ const About = () => {
         <div className="container mx-auto text-center">
           <p className="text-muted-foreground">
             © 2024 Cooking bel beit. Follow on{" "}
-            <a 
-              href="https://instagram.com/cooking_bel_beit/" 
-              target="_blank" 
-              rel="noopener noreferrer"
-              className="text-primary hover:underline"
-            >
+            <a href="https://instagram.com/cooking_bel_beit/" target="_blank" rel="noopener noreferrer" className="text-primary hover:underline">
               Instagram
             </a>
           </p>
         </div>
       </footer>
-    </div>
-  );
+    </div>;
 };
-
 export default About;

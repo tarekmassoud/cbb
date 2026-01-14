@@ -28,11 +28,11 @@ const About = () => {
               />
             </div>
 
-            <div className="bg-accent/30 rounded-2xl p-6 md:p-8 flex flex-col">
-              <h2 className="font-serif text-2xl font-bold mb-4 text-foreground">
+            <div className="bg-accent/30 rounded-2xl p-6 md:p-8 flex flex-col text-center">
+              <h2 className="font-serif text-3xl font-bold mb-4 text-foreground">
                 What You'll Find Here
               </h2>
-              <div className="flex flex-col gap-4 flex-1">
+              <div className="flex flex-col gap-3">
                 <div>
                   <h3 className="text-lg font-semibold mb-1 text-foreground">
                     Authentic Recipes
@@ -69,6 +69,18 @@ const About = () => {
                   </p>
                 </div>
               </div>
+              <div className="mt-4">
+                <a 
+                  href="https://instagram.com/cooking_bel_beit/" 
+                  target="_blank" 
+                  rel="noopener noreferrer"
+                >
+                  <Button size="lg" className="hero-gradient border-0 text-white">
+                    <Instagram className="mr-2 w-5 h-5" />
+                    Follow My Journey
+                  </Button>
+                </a>
+              </div>
             </div>
           </div>
 
@@ -91,18 +103,6 @@ const About = () => {
               occasion dishes, these are the meals that bring my family and 
               friends together around the table.
             </p>
-            <div className="pt-4">
-              <a 
-                href="https://instagram.com/cooking_bel_beit/" 
-                target="_blank" 
-                rel="noopener noreferrer"
-              >
-                <Button size="lg" className="hero-gradient border-0 text-white">
-                  <Instagram className="mr-2 w-5 h-5" />
-                  Follow My Journey
-                </Button>
-              </a>
-            </div>
           </div>
         </div>
       </main>

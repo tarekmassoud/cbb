@@ -28,59 +28,60 @@ const About = () => {
               />
             </div>
 
-            <div className="bg-accent/30 rounded-2xl p-6 md:p-8 flex flex-col text-center">
-              <h2 className="font-serif text-3xl font-bold mb-4 text-foreground">
-                What You'll Find Here
-              </h2>
-              <div className="flex flex-col gap-3">
-                <div>
-                  <h3 className="text-lg font-semibold mb-1 text-foreground">
-                    Authentic Recipes
-                  </h3>
-                  <p className="text-sm text-muted-foreground">
-                    Traditional Lebanese and International dishes made with authentic 
-                    ingredients and techniques.
-                  </p>
-                </div>
-                <div>
-                  <h3 className="text-lg font-semibold mb-1 text-foreground">
-                    Clear Instructions
-                  </h3>
-                  <p className="text-sm text-muted-foreground">
-                    Step-by-step guides that make even complex dishes approachable 
-                    for home cooks.
-                  </p>
-                </div>
-                <div>
-                  <h3 className="text-lg font-semibold mb-1 text-foreground">
-                    Video Guides
-                  </h3>
-                  <p className="text-sm text-muted-foreground">
-                    Watch along on Instagram as I demonstrate each recipe in real-time.
-                  </p>
-                </div>
-                <div>
-                  <h3 className="text-lg font-semibold mb-1 text-foreground">
-                    Family Tested
-                  </h3>
-                  <p className="text-sm text-muted-foreground">
-                    Every recipe has been perfected through years of cooking for 
-                    family and friends.
-                  </p>
+            <div className="flex flex-col">
+              <div className="bg-accent/30 rounded-2xl p-6 md:p-8 flex flex-col text-center flex-1">
+                <h2 className="font-serif text-3xl font-bold mb-4 text-foreground">
+                  What You'll Find Here
+                </h2>
+                <div className="flex flex-col gap-3">
+                  <div>
+                    <h3 className="text-lg font-semibold mb-1 text-foreground">
+                      Authentic Recipes
+                    </h3>
+                    <p className="text-sm text-muted-foreground">
+                      Traditional Lebanese and International dishes made with authentic 
+                      ingredients and techniques.
+                    </p>
+                  </div>
+                  <div>
+                    <h3 className="text-lg font-semibold mb-1 text-foreground">
+                      Clear Instructions
+                    </h3>
+                    <p className="text-sm text-muted-foreground">
+                      Step-by-step guides that make even complex dishes approachable 
+                      for home cooks.
+                    </p>
+                  </div>
+                  <div>
+                    <h3 className="text-lg font-semibold mb-1 text-foreground">
+                      Video Guides
+                    </h3>
+                    <p className="text-sm text-muted-foreground">
+                      Watch along on Instagram as I demonstrate each recipe in real-time.
+                    </p>
+                  </div>
+                  <div>
+                    <h3 className="text-lg font-semibold mb-1 text-foreground">
+                      Family Tested
+                    </h3>
+                    <p className="text-sm text-muted-foreground">
+                      Every recipe has been perfected through years of cooking for 
+                      family and friends.
+                    </p>
+                  </div>
                 </div>
               </div>
-              <div className="mt-4">
-                <a 
-                  href="https://instagram.com/cooking_bel_beit/" 
-                  target="_blank" 
-                  rel="noopener noreferrer"
-                >
-                  <Button size="lg" className="hero-gradient border-0 text-white">
-                    <Instagram className="mr-2 w-5 h-5" />
-                    Follow My Journey
-                  </Button>
-                </a>
-              </div>
+              <a 
+                href="https://instagram.com/cooking_bel_beit/" 
+                target="_blank" 
+                rel="noopener noreferrer"
+                className="mt-4 w-full"
+              >
+                <Button size="lg" className="hero-gradient border-0 text-white w-full">
+                  <Instagram className="mr-2 w-5 h-5" />
+                  Follow My Journey
+                </Button>
+              </a>
             </div>
           </div>
 

@@ -23,7 +23,7 @@ const About = () => {
             </div>
 
             <div className="flex flex-col">
-              <div className="bg-accent/30 rounded-2xl p-6 md:p-8 text-center flex-1 flex-col gap-[15px] flex items-center justify-start">
+              <div className="bg-accent/30 rounded-2xl pt-6 md:pt-8 pb-4 md:pb-5 px-6 md:px-8 text-center flex-1 flex-col gap-[15px] flex items-center justify-start">
                 <h2 className="font-serif text-3xl font-bold mb-4 text-foreground">
                   What You'll Find Here
                 </h2>
@@ -65,7 +65,7 @@ const About = () => {
                   </div>
                 </div>
               </div>
-              <a href="https://instagram.com/cooking_bel_beit/" target="_blank" rel="noopener noreferrer" className="mt-4 w-full">
+              <a href="https://instagram.com/cooking_bel_beit/" target="_blank" rel="noopener noreferrer" className="mt-6 w-full">
                 <Button size="lg" className="hero-gradient border-0 text-white w-full">
                   <Instagram className="mr-2 w-5 h-5" />
                   Follow My Journey

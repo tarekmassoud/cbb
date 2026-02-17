@@ -17,7 +17,7 @@ keywords: ["shrimp fried rice"]
 video_url: "https://www.instagram.com/p/DTlpwjQiMBE/"
 featured: false
 rating: 4.7
-date_published: "2025-01-18"
+date_published: "2026-01-18"
 ---
 
 ## Ingredients

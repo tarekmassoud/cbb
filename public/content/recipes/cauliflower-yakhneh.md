@@ -17,7 +17,7 @@ keywords: ["cauliflower stew"]
 video_url: "https://www.instagram.com/p/DUIAUAsCCEs/"
 featured: false
 rating: 4.7
-date_published: "2025-01-31"
+date_published: "2026-01-31"
 ---
 
 ## Ingredients

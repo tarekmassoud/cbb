@@ -17,7 +17,7 @@ keywords: ["freekeh salad", "pumpkin salad", "middle eastern salad"]
 video_url: "https://www.instagram.com/p/DUl2NUsCJwc/"
 featured: false
 rating: 4.9
-date_published: "2025-02-13"
+date_published: "2026-02-13"
 ---
 
 ## Ingredients

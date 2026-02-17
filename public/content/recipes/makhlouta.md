@@ -17,7 +17,7 @@ keywords: ["makhlouta"]
 video_url: "https://www.instagram.com/p/DTbKbbfiDpY/"
 featured: false
 rating: 4.7
-date_published: "2025-01-13"
+date_published: "2026-01-13"
 ---
 
 ## Ingredients

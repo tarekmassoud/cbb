@@ -17,7 +17,7 @@ keywords: ["butternut soup"]
 video_url: "https://www.instagram.com/p/DUZEAoyCG_D/"
 featured: false
 rating: 4.7
-date_published: "2025-02-08"
+date_published: "2026-02-08"
 ---
 
 ## Ingredients

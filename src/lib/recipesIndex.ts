@@ -4937,7 +4937,7 @@ const recipesData: RecipeIndexItem[] = [
     keywords: ["beef shawarma", "oven shawarma", "tahini sauce"],
     featured: false,
     rating: 4.7,
-    date_published: "2025-01-08",
+    date_published: "2026-01-08",
   },
   {
     id: "286",
@@ -4954,7 +4954,7 @@ const recipesData: RecipeIndexItem[] = [
     keywords: ["maklouba", "maqluba", "cauliflower maklouba"],
     featured: false,
     rating: 4.7,
-    date_published: "2025-01-11",
+    date_published: "2026-01-11",
   },
   {
     id: "287",
@@ -4971,7 +4971,7 @@ const recipesData: RecipeIndexItem[] = [
     keywords: ["makhlouta", "lebanese lentil stew", "mixed beans stew"],
     featured: false,
     rating: 4.7,
-    date_published: "2025-01-13",
+    date_published: "2026-01-13",
   },
   {
     id: "288",
@@ -4988,7 +4988,7 @@ const recipesData: RecipeIndexItem[] = [
     keywords: ["shrimp fried rice", "fried rice with cabbage", "wok recipe"],
     featured: false,
     rating: 4.7,
-    date_published: "2025-01-18",
+    date_published: "2026-01-18",
   },
   {
     id: "289",
@@ -5005,7 +5005,7 @@ const recipesData: RecipeIndexItem[] = [
     keywords: ["butter basted steak", "cast iron steak", "entrecote"],
     featured: false,
     rating: 4.7,
-    date_published: "2025-01-21",
+    date_published: "2026-01-21",
   },
   {
     id: "290",
@@ -5022,7 +5022,7 @@ const recipesData: RecipeIndexItem[] = [
     keywords: ["fasoulia", "green beans stew", "yakhneh"],
     featured: false,
     rating: 4.7,
-    date_published: "2025-01-25",
+    date_published: "2026-01-25",
   },
   {
     id: "291",
@@ -5039,7 +5039,7 @@ const recipesData: RecipeIndexItem[] = [
     keywords: ["eggs awarma", "lebanese breakfast", "awarma eggs"],
     featured: false,
     rating: 4.7,
-    date_published: "2025-01-28",
+    date_published: "2026-01-28",
   },
   {
     id: "292",
@@ -5056,7 +5056,7 @@ const recipesData: RecipeIndexItem[] = [
     keywords: ["cauliflower stew", "cauliflower yakhneh", "lebanese stew"],
     featured: false,
     rating: 4.7,
-    date_published: "2025-01-31",
+    date_published: "2026-01-31",
   },
   {
     id: "293",
@@ -5073,7 +5073,7 @@ const recipesData: RecipeIndexItem[] = [
     keywords: ["moussaka lebanese", "moussakaa", "eggplant chickpea stew"],
     featured: false,
     rating: 4.7,
-    date_published: "2025-02-04",
+    date_published: "2026-02-04",
   },
   {
     id: "294",
@@ -5090,7 +5090,7 @@ const recipesData: RecipeIndexItem[] = [
     keywords: ["butternut soup", "sweet potato soup", "pumpkin soup"],
     featured: false,
     rating: 4.7,
-    date_published: "2025-02-08",
+    date_published: "2026-02-08",
   },
   {
   id: "295",
@@ -5107,7 +5107,7 @@ const recipesData: RecipeIndexItem[] = [
   keywords: ["leek soup", "potato soup", "leek and potato soup"],
   featured: false,
   rating: 4.8,
-  date_published: "2025-02-11",
+  date_published: "2026-02-11",
 },
 {
   id: "296",
@@ -5124,7 +5124,7 @@ const recipesData: RecipeIndexItem[] = [
   keywords: ["freekeh salad", "pumpkin salad", "middle eastern salad"],
   featured: false,
   rating: 4.9,
-  date_published: "2025-02-13",
+  date_published: "2026-02-13",
 }
 
 ];

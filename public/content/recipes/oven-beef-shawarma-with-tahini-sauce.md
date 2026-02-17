@@ -17,7 +17,7 @@ keywords: ["beef shawarma", "oven shawarma", "tahini sauce"]
 video_url: "https://www.instagram.com/p/DTM-yReCOqR/"
 featured: false
 rating: 4.7
-date_published: "2025-01-08"
+date_published: "2026-01-08"
 ---
 
 ## Ingredients

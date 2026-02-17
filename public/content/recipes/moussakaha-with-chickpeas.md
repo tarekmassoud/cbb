@@ -17,7 +17,7 @@ keywords: ["eggplant stew"]
 video_url: "https://www.instagram.com/p/DUSWkuyiJNp/"
 featured: false
 rating: 4.7
-date_published: "2025-02-04"
+date_published: "2026-02-04"
 ---
 
 ## Ingredients

@@ -17,7 +17,7 @@ keywords: ["fasoulia"]
 video_url: "https://www.instagram.com/p/DT2okzuCDNn/"
 featured: false
 rating: 4.7
-date_published: "2025-01-25"
+date_published: "2026-01-25"
 ---
 
 ## Ingredients

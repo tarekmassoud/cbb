@@ -17,7 +17,7 @@ keywords: ["cast iron steak"]
 video_url: "https://www.instagram.com/p/DTuYbFiiJij/"
 featured: false
 rating: 4.7
-date_published: "2025-01-21"
+date_published: "2026-01-21"
 ---
 
 ## Ingredients

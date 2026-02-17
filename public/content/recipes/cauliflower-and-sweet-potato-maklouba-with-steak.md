@@ -17,7 +17,7 @@ keywords: ["maklouba", "maqluba"]
 video_url: "https://www.instagram.com/p/DTTt_k-CJ_P/"
 featured: false
 rating: 4.7
-date_published: "2025-01-11"
+date_published: "2026-01-11"
 ---
 
 ## Ingredients

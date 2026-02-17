@@ -17,7 +17,7 @@ keywords: ["leek soup", "potato soup", "leek and potato soup"]
 video_url: "https://www.instagram.com/p/DUjBbPoCGfj/"
 featured: false
 rating: 4.8
-date_published: "2025-02-11"
+date_published: "2026-02-11"
 ---
 
 ## Ingredients

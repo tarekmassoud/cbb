@@ -17,7 +17,7 @@ keywords: ["awarma eggs"]
 video_url: "https://www.instagram.com/p/DUAIjE7iIvB/"
 featured: false
 rating: 4.7
-date_published: "2025-01-28"
+date_published: "2026-01-28"
 ---
 
 ## Ingredients

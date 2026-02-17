@@ -5091,7 +5091,41 @@ const recipesData: RecipeIndexItem[] = [
     featured: false,
     rating: 4.7,
     date_published: "2025-02-08",
-  }
+  },
+  {
+  id: "295",
+  title: "Leek and Potato Soup",
+  slug: "leek-and-potato-soup",
+  short_description: "Creamy, comforting leek and potato soup topped with crispy leeks.",
+  image: `${BASE_URL}images/recipes/leek_and_potato_soup.jpg`,
+  prepTime: 15,
+  servings: "6",
+  difficulty: "Easy",
+  cuisine: "International",
+  course: "Salad & Side",
+  tags: ["soup", "leek", "potato", "comfort-food", "winter"],
+  keywords: ["leek soup", "potato soup", "leek and potato soup"],
+  featured: false,
+  rating: 4.8,
+  date_published: "2025-02-11",
+},
+{
+  id: "296",
+  title: "Freekeh Salad with Roasted Pumpkin",
+  slug: "freekeh-salad-with-roasted-pumpkin",
+  short_description: "Vibrant freekeh salad with roasted pumpkin, avocado, pomegranate, and molasses dressing.",
+  image: `${BASE_URL}images/recipes/freekeh_salad_roasted_pumpkin.jpg`,
+  prepTime: 20,
+  servings: "4",
+  difficulty: "Easy",
+  cuisine: "Middle Eastern",
+  course: "Salad & Side",
+  tags: ["freekeh", "salad", "pumpkin", "healthy", "middle-eastern"],
+  keywords: ["freekeh salad", "pumpkin salad", "middle eastern salad"],
+  featured: false,
+  rating: 4.9,
+  date_published: "2025-02-13",
+}
 
 ];
 

@@ -56,7 +56,7 @@ export const FeaturedCarousel = ({ recipes }: FeaturedCarouselProps) => {
         <Card className="overflow-hidden border card-shadow hover:card-hover-shadow transition-smooth">
           <div className="flex flex-col sm:flex-row h-[350px] sm:h-[280px]">
             {/* Left side - Text content */}
-            <div className="sm:w-[45%] flex flex-col items-center justify-center px-6 py-6 text-center order-2 sm:order-1">
+            <div className="sm:w-[60%] flex flex-col items-center justify-center px-6 py-6 text-center order-2 sm:order-1">
               <h3 className="font-serif text-2xl md:text-3xl font-bold text-foreground group-hover:text-primary transition-smooth mb-3 line-clamp-2">
                 {recipe.title}
               </h3>
@@ -75,8 +75,8 @@ export const FeaturedCarousel = ({ recipes }: FeaturedCarouselProps) => {
               </div>
             </div>
 
-            {/* Right side - Image (55% width) */}
-            <div className="sm:w-[55%] h-40 sm:h-full overflow-hidden order-1 sm:order-2">
+            {/* Right side - Image (2/5) */}
+            <div className="sm:w-[40%] h-40 sm:h-full overflow-hidden order-1 sm:order-2">
               <img
                 src={recipe.image}
                 alt={recipe.title}

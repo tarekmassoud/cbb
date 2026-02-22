@@ -54,7 +54,7 @@ export const FeaturedCarousel = ({ recipes }: FeaturedCarouselProps) => {
       {/* Card */}
       <Link to={`/recipe/${recipe.slug}`} className="group block">
         <Card className="overflow-hidden border card-shadow hover:card-hover-shadow transition-smooth">
-          <div className="flex flex-col sm:flex-row h-[350px] sm:h-[280px]">
+          <div className="flex flex-col sm:flex-row h-[420px] sm:h-[336px]">
             {/* Left side - Text content */}
             <div className="sm:w-[60%] flex flex-col items-center justify-center px-6 py-6 text-center order-2 sm:order-1">
               <h3 className="font-serif text-2xl md:text-3xl font-bold text-foreground group-hover:text-primary transition-smooth mb-3 line-clamp-2">

@@ -15,6 +15,7 @@ import {
   CarouselNext,
   CarouselPrevious,
 } from "@/components/ui/carousel";
+import { FeaturedCarousel } from "@/components/FeaturedCarousel";
 
 const Index = () => {
   const [searchTerm, setSearchTerm] = useState("");
@@ -178,36 +179,14 @@ const Index = () => {
                 <h2 className="font-serif text-3xl md:text-4xl font-bold mb-1 text-foreground">
                   Featured Recipes
                 </h2>
-              <p className="text-muted-foreground text-sm md:text-base">
-                My favorite dishes of the moment
-              </p>
+                <p className="text-muted-foreground text-sm md:text-base">
+                  My favorite dishes of the moment
+                </p>
               </div>
               
-              {/* Mobile Carousel */}
-              <div className="sm:hidden mb-8">
-                <Carousel className="w-full max-w-sm mx-auto">
-                  <CarouselContent>
-                    {featuredRecipes.map(recipe => (
-                      <CarouselItem key={recipe.id}>
-                        <RecipeCard recipe={recipe} showMobileLayout={false} />
-                      </CarouselItem>
-                    ))}
-                  </CarouselContent>
-                  <CarouselPrevious />
-                  <CarouselNext />
-                </Carousel>
-              </div>
+              <FeaturedCarousel recipes={featuredRecipes} />
 
-              {/* Desktop/Laptop - Fixed width cards */}
-              <div className="hidden sm:flex gap-4 mb-8">
-                {featuredRecipes.map(recipe => (
-                  <div key={recipe.id} className="w-[calc(20%-0.8rem)]">
-                    <RecipeCard recipe={recipe} showMobileLayout={false} />
-                  </div>
-                ))}
-              </div>
-
-              <div className="text-center">
+              <div className="text-center mt-10">
                 <Link to="/recipes">
                   <Button size="lg" variant="outline">
                     View All Recipes

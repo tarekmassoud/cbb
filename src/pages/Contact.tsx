@@ -118,14 +118,20 @@ const Contact = () => {
               </CardContent>
             </Card>
 
-            <Card className="card-shadow text-center">
+            <Card className="card-shadow text-center"> 
               <CardContent className="pt-6">
                 <Send className="w-12 h-12 text-primary mx-auto mb-4" />
                 <h3 className="text-xl font-semibold mb-2 text-foreground">Collaborations</h3>
                 <p className="text-muted-foreground mb-4">Work together</p>
-                <Button variant="outline">
-                  Let's Talk
-                </Button>
+                <a
+                  href="https://www.instagram.com/direct/t/116750483046822/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <Button variant="outline">
+                    Let's Talk
+                  </Button>
+                </a>
               </CardContent>
             </Card>
           </div>

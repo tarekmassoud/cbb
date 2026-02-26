@@ -124,7 +124,7 @@ const Contact = () => {
                 <h3 className="text-xl font-semibold mb-2 text-foreground">Collaborations</h3>
                 <p className="text-muted-foreground mb-4">Work together</p>
                 <a
-                  href="https://www.instagram.com/direct/t/116750483046822/"
+                  href="https://ig.me/m/cooking_bel_beit"
                   target="_blank"
                   rel="noopener noreferrer"
                 >

@@ -5141,7 +5141,7 @@ const recipesData: RecipeIndexItem[] = [
   keywords: ["pickled turnips", "lebanese pickles", "pink pickles"],
   featured: false,
   rating: 4.9,
-  date_published: "2025-02-15",
+  date_published: "2026-02-15",
 },
 {
   id: "298",
@@ -5158,7 +5158,7 @@ const recipesData: RecipeIndexItem[] = [
   keywords: ["mushroom soup", "porcini soup"],
   featured: false,
   rating: 4.8,
-  date_published: "2025-02-17",
+  date_published: "2026-02-17",
 },
 {
   id: "299",
@@ -5175,7 +5175,7 @@ const recipesData: RecipeIndexItem[] = [
   keywords: ["freekeh chicken", "saffron freekeh"],
   featured: false,
   rating: 4.9,
-  date_published: "2025-02-18",
+  date_published: "2026-02-18",
 },
 {
   id: "300",
@@ -5192,7 +5192,7 @@ const recipesData: RecipeIndexItem[] = [
   keywords: ["mhalabieh", "milk pudding", "arabic dessert"],
   featured: false,
   rating: 4.9,
-  date_published: "2025-02-20",
+  date_published: "2026-02-20",
 },
 {
   id: "301",
@@ -5209,7 +5209,7 @@ const recipesData: RecipeIndexItem[] = [
   keywords: ["stuffed artichokes", "artichoke bake"],
   featured: false,
   rating: 4.8,
-  date_published: "2025-02-22",
+  date_published: "2026-02-22",
 },
 {
   id: "302",
@@ -5226,7 +5226,7 @@ const recipesData: RecipeIndexItem[] = [
   keywords: ["halloumi salad", "pesto salad"],
   featured: false,
   rating: 4.7,
-  date_published: "2025-02-23",
+  date_published: "2026-02-23",
 },
 {
   id: "303",
@@ -5243,7 +5243,7 @@ const recipesData: RecipeIndexItem[] = [
   keywords: ["chicory sandwich", "lebanese saj"],
   featured: false,
   rating: 4.6,
-  date_published: "2025-02-26",
+  date_published: "2026-02-26",
 }
 
 ];

@@ -33,7 +33,7 @@ const Contact = () => {
     setIsSubmitting(true);
 
     try {
-      const response = await fetch("https://formspree.io/f/mbdawkbv", { // Link to change to put mom's email
+      const response = await fetch("https://formspree.io/f/mpqjbelr", { // Link to change to put mom's email
         method: "POST",
         headers: {
           "Content-Type": "application/json",

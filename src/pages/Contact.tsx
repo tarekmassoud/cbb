@@ -1,4 +1,4 @@
-import { useState } from "react";
+import React, { useState } from "react";
 import { Instagram, Mail, Send } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
@@ -16,10 +16,11 @@ const Contact = () => {
     message: ""
   });
 
-  const handleSubmit = (e: React.FormEvent) => {
+  const [isSubmitting, setIsSubmitting] = useState(false);
+
+  const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
-    
-    // Basic validation
+
     if (!formData.name || !formData.email || !formData.message) {
       toast({
         title: "Missing Information",
@@ -29,14 +30,46 @@ const Contact = () => {
       return;
     }
 
-    // In a real app, you would send this to a backend
-    toast({
-      title: "Message Sent!",
-      description: "Thank you for reaching out. I'll get back to you soon!",
-    });
+    setIsSubmitting(true);
 
-    // Reset form
-    setFormData({ name: "", email: "", subject: "", message: "" });
+    try {
+      const response = await fetch("https://formspree.io/f/mbdawkbv", { // Link to change to put mom's email
+        method: "POST",
+        headers: {
+          "Content-Type": "application/json",
+          Accept: "application/json",
+        },
+        body: JSON.stringify(formData),
+      });
+
+      if (response.ok) {
+        toast({
+          title: "Message Sent!",
+          description: "Thank you for reaching out. I'll get back to you soon!",
+        });
+
+        setFormData({
+          name: "",
+          email: "",
+          subject: "",
+          message: ""
+        });
+      } else {
+        toast({
+          title: "Something went wrong",
+          description: "Your message could not be sent. Please try again.",
+          variant: "destructive"
+        });
+      }
+    } catch (error) {
+      toast({
+        title: "Network Error",
+        description: "Unable to send message right now. Please try again later.",
+        variant: "destructive"
+      });
+    } finally {
+      setIsSubmitting(false);
+    }
   };
 
   return (
@@ -160,12 +193,13 @@ const Contact = () => {
                 </div>
 
                 <Button 
-                  type="submit" 
-                  size="lg" 
-                  className="w-full md:w-auto hero-gradient border-0 text-white"
-                >
-                  <Send className="mr-2 w-5 h-5" />
-                  Send Message
+                type="submit" 
+                size="lg" 
+                className="w-full md:w-auto hero-gradient border-0 text-white"
+                disabled={isSubmitting}
+              >
+                <Send className="mr-2 w-5 h-5" />
+                {isSubmitting ? "Sending..." : "Send Message"}
                 </Button>
               </form>
             </CardContent>

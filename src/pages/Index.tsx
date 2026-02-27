@@ -79,7 +79,7 @@ const Index = () => {
           <div className="container mx-auto relative z-10 flex-1 flex items-center justify-center">
             <div className="max-w-3xl mx-auto text-center">
               <h1 className="font-serif text-4xl md:text-6xl font-bold mb-6 text-foreground">
-                Search {recipes.length}+ Recipes
+                Search<br className="md:hidden" /> {recipes.length}+ Recipes
               </h1>
               <p className="text-base md:text-xl text-muted-foreground mb-8">
                 Discover Mediterranean and Lebanese favorites, from weeknight dinners to special occasions

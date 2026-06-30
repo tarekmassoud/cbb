@@ -1,0 +1,29 @@
+# Cooking Bel Beit
+
+> Home-style Lebanese and Mediterranean recipes from Katia's kitchen, with step-by-step instructions for everyday cooking.
+
+Cooking Bel Beit is a recipe collection by Katia, the cook and mom behind @cooking_bel_beit. The site features traditional Lebanese dishes, international favorites, breads, desserts, salads, soups, and family-tested meals. Each recipe includes ingredients, grouped instructions, cooking time, servings, and printable formatting. Recipes are organized by category and can be browsed or searched directly from the homepage.
+
+## Pages
+
+- [/](/): Featured recipes and category highlights.
+- [/recipes](/recipes): Browse all recipes in one searchable list.
+- [/about](/about): About Katia, her cooking journey, and what you'll find on the site.
+- [/contact](/contact): Get in touch or share feedback.
+
+## Recipes
+
+- [/recipe/classic-tabbouleh](/recipe/classic-tabbouleh): Fresh Lebanese parsley and bulgur salad.
+- [/recipe/homemade-labneh](/recipe/homemade-labneh): Creamy strained yogurt cheese with olive oil.
+- [/recipe/baba-ghanouj-smoky-eggplant-dip](/recipe/baba-ghanouj-smoky-eggplant-dip): Smoky eggplant dip with tahini and lemon.
+- [/recipe/roast-beef](/recipe/roast-beef): Roast beef with beans, gravy, and step-by-step instructions.
+- [/recipe/alayet-bamyeh-okra](/recipe/alayet-bamyeh-okra): Sautéed okra with cherry tomatoes and spices.
+- [/recipe/homemade-baguette](/recipe/homemade-baguette): Classic French baguette made at home.
+- [/recipe/chocolate-cake-glossy-ganache](/recipe/chocolate-cake-glossy-ganache): Rich chocolate cake with a glossy ganache finish.
+- [/recipe/sheikh-el-mehshi-stuffed-eggplants](/recipe/sheikh-el-mehshi-stuffed-eggplants): Stuffed eggplants in a rich tomato sauce.
+- [/recipe/slow-roasted-leg-of-lamb](/recipe/slow-roasted-leg-of-lamb): Tender leg of lamb roasted low and slow.
+- [/recipe/kiwi-pavlova](/recipe/kiwi-pavlova): Crisp meringue topped with cream and kiwi.
+
+## Optional
+
+- [Instagram @cooking_bel_beit](https://instagram.com/cooking_bel_beit/): Follow Katia for daily cooking videos and behind-the-scenes updates.

@@ -10,6 +10,7 @@ import { Checkbox } from "@/components/ui/checkbox";
 import { Carousel, CarouselContent, CarouselItem } from "@/components/ui/carousel";
 import { toast } from "sonner";
 import { scaleIngredient, parseServings } from "@/lib/recipeScaling";
+import { RecipeJsonLd } from "@/components/RecipeJsonLd";
 
 const RecipeDetail = () => {
   const { slug } = useParams<{ slug: string }>();
@@ -141,6 +142,7 @@ const RecipeDetail = () => {
 
   return (
     <div className="min-h-screen print:bg-white">
+      <RecipeJsonLd recipe={recipe} />
       <div className="print:hidden">
         <Navigation />
       </div>

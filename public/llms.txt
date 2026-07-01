@@ -11,18 +11,357 @@ Cooking Bel Beit is a recipe collection by Katia, the cook and mom behind @cooki
 - [/about](/about): About Katia, her cooking journey, and what you'll find on the site.
 - [/contact](/contact): Get in touch or share feedback.
 
-## Recipes
+## Featured Recipes
 
-- [/recipe/classic-tabbouleh](/recipe/classic-tabbouleh): Fresh Lebanese parsley and bulgur salad.
-- [/recipe/homemade-labneh](/recipe/homemade-labneh): Creamy strained yogurt cheese with olive oil.
-- [/recipe/baba-ghanouj-smoky-eggplant-dip](/recipe/baba-ghanouj-smoky-eggplant-dip): Smoky eggplant dip with tahini and lemon.
-- [/recipe/roast-beef](/recipe/roast-beef): Roast beef with beans, gravy, and step-by-step instructions.
-- [/recipe/alayet-bamyeh-okra](/recipe/alayet-bamyeh-okra): Sautéed okra with cherry tomatoes and spices.
-- [/recipe/homemade-baguette](/recipe/homemade-baguette): Classic French baguette made at home.
-- [/recipe/chocolate-cake-glossy-ganache](/recipe/chocolate-cake-glossy-ganache): Rich chocolate cake with a glossy ganache finish.
-- [/recipe/sheikh-el-mehshi-stuffed-eggplants](/recipe/sheikh-el-mehshi-stuffed-eggplants): Stuffed eggplants in a rich tomato sauce.
-- [/recipe/slow-roasted-leg-of-lamb](/recipe/slow-roasted-leg-of-lamb): Tender leg of lamb roasted low and slow.
-- [/recipe/kiwi-pavlova](/recipe/kiwi-pavlova): Crisp meringue topped with cream and kiwi.
+- [/recipe/garlic-parmesan-turkey-bread](/recipe/garlic-parmesan-turkey-bread): Pull-apart dinner rolls shaped like a turkey, brushed with garlic parmesan butter.
+- [/recipe/festive-chocolate-bark](/recipe/festive-chocolate-bark): Swirled chocolate bark topped with holiday candies and crushed candy canes.
+- [/recipe/spiced-christmas-star-cookies](/recipe/spiced-christmas-star-cookies): Warmly spiced star cookies dipped in a simple sugar icing.
+- [/recipe/sayyadiyeh](/recipe/sayyadiyeh): Perfectly cooked white fish with marinated rice.
+- [/recipe/mehcheh-coussa](/recipe/mehcheh-coussa): Stuffed zucchinis cooked in tomato sauce.
+- [/recipe/cooked-artichokes](/recipe/cooked-artichokes): Cooked artichokes Lebanese mezze
+- [/recipe/roast-beef](/recipe/roast-beef): Garlic-studded roast beef with green beans, mash, and silky pan gravy.
+- [/recipe/chocoalte-and-red-berries-cupcakes](/recipe/chocoalte-and-red-berries-cupcakes): Almond-meal chocolate & red-berry cupcakes, maple-sweet and fluffy.
+
+## All Recipes
+
+- [/recipe/sweet-potato-and-minced-meat-power-bowl](/recipe/sweet-potato-and-minced-meat-power-bowl): A quick power bowl with roasted sweet potato, minced meat, mozzarella, avocado, and fresh salad.
+- [/recipe/sardine-dip](/recipe/sardine-dip): A simple sardine dip with lemon, capers, red onion, parsley, and cress.
+- [/recipe/tahini-carob-freezer-slices](/recipe/tahini-carob-freezer-slices): A no-bake freezer dessert with tahini, carob molasses, sesame seeds, walnuts, and almonds.
+- [/recipe/healthy-date-peanut-butter-bars](/recipe/healthy-date-peanut-butter-bars): Layered bars made with dates, peanut butter, banana, and dark chocolate.
+- [/recipe/turkish-style-tray-lamb-with-vegetables](/recipe/turkish-style-tray-lamb-with-vegetables): A tray-baked lamb dish with onions, tomatoes, peppers, garlic, and a tangy tomato-sumac sauce.
+- [/recipe/sweet-potato-chocolate-mousse-cake](/recipe/sweet-potato-chocolate-mousse-cake): A rich chocolate mousse cake made with sweet potatoes, dark chocolate, and cocoa.
+- [/recipe/yekhnit-artichoke](/recipe/yekhnit-artichoke): A soft, lemony artichoke stew with meat, onions, and a light flour-thickened broth.
+- [/recipe/fteer-il-zaatar](/recipe/fteer-il-zaatar): A layered zaatar bread filled with fresh zaatar, onions, sumac, and olive oil.
+- [/recipe/chicken-burger-with-creamy-slaw-and-melted-cheddar](/recipe/chicken-burger-with-creamy-slaw-and-melted-cheddar): A juicy chicken burger with creamy slaw, melted cheddar, onion rounds, and brioche buns.
+- [/recipe/sushi-date-rolls](/recipe/sushi-date-rolls): Soft date rolls with peanut butter, banana, walnuts, and shredded coconut.
+- [/recipe/green-fava-bean-maklouba](/recipe/green-fava-bean-maklouba): A spring-inspired maklouba with green fava beans, lamb, turmeric rice, and nuts.
+- [/recipe/date-molasses-kaak](/recipe/date-molasses-kaak): Small almond flour kaak sweetened with date molasses and coated in sesame seeds.
+- [/recipe/green-almond-herb-salad-with-pomegranate](/recipe/green-almond-herb-salad-with-pomegranate): A crisp spring salad with green almonds, herbs, cucumber, pomegranate, and lemon.
+- [/recipe/air-fryer-chicken-veggie-bowl-with-avocado-and-quinoa](/recipe/air-fryer-chicken-veggie-bowl-with-avocado-and-quinoa): An air fryer bowl with marinated chicken, vegetables, quinoa, and fresh avocado.
+- [/recipe/kebab-sandwich-oven-baked-tray](/recipe/kebab-sandwich-oven-baked-tray): A flavorful tray-baked kebab sandwich with hummus, sumac onions, rocca, and tomatoes.
+- [/recipe/soft-chocolate-cookies-with-lotus-and-pistachio](/recipe/soft-chocolate-cookies-with-lotus-and-pistachio): Rich soft chocolate cookies finished with melted Lotus and pistachio spread.
+- [/recipe/chicken-curry-with-coconut-milk](/recipe/chicken-curry-with-coconut-milk): A quick chicken curry with coconut milk, peppers, zucchini, parsley, and raisins.
+- [/recipe/baked-paccheri-bolognese-with-bechamel](/recipe/baked-paccheri-bolognese-with-bechamel): Paccheri baked with rich Bolognese, creamy béchamel, and mozzarella.
+- [/recipe/date-almond-chocolate-bark](/recipe/date-almond-chocolate-bark): A simple 3-ingredient bark with dates, dark chocolate, and roasted almonds.
+- [/recipe/homemade-baguette](/recipe/homemade-baguette): Fresh homemade baguette with a simple flour, water, salt, and yeast dough.
+- [/recipe/green-smoothie](/recipe/green-smoothie): A nourishing green smoothie with yogurt, banana, avocado, pineapple, spinach, and honey.
+- [/recipe/zaalouk](/recipe/zaalouk): A Moroccan eggplant and tomato dip with herbs, spices, lemon, and pomegranate.
+- [/recipe/lentil-soup-with-pumpkin-kibbeh](/recipe/lentil-soup-with-pumpkin-kibbeh): A hearty lentil and bulgur soup with vegetables, lemon, parsley, and pumpkin kibbeh.
+- [/recipe/kibbet-batata](/recipe/kibbet-batata): A Lebanese potato kibbeh with bulgur, onion, walnuts, and olive oil.
+- [/recipe/crepes](/recipe/crepes): Thin, delicate homemade crêpes with a simple milk, cream, and egg batter.
+- [/recipe/coconut-fish-curry-with-vegetables](/recipe/coconut-fish-curry-with-vegetables): A creamy coconut fish curry with carrots, peas, spinach, and warm spices.
+- [/recipe/baked-kafta-with-tomato-paste](/recipe/baked-kafta-with-tomato-paste): Oven-baked kafta with onions, tomatoes, cherry tomatoes, and green chili.
+- [/recipe/lent-veggie-sandwich](/recipe/lent-veggie-sandwich): A fresh sandwich layered with roasted vegetables, sumac onion, and crisp salad.
+- [/recipe/kishk-soup](/recipe/kishk-soup): A creamy kishk soup with tender lamb, garlic, and traditional Lebanese sides.
+- [/recipe/giant-butter-beans-spinach-stew](/recipe/giant-butter-beans-spinach-stew): A hearty butter bean stew with vegetables, stock, rice, and baby spinach.
+- [/recipe/chicory-olive-saj-sandwich](/recipe/chicory-olive-saj-sandwich): Simple Lebanese chicory and olive saj sandwich.
+- [/recipe/halloumi-salad-pesto-dressing](/recipe/halloumi-salad-pesto-dressing): Colorful halloumi salad with fresh pesto dressing.
+- [/recipe/stuffed-artichokes-mushroom-bechamel](/recipe/stuffed-artichokes-mushroom-bechamel): Baked artichoke bottoms stuffed with mushrooms and béchamel.
+- [/recipe/mhalabieh](/recipe/mhalabieh): Silky Lebanese milk pudding with rose water.
+- [/recipe/freekeh-chicken-saffron](/recipe/freekeh-chicken-saffron): Nutty freekeh with chicken, warm spices and saffron.
+- [/recipe/porcini-chestnut-mushroom-soup](/recipe/porcini-chestnut-mushroom-soup): Creamy mushroom soup with porcini and chestnuts.
+- [/recipe/homemade-pickled-turnips](/recipe/homemade-pickled-turnips): Classic Lebanese pink pickled turnips with beet and garlic.
+- [/recipe/freekeh-salad-with-roasted-pumpkin](/recipe/freekeh-salad-with-roasted-pumpkin): Vibrant freekeh salad with roasted pumpkin, avocado, pomegranate, and molasses dressing.
+- [/recipe/leek-and-potato-soup](/recipe/leek-and-potato-soup): Creamy, comforting leek and potato soup topped with crispy leeks.
+- [/recipe/butternut-squash-and-sweet-potato-soup](/recipe/butternut-squash-and-sweet-potato-soup): Silky squash and sweet potato soup with warm spices.
+- [/recipe/moussakaha-with-chickpeas](/recipe/moussakaha-with-chickpeas): Eggplant and chickpea Lebanese comfort dish.
+- [/recipe/cauliflower-yakhneh](/recipe/cauliflower-yakhneh): Roasted cauliflower simmered with meat and garlic.
+- [/recipe/eggs-with-awarma](/recipe/eggs-with-awarma): Lebanese eggs cooked with lamb awarma.
+- [/recipe/green-beans-yakhneh](/recipe/green-beans-yakhneh): Classic Lebanese green bean stew with meat.
+- [/recipe/butter-basted-cast-iron-steak](/recipe/butter-basted-cast-iron-steak): Perfectly seared steak basted with butter and herbs.
+- [/recipe/shrimp-fried-rice-with-peas-and-cabbage](/recipe/shrimp-fried-rice-with-peas-and-cabbage): Fast shrimp fried rice with vegetables and sesame.
+- [/recipe/makhlouta](/recipe/makhlouta): A hearty Lebanese meatless stew of mixed legumes and rice.
+- [/recipe/cauliflower-and-sweet-potato-maklouba-with-steak](/recipe/cauliflower-and-sweet-potato-maklouba-with-steak): Layered maklouba with roasted cauliflower, sweet potatoes, and tender steak.
+- [/recipe/oven-beef-shawarma-with-tahini-sauce](/recipe/oven-beef-shawarma-with-tahini-sauce): Restaurant-style beef shawarma baked in the oven, served with a punchy tahini-garlic sauce.
+- [/recipe/lemon-caper-butter-salmon](/recipe/lemon-caper-butter-salmon): Pan-seared salmon finished with lemon, capers, and silky butter sauce.
+- [/recipe/pear-blue-cheese-salad](/recipe/pear-blue-cheese-salad): A fresh and elegant salad with pears, fennel, rocket, and creamy blue cheese.
+- [/recipe/homemade-panettone](/recipe/homemade-panettone): A tall, fluffy Italian panettone packed with dried fruit, chocolate, and citrus peel.
+- [/recipe/orange-fennel-roasted-chicken](/recipe/orange-fennel-roasted-chicken): Juicy spatchcock chicken roasted with orange, fennel, fresh herbs, and warm spices.
+- [/recipe/pomme-au-nid-apple-cake](/recipe/pomme-au-nid-apple-cake): A light French apple cake with whole apples baked inside and a jam center.
+- [/recipe/garlic-parmesan-turkey-bread](/recipe/garlic-parmesan-turkey-bread): Pull-apart dinner rolls shaped like a turkey, brushed with garlic parmesan butter.
+- [/recipe/spinach-cheese-quiche](/recipe/spinach-cheese-quiche): Creamy spinach and cheese quiche baked in a buttery shortcrust base.
+- [/recipe/festive-chocolate-bark](/recipe/festive-chocolate-bark): Swirled chocolate bark topped with holiday candies and crushed candy canes.
+- [/recipe/spiced-christmas-star-cookies](/recipe/spiced-christmas-star-cookies): Warmly spiced star cookies dipped in a simple sugar icing.
+- [/recipe/wholemeal-poppy-seed-lavash](/recipe/wholemeal-poppy-seed-lavash): Thin, crispy wholemeal lavash sprinkled with poppy seeds and olive oil.
+- [/recipe/butternut-squash-lasagna-no-pasta](/recipe/butternut-squash-lasagna-no-pasta): A comforting lasagna made without pasta, layered with butternut squash, béchamel, meat sauce, and mozzarella.
+- [/recipe/spinach-stew-lamb-baked-kibbeh](/recipe/spinach-stew-lamb-baked-kibbeh): Lebanese spinach and lamb stew finished with baked kibbeh balls and toasted pine nuts.
+- [/recipe/japanese-style-fries-curry-ketchup](/recipe/japanese-style-fries-curry-ketchup): Crispy Japanese style fries made from a potato dough, served with a tangy curry ketchup.
+- [/recipe/vanilla-creme-brulee-raspberries](/recipe/vanilla-creme-brulee-raspberries): Silky vanilla custard baked with raspberries and topped with a crisp caramelized sugar crust.
+- [/recipe/fattet-shrimp-aubergine-yogurt-tahini](/recipe/fattet-shrimp-aubergine-yogurt-tahini): Roasted aubergine and chickpeas layered with creamy yogurt-tahini sauce, juicy shrimp, and crunchy toppings.
+- [/recipe/bulgur-banadoura-garlic-cucumber-yogurt](/recipe/bulgur-banadoura-garlic-cucumber-yogurt): Hearty bulgur pilav simmered with tomatoes and chickpeas, served with a cool garlic-cucumber yogurt.
+- [/recipe/bresaola-sandwich-spelt-country-bread](/recipe/bresaola-sandwich-spelt-country-bread): Toasted spelt country bread layered with Parmesan, mozzarella, tomatoes, bresaola, and fresh rocca.
+- [/recipe/mini-labneh-and-makdous-cups](/recipe/mini-labneh-and-makdous-cups): Bite-sized cups with creamy labneh, tangy makdouss, and fresh mint.
+- [/recipe/brioche-french-toast-custard-berries](/recipe/brioche-french-toast-custard-berries): Thick brioche slices soaked in a rich custard, pan-fried and topped with fresh berries and honey.
+- [/recipe/kebbeh-quinoa-balls-with-keshk](/recipe/kebbeh-quinoa-balls-with-keshk): Oven-baked kebbeh quinoa balls served with warm garlicky keshk sauce.
+- [/recipe/japanese-style-egg-sandwich](/recipe/japanese-style-egg-sandwich): Creamy, fluffy egg salad made by separating yolks and whites, layered on soft pain de mie with avocado.
+- [/recipe/chocolate-banana-apple-syrup-tarte-tatin](/recipe/chocolate-banana-apple-syrup-tarte-tatin): Skillet tarte tatin of bananas set in an apple-syrup butter caramel with melted dark chocolate, baked under puff pastry and flipped to serve.
+- [/recipe/potato-crusted-swiss-chard-tart](/recipe/potato-crusted-swiss-chard-tart): Potato-crusted tart with Swiss chard, onions, garlic, eggs, cream, and mozzarella—golden, soft, and comforting.
+- [/recipe/quick-marinated-green-olives](/recipe/quick-marinated-green-olives): Fresh green olives mixed with coarse salt, lemon, chili, and a drop of olive oil. Ready in about five days.
+- [/recipe/sayyadiyeh](/recipe/sayyadiyeh): Perfectly cooked white fish with marinated rice.
+- [/recipe/beef-stir-fry-mixed-bell-peppers](/recipe/beef-stir-fry-mixed-bell-peppers): Thin-sliced beef and colorful peppers in a glossy soy-oyster sauce with ginger, garlic, and sesame.
+- [/recipe/mint-pea-quinoa-blinis](/recipe/mint-pea-quinoa-blinis): Oven-baked blinis of peas, ricotta, quinoa, and mint with a lemony yogurt sauce.
+- [/recipe/tahini-pistachio-date-bites](/recipe/tahini-pistachio-date-bites): No-bake date and tahini bites rolled in pistachio and cardamom. Naturally sweet.
+- [/recipe/smoked-salmon-sandwich-sourdough](/recipe/smoked-salmon-sandwich-sourdough): Avocado, cottage cheese with dill, rocket leaves, smoked salmon, and red onion on sourdough.
+- [/recipe/laban-emmo](/recipe/laban-emmo): A comforting Lebanese laban dish with lamb shanks, pearl onions, and pine nuts.
+- [/recipe/lentil-protein-crackers-moringa](/recipe/lentil-protein-crackers-moringa): Crispy, nourishing plant-based crackers boosted with moringa.
+- [/recipe/shrimp-stir-fry](/recipe/shrimp-stir-fry): Juicy shrimp with peppers, zucchini, aromatics, and a quick soy-sesame sauce.
+- [/recipe/green-bean-lamb-stew](/recipe/green-bean-lamb-stew): Lebanese-style stewed green beans with lamb, tomato, and aromatics.
+- [/recipe/chard-black-eyed-peas](/recipe/chard-black-eyed-peas): Tender black-eyed peas, caramelized onions, and fresh lemon juice over chard.
+- [/recipe/shakshouka-with-chickpeas](/recipe/shakshouka-with-chickpeas): Baked eggs in a spiced fresh-tomato sauce with chickpeas.
+- [/recipe/chocolate-banana-peanut-butter-pops](/recipe/chocolate-banana-peanut-butter-pops): Frozen banana pops filled with peanut butter and dipped in chocolate.
+- [/recipe/alayet-bamyeh-okra](/recipe/alayet-bamyeh-okra): Stir-fried okra with roasted cherry tomatoes, onions, chilies, coriander, and pomegranate molasses.
+- [/recipe/plum-cake-vanilla-syrup](/recipe/plum-cake-vanilla-syrup): Light, fruity summer cake topped with plums and finished with a warm vanilla syrup.
+- [/recipe/stuffed-are3](/recipe/stuffed-are3): Zesty stuffed wild squash with rice, minced meat, garlic, dried mint, and lemon.
+- [/recipe/loubieh-bi-zeit](/recipe/loubieh-bi-zeit): Roman green beans gently stewed with tomatoes, onions, garlic, and olive oil.
+- [/recipe/toum-garlic-paste](/recipe/toum-garlic-paste): Classic Lebanese garlic emulsion—light, fluffy, and boldly garlicky.
+- [/recipe/lebanese-green-bean-salad](/recipe/lebanese-green-bean-salad): Old-school side salad: blanched green beans, garlicky verjuice dressing, tomatoes, and optional potatoes.
+- [/recipe/homemade-basil-pesto](/recipe/homemade-basil-pesto): Vivid green, lemony pesto you’ll want to put on everything.
+- [/recipe/oven-roasted-mixed-vegetables](/recipe/oven-roasted-mixed-vegetables): Any veg you like—olive oil, oregano, sea salt, cracked pepper—roasted to perfection.
+- [/recipe/sunday-eggs-garden-greens-lemon](/recipe/sunday-eggs-garden-greens-lemon): Baked eggs with sautéed kale & chard, lemon, sumac, and chili.
+- [/recipe/arroz-con-pollo-chorizo](/recipe/arroz-con-pollo-chorizo): Spanish-inspired chicken and rice with peppers, saffron, peas, and chorizo.
+- [/recipe/tabbouleh-parsley-bulgur-salad](/recipe/tabbouleh-parsley-bulgur-salad): Curly parsley, fresh mint, tomatoes, lemon, olive oil, and sumac.
+- [/recipe/grilled-zucchini-ricotta-capers-salad](/recipe/grilled-zucchini-ricotta-capers-salad): Charred zucchini with a honey-balsamic-oregano vinaigrette, capers, walnuts, and ricotta.
+- [/recipe/mixed-seed-crackers](/recipe/mixed-seed-crackers): Crunchy, nourishing crackers packed with seeds and herbs.
+- [/recipe/kousa-bi-laban](/recipe/kousa-bi-laban): Seared zucchini stuffed with beef and pine nuts, finished in a garlicky yogurt–tahini sauce.
+- [/recipe/tuna-sandwich](/recipe/tuna-sandwich): Classic tuna, mayo, and Dijon with herbs, capers, and crisp greens.
+- [/recipe/mnazlit-el-khodra](/recipe/mnazlit-el-khodra): Cozy Lebanese vegetable stew: onion, eggplant, zucchini, peppers, chickpeas, tomato.
+- [/recipe/mrabba-el-jozz](/recipe/mrabba-el-jozz): Traditional green walnut jam—aromatic, glossy, and celebratory.
+- [/recipe/mehcheh-coussa](/recipe/mehcheh-coussa): Stuffed zucchinis cooked in tomato sauce.
+- [/recipe/rocky-road-bars](/recipe/rocky-road-bars): No-bake chocolate bars with biscuits, marshmallows, pistachios, hazelnuts, and peanuts.
+- [/recipe/labneh-balls-olive-oil](/recipe/labneh-balls-olive-oil): Rich, tangy labneh rolled into balls and preserved in extra virgin olive oil.
+- [/recipe/mograbieh-lebanese-couscous](/recipe/mograbieh-lebanese-couscous): Pearl couscous with spiced broth, lamb shanks, chicken, pearl onions, and chickpeas.
+- [/recipe/homemade-labneh](/recipe/homemade-labneh): Strained yogurt turned into tangy, spreadable labneh.
+- [/recipe/homemade-yogurt](/recipe/homemade-yogurt): Just milk and a spoon of yogurt—no preservatives, creamy and fresh.
+- [/recipe/cauliflower-fatteh-labban-tahini](/recipe/cauliflower-fatteh-labban-tahini): Roasted cauliflower, chickpeas, and pine nuts layered with garlicky labban–tahini and pomegranate.
+- [/recipe/four-layer-chocolate-cake](/recipe/four-layer-chocolate-cake): Moist, rich chocolate cake finished with a glossy dark-chocolate ganache.
+- [/recipe/lebanese-spinach-with-beef](/recipe/lebanese-spinach-with-beef): Spinach sauté with onions, ground beef, lemon, and pine nuts.
+- [/recipe/foul-mdammas-with-chickpeas](/recipe/foul-mdammas-with-chickpeas): Hearty breakfast of warm favas and chickpeas with garlic, lemon, and olive oil.
+- [/recipe/halloumi-guacamole-egg-stack](/recipe/halloumi-guacamole-egg-stack): Crispy grilled halloumi layered with fresh guacamole and a silky poached egg.
+- [/recipe/pumpkin-sage-pasta](/recipe/pumpkin-sage-pasta): Silky pumpkin sauce with crispy sage tossed through pasta—simple and cozy.
+- [/recipe/eress-3anneh-salad-sea-holly](/recipe/eress-3anneh-salad-sea-holly): Crisp, peppery Eress 3anneh with fennel, onion, radishes, cabbage, and a bright lemon-vinegar dressing.
+- [/recipe/taro-with-lentils-kilkass-bi-3adass](/recipe/taro-with-lentils-kilkass-bi-3adass): A comforting Lebanese taro and brown lentil stew finished with lemon and garlic.
+- [/recipe/salty-cheddar-biscuits](/recipe/salty-cheddar-biscuits): Savory, puffy cheddar-parmesan biscuits with a hint of smoked paprika—perfect snack or side.
+- [/recipe/khebbayzeh-with-chickpeas-wild-herb](/recipe/khebbayzeh-with-chickpeas-wild-herb): Simple dish of wild Khebbayzeh greens with soft chickpeas, onions, and lemon.
+- [/recipe/lentil-soup-with-bulgur-bites](/recipe/lentil-soup-with-bulgur-bites): Hearty brown-lentil soup served with soft bulgur-herb bites and a bright lemon finish.
+- [/recipe/sourdough-sandwich-trio](/recipe/sourdough-sandwich-trio): Three vibrant sandwiches—tuna/beetroot, burrata-tomato-garlic confit, and smoked salmon—crafted on sourdough.
+- [/recipe/chocolate-cake-with-glossy-glaze](/recipe/chocolate-cake-with-glossy-glaze): Super easy, deeply chocolatey Bundt cake with a luscious dark-chocolate glaze.
+- [/recipe/chard-stems-with-tahini](/recipe/chard-stems-with-tahini): Tender chard stems tossed in a tangy garlic-lemon tahini sauce—simple and nostalgic.
+- [/recipe/upside-down-date-and-coffee-cake](/recipe/upside-down-date-and-coffee-cake): Caramelized date top with a moist coffee-almond cake—unique, memorable, and so good.
+- [/recipe/millefeuille-nabe-layered-hot-pot](/recipe/millefeuille-nabe-layered-hot-pot): Delicate layers of Napa cabbage, bok choy, beef or pork belly, and enoki mushrooms in a savory broth.
+- [/recipe/no-bake-date-peanut-bars](/recipe/no-bake-date-peanut-bars): Chewy date–peanut butter layer with puffed rice and peanuts, topped with milk chocolate.
+- [/recipe/khebzit-souraya-greek-tsoureki](/recipe/khebzit-souraya-greek-tsoureki): Soft, fragrant braided Easter bread flavored with mahlepi, mastic, and orange.
+- [/recipe/broccoli-gratin-with-ricotta](/recipe/broccoli-gratin-with-ricotta): Rescue yellowing broccoli with this easy béchamel gratin—cheddar inside, ricotta on top.
+- [/recipe/maqloubeh-batenjen-eggplant](/recipe/maqloubeh-batenjen-eggplant): A show-stopping upside-down rice with eggplant, cauliflower, carrots, and chicken.
+- [/recipe/roasted-cauliflower-chickpea-spinach-salad](/recipe/roasted-cauliflower-chickpea-spinach-salad): Bold flavors and crunchy textures—seeds, spices, dates, and greens make this a satisfying main or side.
+- [/recipe/caramel-sea-salt-chocolate-cookies](/recipe/caramel-sea-salt-chocolate-cookies): Chunky, chocolatey cookies dotted with caramel sea salt pieces—crispy edges, soft centers.
+- [/recipe/veg-peel-crisps-with-curry-salt](/recipe/veg-peel-crisps-with-curry-salt): Crispy baked peels (carrot, parsnip, potato, radish) tossed in an easy curry salt.
+- [/recipe/stuffed-silverbeet-leaves-selek-mehshi](/recipe/stuffed-silverbeet-leaves-selek-mehshi): Tender chard leaves filled with rice, chickpeas, tomato, parsley, and mint—finished with lemon.
+- [/recipe/broccoli-pumpkin-goat-cheese-tart-almond-crust](/recipe/broccoli-pumpkin-goat-cheese-tart-almond-crust): Carb-light tart with a broccoli-Parmesan–almond crust, roasted pumpkin, and goat cheese.
+- [/recipe/triple-layer-chocolate-coconut-bars](/recipe/triple-layer-chocolate-coconut-bars): Date-walnut cocoa base, creamy coconut middle, and a glossy chocolate top.
+- [/recipe/beef-and-broccoli-stir-fry](/recipe/beef-and-broccoli-stir-fry): Tender steak, crisp broccoli, and a glossy garlic–ginger sauce. Better than takeout.
+- [/recipe/dauphinoise-brie-caramelized-onions-gruyere](/recipe/dauphinoise-brie-caramelized-onions-gruyere): Silky potato gratin layered with caramelized onions, thyme, Gruyère, and a gooey brie top.
+- [/recipe/baba-ghanouj-smoky-eggplant-dip](/recipe/baba-ghanouj-smoky-eggplant-dip): Charred aubergines mashed by hand with tahini, lemon, garlic, and olive oil—garnished with pomegranate.
+- [/recipe/chicken-fennel-lettuce-cups](/recipe/chicken-fennel-lettuce-cups): Zesty chicken salad with capers and olives spooned into crisp lettuce leaves.
+- [/recipe/vanilla-bean-panna-cotta](/recipe/vanilla-bean-panna-cotta): Snow-white panna cotta infused with real vanilla seeds and topped with fresh raspberries.
+- [/recipe/crispy-prosciutto-greens-maple-buttermilk-dijon](/recipe/crispy-prosciutto-greens-maple-buttermilk-dijon): Roasted jambon de Parme shards over fresh garden greens with a tangy maple–buttermilk dressing.
+- [/recipe/christmas-trifle-loaf-mascarpone-berries](/recipe/christmas-trifle-loaf-mascarpone-berries): A simpler, spectacular trifle built in a loaf tin—sponge fingers, mascarpone cream, and berries.
+- [/recipe/kebbeh-bel-sayniyeh-tray-kebbeh](/recipe/kebbeh-bel-sayniyeh-tray-kebbeh): Classic baked kebbeh: bulgur–meat shell layered with spiced lamb and pine nuts.
+- [/recipe/sheikh-el-mehshi-stuffed-eggplants](/recipe/sheikh-el-mehshi-stuffed-eggplants): Baby eggplants stuffed with spiced meat and pine nuts, nestled on tomato sauce—garnished with pomegranate.
+- [/recipe/poached-pear-ricotta-almond-cake](/recipe/poached-pear-ricotta-almond-cake): Tender almond–ricotta cake studded with cinnamon-poached pears; snowy icing sugar finish.
+- [/recipe/chicken-mushroom-noodle-bake](/recipe/chicken-mushroom-noodle-bake): Creamy, cozy nouille bake with chicken, sautéed mushrooms, and a Parm-white sauce.
+- [/recipe/avocado-cucumber-lettuce-cups](/recipe/avocado-cucumber-lettuce-cups): Light, fresh cups of Chinese cabbage with a crunchy avocado–cucumber mix.
+- [/recipe/beetroot-walnut-pomegranate-fig-salad](/recipe/beetroot-walnut-pomegranate-fig-salad): Vibrant roasted-beet salad with candied walnuts, figs, sorrel, and a tangy goat-cheese dressing.
+- [/recipe/chocolate-chunk-cookies](/recipe/chocolate-chunk-cookies): Big bakery-style cookies packed with dark and strawberry chocolate chips.
+- [/recipe/popcorn-honeycomb-on-caramel-popcorn](/recipe/popcorn-honeycomb-on-caramel-popcorn): Ridiculously fun honeycomb poured over caramel popcorn — smash into shards and share.
+- [/recipe/stuffed-artichoke-bottoms](/recipe/stuffed-artichoke-bottoms): Tender artichoke bottoms stuffed with savory meat, onions, and pine nuts over a fresh tomato base.
+- [/recipe/vegetarian-shepherds-pie-lentils](/recipe/vegetarian-shepherds-pie-lentils): A cozy lentil-and-veg filling topped with fluffy sweet potato and potato mash.
+- [/recipe/rigatoni-red-pesto-bacon-crumbs](/recipe/rigatoni-red-pesto-bacon-crumbs): Al dente rigatoni tossed with a punchy sun-dried tomato pesto, bacon-caper breadcrumbs, and Parmesan.
+- [/recipe/chocolate-banana-date-brownies](/recipe/chocolate-banana-date-brownies): Blitz, bake, and chill: fudgy brownies sweetened with dates and banana—no gluten, dairy, or eggs.
+- [/recipe/warm-fluffy-focaccia](/recipe/warm-fluffy-focaccia): Soft, airy focaccia with a crisp top and generous olive oil.
+- [/recipe/macaroni-speck-mascarpone](/recipe/macaroni-speck-mascarpone): Creamy macaroni baked with mascarpone and cheddar, topped with crisp speck.
+- [/recipe/vegan-chocolate-cake-ganache](/recipe/vegan-chocolate-cake-ganache): No eggs, no dairy—just a plush chocolate cake topped with glossy whipped ganache.
+- [/recipe/classic-lasagna-bolognese](/recipe/classic-lasagna-bolognese): Layers of rich tomato-meat sauce, silky béchamel, and melty cheeses.
+- [/recipe/grilled-chicken-burger-fennel-avocado](/recipe/grilled-chicken-burger-fennel-avocado): Juicy marinated chicken breasts, fennel crunch, basil, and avocado in a toasted bun.
+- [/recipe/pumpkin-seed-oat-bars](/recipe/pumpkin-seed-oat-bars): Toasted oats and nuts bound with peanut butter, maple syrup, and coconut oil.
+- [/recipe/almond-crusted-salmon](/recipe/almond-crusted-salmon): Quick oven-baked salmon coated in almond flour with Dijon.
+- [/recipe/summer-red-fruit-tart](/recipe/summer-red-fruit-tart): Buttery tart filled with almond meal and topped with stone fruit and raspberries.
+- [/recipe/panna-cotta-figs-honey](/recipe/panna-cotta-figs-honey): Silky vanilla panna cotta topped with fresh figs and warm honey.
+- [/recipe/coconut-jam-slice-bars](/recipe/coconut-jam-slice-bars): Buttery base, fruity jam layer, and coconut-meringue topping.
+- [/recipe/fig-almond-tart-honey](/recipe/fig-almond-tart-honey): Tender almond filling studded with fresh figs and brushed with honey.
+- [/recipe/spinach-fatayer-mini](/recipe/spinach-fatayer-mini): Crispy baked triangles filled with tangy spinach and onions.
+- [/recipe/hazelnut-biscotti](/recipe/hazelnut-biscotti): Crunchy twice-baked Italian cookies with roasted hazelnuts.
+- [/recipe/fig-tarte-tatin](/recipe/fig-tarte-tatin): An upside-down fig tart with a glossy caramel and puff pastry lid.
+- [/recipe/slow-roasted-leg-of-lamb](/recipe/slow-roasted-leg-of-lamb): Tender bone-in leg of lamb roasted with rosemary, lemon, and honey.
+- [/recipe/cardamom-pistachio-caramels](/recipe/cardamom-pistachio-caramels): Chewy cream caramels scented with cardamom and pistachio.
+- [/recipe/anzac-biscuits](/recipe/anzac-biscuits): Classic Aussie–Kiwi oat and coconut biscuits with golden syrup.
+- [/recipe/plum-almond-cake-vanilla-syrup](/recipe/plum-almond-cake-vanilla-syrup): Tender almond cake studded with plums and soaked in warm vanilla syrup.
+- [/recipe/almond-cantucci-biscotti](/recipe/almond-cantucci-biscotti): Twice-baked Italian almond biscuits—crisp, perfect with coffee.
+- [/recipe/zucchini-fennel-ricotta-galette](/recipe/zucchini-fennel-ricotta-galette): Rustic tart with caramelized fennel, ricotta and layered zucchini.
+- [/recipe/chicken-rolls-prosciutto-provolone-asparagus](/recipe/chicken-rolls-prosciutto-provolone-asparagus): Chicken breasts rolled with prosciutto, provolone, and asparagus, baked till juicy.
+- [/recipe/phyllo-vegetable-spiral-tart](/recipe/phyllo-vegetable-spiral-tart): Crisp phyllo base filled with colorful sautéed vegetables and herbed egg custard.
+- [/recipe/summer-fruit-clafoutis-sheet-cake](/recipe/summer-fruit-clafoutis-sheet-cake): Light yogurt clafoutis batter baked with a riot of summer fruit.
+- [/recipe/smashed-potatoes-garden-veg-salad](/recipe/smashed-potatoes-garden-veg-salad): Roasted smashed potatoes with a colorful raw vegetable and herb salad.
+- [/recipe/artichoke-avocado-radish-salad](/recipe/artichoke-avocado-radish-salad): Fresh greens tossed with artichokes, avocado, radishes, almonds, and Parmesan.
+- [/recipe/mediterranean-pasta-aubergine-courgette](/recipe/mediterranean-pasta-aubergine-courgette): Short pasta tossed with sautéed aubergine, courgette, arrabbiata sauce, and basil.
+- [/recipe/spanish-tortilla-de-patatas](/recipe/spanish-tortilla-de-patatas): Classic Spanish omelette with potatoes and onion, golden outside and custardy inside.
+- [/recipe/banana-buckwheat-cake-apple-syrup](/recipe/banana-buckwheat-cake-apple-syrup): Moist banana cake made with buckwheat flour and sweetened with Lebanese apple syrup.
+- [/recipe/ricotta-cream-cheese-phyllo-cheesecake](/recipe/ricotta-cream-cheese-phyllo-cheesecake): Airy ricotta–cream cheese filling wrapped in crisp, ruffled phyllo.
+- [/recipe/roasted-spiced-cauliflower-with-raita](/recipe/roasted-spiced-cauliflower-with-raita): Spiced roasted baby cauliflowers served with a cooling yogurt raita, capers, and hazelnuts.
+- [/recipe/asparagus-anchovy-spaghetti-pangrattato](/recipe/asparagus-anchovy-spaghetti-pangrattato): Weeknight spaghetti tossed with asparagus, anchovies, and a crunchy fennel-seed pangrattato.
+- [/recipe/pinwheel-cocoa-vanilla-cookies](/recipe/pinwheel-cocoa-vanilla-cookies): Swirled slice-and-bake biscuits with vanilla and cocoa layers.
+- [/recipe/everything-bowl-black-rice-poached-eggs](/recipe/everything-bowl-black-rice-poached-eggs): Hearty salad bowl with greens, roasted veg, black rice, avocado, and poached eggs.
+- [/recipe/black-rice-papaya-coconut-salad](/recipe/black-rice-papaya-coconut-salad): Colorful salad of black rice, papaya, herbs, chilli, and a creamy coconut dressing.
+- [/recipe/pesto-tangzhong-cheese-rolls](/recipe/pesto-tangzhong-cheese-rolls): Ultra-soft tangzhong rolls swirled with pesto and melty cheese.
+- [/recipe/no-bake-mini-egg-cheesecake](/recipe/no-bake-mini-egg-cheesecake): Creamy, light no-bake cheesecake topped with pistachio cream and mini chocolate bunnies.
+- [/recipe/date-creme-brulee](/recipe/date-creme-brulee): Silky baked custard infused with dates, finished with a crackly sugar top.
+- [/recipe/pumpkin-kibbeh-tart-two-fillings](/recipe/pumpkin-kibbeh-tart-two-fillings): A modern single-layer pumpkin kibbeh with your choice of two savory fillings.
+- [/recipe/riz-3a-djej-chicken-and-rice](/recipe/riz-3a-djej-chicken-and-rice): Butter-scented rice topped with juicy organic chicken, spices, and nuts.
+- [/recipe/spring-salad-miso-dressing](/recipe/spring-salad-miso-dressing): Crisp greens, apples, avocado, nuts, and seeds with a bright miso dressing.
+- [/recipe/homemade-halloumi-cheese](/recipe/homemade-halloumi-cheese): Step-by-step halloumi made at home with simple ingredients.
+- [/recipe/fattet-betinjan-grilled-eggplant](/recipe/fattet-betinjan-grilled-eggplant): Grilled eggplants topped with tahini yogurt and crunchy garnishes.
+- [/recipe/mjadara-brown-lentil-puree](/recipe/mjadara-brown-lentil-puree): A traditional Lebanese lentil dish—simple, hearty, and deeply comforting.
+- [/recipe/labneh-zaatar-lemon](/recipe/labneh-zaatar-lemon): Thick labneh topped with za’atar, lemon zest, and olive oil.
+- [/recipe/mdardara-lentils-with-rice-and-onions](/recipe/mdardara-lentils-with-rice-and-onions): A beloved Lebanese staple—lentils and rice finished with sweet caramelized onions.
+- [/recipe/easter-spiced-buns](/recipe/easter-spiced-buns): Golden spiced buns glazed warm and finished with icing crosses.
+- [/recipe/grilled-calamari-salad](/recipe/grilled-calamari-salad): Tender marinated calamari grilled and served over fresh salad—lean protein, big flavor.
+- [/recipe/bulgur-bi-dfin](/recipe/bulgur-bi-dfin): Traditional bulgur cooked under pressure with chickpeas, lamb flavors, and warm spices.
+- [/recipe/stuffed-potatoes-with-meat](/recipe/stuffed-potatoes-with-meat): Cored potatoes filled with seasoned beef or lamb, baked over tomatoes.
+- [/recipe/layali-lubnan-banana](/recipe/layali-lubnan-banana): Semolina custard base topped with banana whipped cream, almonds, and pistachios.
+- [/recipe/rice-pudding-with-strawberries-and-pistachios](/recipe/rice-pudding-with-strawberries-and-pistachios): Turn leftover rice into the most delicious rice pudding with cream, honey, and vanilla.
+- [/recipe/kafta-batata-tahini-lemon](/recipe/kafta-batata-tahini-lemon): Grilled kafta with potatoes, onions, and a bright tahini–lemon sauce.
+- [/recipe/chocolate-granola](/recipe/chocolate-granola): Crispy, chocolatey, nutty granola you’ll love—easy to bake and hard to stop eating.
+- [/recipe/lemon-shrimp-linguine](/recipe/lemon-shrimp-linguine): Garlicky shrimp tossed with linguine, olive oil, butter, and fresh lemon.
+- [/recipe/halloumi-freekeh-stuffed-peppers](/recipe/halloumi-freekeh-stuffed-peppers): Colorful peppers filled with halloumi, freekeh, herbs, and tomatoes.
+- [/recipe/smoked-salmon-lemon-basil-tagliatelle](/recipe/smoked-salmon-lemon-basil-tagliatelle): Tagliatelle tossed in a light lemon cream sauce with smoked salmon, fresh basil, and pink berries.
+- [/recipe/wild-rice-tangerine-avocado-salad](/recipe/wild-rice-tangerine-avocado-salad): Nutty wild rice salad with tangerine segments, avocado, walnuts, dates, and a citrus Dijon dressing.
+- [/recipe/baked-white-fish-olive-tomato-relish](/recipe/baked-white-fish-olive-tomato-relish): Tender baked white fish topped with a warm cherry tomato, olive, and caper relish.
+- [/recipe/classic-french-crepes](/recipe/classic-french-crepes): Thin, tender crêpes made with flour, milk, cream, and eggs – perfect for sweet or savory fillings.
+- [/recipe/mushroom-pappardelle-parsley](/recipe/mushroom-pappardelle-parsley): Pappardelle tossed with sautéed mushrooms, garlic, parsley, and Parmesan.
+- [/recipe/scallion-cheddar-savory-scones](/recipe/scallion-cheddar-savory-scones): Fluffy, cheesy scones studded with scallions – perfect for breakfasts, snacks, or soup sides.
+- [/recipe/rocca-pear-berry-salad-mustard-dressing](/recipe/rocca-pear-berry-salad-mustard-dressing): Peppery rocca salad with sliced pear, soft cheese, berries, and a honey mustard vinaigrette.
+- [/recipe/tomato-garlic-confit-focaccia](/recipe/tomato-garlic-confit-focaccia): Soft focaccia topped with colorful tomatoes, garlic confit, and flaky sea salt.
+- [/recipe/sesame-shrimp-fried-rice-green-onions](/recipe/sesame-shrimp-fried-rice-green-onions): Quick shrimp fried rice with peas, eggs, sesame oil, and plenty of green onions.
+- [/recipe/healthy-blueberry-banana-buckwheat-spelt-cake](/recipe/healthy-blueberry-banana-buckwheat-spelt-cake): Wholesome banana sheet cake made with oat bran, buckwheat, and spelt flour, sweetened with maple syrup and studded with blueberries.
+- [/recipe/earl-grey-tea-cake](/recipe/earl-grey-tea-cake): A fragrant, moist tea cake infused with Earl Grey and yogurt — the perfect cozy slice for rainy days.
+- [/recipe/grapefruit-fennel-salmon-sashimi](/recipe/grapefruit-fennel-salmon-sashimi): Fresh ruby salmon sashimi with grapefruit, fennel, and pomegranate — bright, zesty, and elegant.
+- [/recipe/matcha-banana-smoothie](/recipe/matcha-banana-smoothie): A creamy matcha smoothie packed with banana, avocado, and spinach for a nutritious start.
+- [/recipe/mushroom-pumpkin-quiche](/recipe/mushroom-pumpkin-quiche): Golden quiche filled with roasted pumpkin, mushrooms, and parmesan pastry — rich, earthy, and comforting.
+- [/recipe/brazilian-fish-stew-moqueca](/recipe/brazilian-fish-stew-moqueca): A vibrant Brazilian stew with tender fish, bell peppers, and coconut milk.
+- [/recipe/christmas-capon-with-thyme-glaze](/recipe/christmas-capon-with-thyme-glaze): Golden-roasted Christmas capon with thyme and brown sugar glaze — festive, rich, and aromatic.
+- [/recipe/christmas-honey-bread-rolls](/recipe/christmas-honey-bread-rolls): Soft, golden bread rolls brushed with honey butter and herbs — a festive holiday delight.
+- [/recipe/christmas-tiramisu](/recipe/christmas-tiramisu): A festive twist on tiramisu with dark chocolate, espresso, ricotta, and mandarin zest.
+- [/recipe/spiced-molasses-cookies](/recipe/spiced-molasses-cookies): Soft and chewy spiced cookies packed with molasses, ginger, and cinnamon.
+- [/recipe/spinach-quinoa-feta-salad](/recipe/spinach-quinoa-feta-salad): A refreshing salad with spinach, quinoa, feta, and pomegranate — light and nutritious.
+- [/recipe/grilled-fish-leftover-pot-pies](/recipe/grilled-fish-leftover-pot-pies): Creamy grilled-fish filling with veggies, tucked under puff pastry for easy mini pot pies.
+- [/recipe/creamy-crab-mayo-sandwich](/recipe/creamy-crab-mayo-sandwich): Toasted sourdough piled high with creamy crab, chives, citrus, and fresh arugula.
+- [/recipe/miso-aubergines-with-coconut-rice-bowls](/recipe/miso-aubergines-with-coconut-rice-bowls): Roasted miso-glazed baby aubergines served over fragrant coconut rice with greens and sesame.
+- [/recipe/banana-maple-spelt-upside-down-cake](/recipe/banana-maple-spelt-upside-down-cake): Caramelized banana top over a moist maple, olive oil, and spelt sponge with almond meal.
+- [/recipe/giant-choc-chunk-tahini-cookie](/recipe/giant-choc-chunk-tahini-cookie): A huge, gooey tahini cookie packed with dark and white chocolate, baked in a pan for sharing.
+- [/recipe/pumpkin-ginger-puff-pastry-galette](/recipe/pumpkin-ginger-puff-pastry-galette): Spiced pumpkin purée infused with cinnamon and ginger, wrapped in flaky puff pastry.
+- [/recipe/roasted-pumpkin-and-red-pepper-soup](/recipe/roasted-pumpkin-and-red-pepper-soup): Silky pumpkin soup blended with roasted red peppers, garlic, thyme, and coconut milk.
+- [/recipe/chocolate-face-sandwich-cookies](/recipe/chocolate-face-sandwich-cookies): Buttery vanilla cookies sandwiched with chocolate spread and dusted with icing sugar.
+- [/recipe/coconut-rice-mushroom-veggie-bowl](/recipe/coconut-rice-mushroom-veggie-bowl): Fluffy coconut rice topped with sautéed mushrooms, pak choy, edamame, and a hoisin-sesame dressing.
+- [/recipe/baked-vanilla-quinces-in-syrup](/recipe/baked-vanilla-quinces-in-syrup): Slow-baked quinces with lemon, vanilla, and sugar, served in their own fragrant syrup.
+- [/recipe/green-pea-basil-pesto-pasta](/recipe/green-pea-basil-pesto-pasta): Vibrant green pasta with peas, basil, and sunflower seeds—ready in 10 minutes.
+- [/recipe/roasted-pumpkin-and-salmon-bowl](/recipe/roasted-pumpkin-and-salmon-bowl): Warm roasted pumpkin paired with salmon, grains, and zesty gremolata.
+- [/recipe/baked-ricotta-cherry-tomatoes](/recipe/baked-ricotta-cherry-tomatoes): Oven-roasted ricotta with cherry tomatoes, onion, and olives for a cozy dinner.
+- [/recipe/guilt-free-chocolate-mousse-slices](/recipe/guilt-free-chocolate-mousse-slices): Wholesome chocolate slices with an oat base and creamy coconut mousse top.
+- [/recipe/peach-cobbler-cake](/recipe/peach-cobbler-cake): Juicy peaches topped with a golden, cinnamon-sprinkled cake layer.
+- [/recipe/caramelized-banana-upside-down-cake](/recipe/caramelized-banana-upside-down-cake): Moist banana cake with a buttery caramel topping.
+- [/recipe/maple-glazed-almond-pear-galette](/recipe/maple-glazed-almond-pear-galette): Rustic pear galette with almond crust and a glossy maple finish.
+- [/recipe/peach-coconut-yogurt-cake](/recipe/peach-coconut-yogurt-cake): Light, fruity sponge with peaches, yogurt, and coconut.
+- [/recipe/summer-stone-fruit-tart](/recipe/summer-stone-fruit-tart): A rustic tart filled with peaches, apricots, and raspberries.
+- [/recipe/classic-nicoise-salad](/recipe/classic-nicoise-salad): Colorful French salad with tuna, eggs, olives, and vegetables.
+- [/recipe/citrus-crusted-salmon](/recipe/citrus-crusted-salmon): Oven-baked salmon with a fragrant crust of fennel, coriander, and pepper.
+- [/recipe/crispy-chickpea-crackers](/recipe/crispy-chickpea-crackers): Thin, crunchy chickpea crackers seasoned with za’atar and sesame.
+- [/recipe/lemon-asparagus-brown-rice-bowl](/recipe/lemon-asparagus-brown-rice-bowl): Caramelized zucchini and asparagus on lemony brown rice with basil and pine nuts.
+- [/recipe/homemade-gourmet-burger](/recipe/homemade-gourmet-burger): Juicy beef patties stacked with caramelized onions, crisp cabbage, and classic sauces.
+- [/recipe/grilled-zucchini-halloumi-salad](/recipe/grilled-zucchini-halloumi-salad): Charred ribbons of zucchini and capsicum with cherry tomatoes and golden halloumi.
+- [/recipe/sun-dried-tomato-fettuccine](/recipe/sun-dried-tomato-fettuccine): Creamy sun-dried tomato and roasted capsicum sauce tossed with hot fettuccine.
+- [/recipe/berry-custard-layer-cake](/recipe/berry-custard-layer-cake): Vanilla sheet cake layered with custard, whipped cream, and raspberries.
+- [/recipe/caramelized-onion-roast-beef-sandwich](/recipe/caramelized-onion-roast-beef-sandwich): Warm baguettes stuffed with pesto, caramelized onions, mushrooms, and seared beef.
+- [/recipe/spinach-ricotta-sweet-potato-pie](/recipe/spinach-ricotta-sweet-potato-pie): Buttery filo pie layered with spinach, roasted sweet potato, ricotta, dill, and cream.
+- [/recipe/grilled-chicken-avocado-salad](/recipe/grilled-chicken-avocado-salad): Colorful platter salad with grilled chicken, avocado, mozzarella, mushrooms, and sweet corn.
+- [/recipe/lemon-chard-lentil-soup-3adass-bi-hamoud](/recipe/lemon-chard-lentil-soup-3adass-bi-hamoud): Comforting Lebanese lentil soup brightened with lemon and fresh chard.
+- [/recipe/avocado-kimchi-nori-salad-rolls](/recipe/avocado-kimchi-nori-salad-rolls): Crisp veggie-packed nori rolls with a zesty coconut-amino dipping sauce.
+- [/recipe/date-cinnamon-heart-biscuits](/recipe/date-cinnamon-heart-biscuits): Tender, lightly spiced cookies sweetened with dates and brown sugar.
+- [/recipe/vegetable-cannelloni-with-bechamel](/recipe/vegetable-cannelloni-with-bechamel): Spinach, leeks, carrots, zucchini, and mushrooms tucked into tubes with silky béchamel.
+- [/recipe/chocolate-cake-glossy-ganache](/recipe/chocolate-cake-glossy-ganache): Moist cocoa butter cake crowned with a rich, shiny chocolate frosting.
+- [/recipe/no-bake-chocolate-biscuit-cake-lucky-555](/recipe/no-bake-chocolate-biscuit-cake-lucky-555): Lebanese classic: crushed biscuits bound with cocoa syrup and topped with ganache.
+- [/recipe/onion-jam-gorgonzola-focaccia](/recipe/onion-jam-gorgonzola-focaccia): Airy focaccia with sweet white-onion jam and pockets of tangy blue cheese.
+- [/recipe/spiced-duck-confit-with-crisp-skin](/recipe/spiced-duck-confit-with-crisp-skin): Fragrant mustard–fennel–cumin spice rub and slow-baked duck legs finished skin-side-up.
+- [/recipe/minted-spinach-labneh-dip](/recipe/minted-spinach-labneh-dip): Creamy, herby dip made with spinach, mint, and Greek yogurt—perfect with olive and thyme sticks.
+- [/recipe/rainbow-salad-tahini-dressing](/recipe/rainbow-salad-tahini-dressing): A colorful bowl of raw veggies, sprouts, and seeds with a creamy lemon-tahini dressing.
+- [/recipe/caramelized-banana-chocolate-pie](/recipe/caramelized-banana-chocolate-pie): Lush banana pie layered with whiskey notes, coconut, and a glossy chocolate ganache.
+- [/recipe/leek-thyme-tatin](/recipe/leek-thyme-tatin): Caramelized leeks baked upside-down with thyme and golden puff pastry.
+- [/recipe/duck-fat-potatoes-with-rosemary](/recipe/duck-fat-potatoes-with-rosemary): Crispy, golden potatoes roasted in duck fat and finished with rosemary and salt flakes.
+- [/recipe/seeded-brioche-rolls](/recipe/seeded-brioche-rolls): Soft, golden, butterless brioche buns packed with pumpkin, sunflower, and flax seeds.
+- [/recipe/cauliflower-frittata-goats-curd](/recipe/cauliflower-frittata-goats-curd): Baked frittata with cauliflower, chard, and creamy goat’s curd.
+- [/recipe/tuscan-pasta-salad](/recipe/tuscan-pasta-salad): Colorful Italian salad with fusilli, peppers, onion, and mozzarella tossed in herby dressing.
+- [/recipe/sheet-pan-chicken-curry-pickled-onions](/recipe/sheet-pan-chicken-curry-pickled-onions): Spicy chicken and roasted cauliflower baked together, topped with tangy quick-pickled onions.
+- [/recipe/portobello-mushroom-fajitas](/recipe/portobello-mushroom-fajitas): Smoky, colorful fajitas filled with mushrooms, corn, and avocado-lime guacamole.
+- [/recipe/vegan-miso-chickpea-ramen](/recipe/vegan-miso-chickpea-ramen): Comforting plant-based ramen with mushrooms, chickpeas, noodles, and a rich miso broth.
+- [/recipe/broccoli-spinach-soup-hazelnut-chia](/recipe/broccoli-spinach-soup-hazelnut-chia): Silky green soup topped with charred broccoli, toasted hazelnuts, and chia seeds.
+- [/recipe/sweet-potato-chorizo-hash](/recipe/sweet-potato-chorizo-hash): Crispy sweet potato, kohlrabi, and spicy chorizo finished under the grill with eggs and parmesan.
+- [/recipe/hasselback-sweet-potatoes-salsa-verde](/recipe/hasselback-sweet-potatoes-salsa-verde): Roasted hasselback kumara topped with parmesan, fresh salsa verde, and basil.
+- [/recipe/chocolate-chip-scones-vanilla-glaze](/recipe/chocolate-chip-scones-vanilla-glaze): Crisp on the outside, tender within—loaded with chocolate chips and drizzled with vanilla glaze.
+- [/recipe/lemon-chia-ricotta-muffins](/recipe/lemon-chia-ricotta-muffins): Light, zesty muffins with ricotta and chia seeds, finished with a lemon glaze.
+- [/recipe/cinnamon-shortbread-cookies](/recipe/cinnamon-shortbread-cookies): Buttery cinnamon shortbread cut into stars, moons, and clouds—perfect with tea.
+- [/recipe/pillow-cinnamon-rolls-cream-cheese-icing](/recipe/pillow-cinnamon-rolls-cream-cheese-icing): Soft, fluffy cinnamon rolls brushed with tangzhong and topped with rich cream cheese icing.
+- [/recipe/caramelized-onion-tarte-tatin](/recipe/caramelized-onion-tarte-tatin): A savory twist on the classic—deeply caramelized onions baked under flaky puff pastry.
+- [/recipe/raspberry-christmas-wreath](/recipe/raspberry-christmas-wreath): Festive braid filled with raspberry jam—golden, soft, and perfect for the holiday table.
+- [/recipe/chocolate-pecan-pie](/recipe/chocolate-pecan-pie): A rich chocolate-pecan tart with a hazelnut crust and silky caramel filling.
+- [/recipe/granny-smith-apple-pie](/recipe/granny-smith-apple-pie): A classic apple pie made with tart Granny Smith apples and a golden, flaky crust.
+- [/recipe/goat-cheese-caramelized-onion-bread-pudding](/recipe/goat-cheese-caramelized-onion-bread-pudding): A savoury bread pudding packed with caramelized onions, goat’s cheese, parmesan, and rosemary.
+- [/recipe/baked-apples-dumplings-caramel-sauce](/recipe/baked-apples-dumplings-caramel-sauce): Tender baked apples with fluffy dumplings in a rich caramel sauce.
+- [/recipe/cranberry-cookie-trifle](/recipe/cranberry-cookie-trifle): A layered trifle of cookies, cranberry jelly, mascarpone cream, and whipped chocolate mousse.
+- [/recipe/tomato-garlic-fennel-confit-labneh](/recipe/tomato-garlic-fennel-confit-labneh): Slow-cooked cherry tomatoes, garlic, and fennel served with labneh pearls and herbs.
+- [/recipe/roasted-pears-gorgonzola-almonds](/recipe/roasted-pears-gorgonzola-almonds): Baked pears stuffed with gorgonzola and almonds, finished with honey and thyme.
+- [/recipe/duck-breast-potatoes-garlic-parsley](/recipe/duck-breast-potatoes-garlic-parsley): Crispy-skinned duck breast roasted with potatoes, garlic, and fresh parsley.
+- [/recipe/apple-dumpling-parcels](/recipe/apple-dumpling-parcels): Beautiful apple parcels wrapped in buttery pastry and baked in a brown sugar whiskey sauce.
+- [/recipe/creamy-vegetable-gratin](/recipe/creamy-vegetable-gratin): A comforting gratin of mixed vegetables baked in cream, egg, and cheese.
+- [/recipe/chewy-chocolate-chunk-cookies](/recipe/chewy-chocolate-chunk-cookies): Soft, chewy cookies loaded with rich melted butter and dark chocolate chunks.
+- [/recipe/spinach-tagliatelle-mushrooms-boursin](/recipe/spinach-tagliatelle-mushrooms-boursin): Creamy, comforting pasta with mushrooms, garlic, and Boursin cheese.
+- [/recipe/almond-crescent-cookies](/recipe/almond-crescent-cookies): Classic almond crescent cookies, tender and lightly spiced.
+- [/recipe/spiced-custard-poached-pears](/recipe/spiced-custard-poached-pears): Rich baked custard topped with fragrant poached pears.
+- [/recipe/creamy-smoked-salmon-tagliatelle](/recipe/creamy-smoked-salmon-tagliatelle): Silky pasta with lemon, basil, cream, and smoked salmon.
+- [/recipe/vegetarian-silverbeet-rolls](/recipe/vegetarian-silverbeet-rolls): Hearty Lebanese-style silverbeet rolls filled with rice, tomatoes, chickpeas, herbs, and spices.
+- [/recipe/potato-goat-cheese-flatbread](/recipe/potato-goat-cheese-flatbread): Crispy flatbread topped with thin potatoes, goat cheese, herbs, and truffle oil.
+- [/recipe/cherry-coconut-clafoutis](/recipe/cherry-coconut-clafoutis): A light cherry clafoutis enriched with coconut and yogurt.
+- [/recipe/passionfruit-buttermilk-pudding](/recipe/passionfruit-buttermilk-pudding): A silky chilled pudding topped with bright passionfruit syrup.
+- [/recipe/tomato-cheese-puff-pastry-tart](/recipe/tomato-cheese-puff-pastry-tart): A simple 3-ingredient puff pastry tomato tart with cheese and mustard.
+- [/recipe/belgo-chocolate-brioche](/recipe/belgo-chocolate-brioche): Soft, rich brioche filled with creamy Belgo chocolate spread — the ultimate treat.
+- [/recipe/radicchio-blood-orange-salad](/recipe/radicchio-blood-orange-salad): A vibrant mix of radicchio, fennel, asparagus, and blood oranges with honey-mustard dressing.
+- [/recipe/leek-tart](/recipe/leek-tart): Golden, creamy tart filled with tender leeks and fresh cream in a flaky homemade dough.
+- [/recipe/almond-amaretto-cake](/recipe/almond-amaretto-cake): Soft almond sponge infused with amaretto syrup and topped with toasted flaked almonds.
+- [/recipe/amar-el-din-apricot-ice-cream](/recipe/amar-el-din-apricot-ice-cream): Traditional Lebanese ice cream made from dried apricots, rose water, and milk.
+- [/recipe/shorbit-el-ima-meatball-soup](/recipe/shorbit-el-ima-meatball-soup): A cozy Lebanese soup with lamb meatballs, rice, tomatoes, and lemon — comforting and full of flavor.
+- [/recipe/easy-chocolate-mousse](/recipe/easy-chocolate-mousse): Light, fluffy, and perfectly rich chocolate mousse made with marshmallows and cream.
+- [/recipe/christmas-fruit-tart](/recipe/christmas-fruit-tart): Festive tart filled with spiced fruit and Tannourine honey, topped with buttery pastry stars.
+- [/recipe/chicken-vol-au-vent](/recipe/chicken-vol-au-vent): Crispy puff pastry cases filled with creamy chicken, mushrooms, corn, and béchamel.
+- [/recipe/kiwi-pavlova](/recipe/kiwi-pavlova): Crispy meringue pavlova topped with whipped cream, kiwi, pistachio, and citrus syrup.
+- [/recipe/chocolate-tart-hazelnut-crust](/recipe/chocolate-tart-hazelnut-crust): Rich chocolate tart with a buttery hazelnut shortcrust pastry.
+- [/recipe/soft-brioche-buns](/recipe/soft-brioche-buns): Pillowy soft brioche buns perfect for burgers or sandwiches.
+- [/recipe/classic-focaccia](/recipe/classic-focaccia): Soft, pillowy focaccia with olive oil, herbs, and cherry tomatoes.
+- [/recipe/plum-coconut-cake](/recipe/plum-coconut-cake): Moist coconut cake topped with juicy seasonal plums.
+- [/recipe/summer-fruit-tarts](/recipe/summer-fruit-tarts): Crisp pastry tarts filled with crème pâtissière and fresh fruit.
+- [/recipe/three-cheese-pasta-bake](/recipe/three-cheese-pasta-bake): Bubbly pasta bake with ricotta, mozzarella, parmesan, and tomato sauce.
+- [/recipe/peach-spiral-pie](/recipe/peach-spiral-pie): Rustic spiral pie filled with sweet summer peaches.
+- [/recipe/classic-tabbouleh](/recipe/classic-tabbouleh): Fresh Lebanese tabbouleh with parsley, mint, tomatoes, lemon, and olive oil.
+- [/recipe/sweet-potato-lime-dip](/recipe/sweet-potato-lime-dip): Creamy sweet potato dip with lime, garlic, and toasted sunflower seeds.
+- [/recipe/chicken-tacos-fresh-toppings](/recipe/chicken-tacos-fresh-toppings): Soft corn tortillas filled with spiced meat and loaded with crunchy, fresh toppings.
+- [/recipe/moroccan-lamb-vegetable-couscous](/recipe/moroccan-lamb-vegetable-couscous): A fragrant Moroccan couscous with lamb, vegetables, chickpeas, and dried fruits.
+- [/recipe/roasted-tomato-ricotta-puff-pastry-tart](/recipe/roasted-tomato-ricotta-puff-pastry-tart): Golden puff pastry baked over sweet roasted tomatoes, ricotta, and basil.
+- [/recipe/grilled-chicken-burger-lemon-mayo](/recipe/grilled-chicken-burger-lemon-mayo): Juicy grilled chicken burgers with lemony mayo, fennel, basil, and crunchy pickles.
+- [/recipe/chocolate-and-whisky-fingers](/recipe/chocolate-and-whisky-fingers): No-bake dark-chocolate whisky fingers—silky, rich, cocoa-dusted.
+- [/recipe/pear-and-ricotta-tart](/recipe/pear-and-ricotta-tart): Flaky filo tart with ricotta, pears, and a touch of brown sugar.
+- [/recipe/maple-glazed-walnut-and-sugar-bun](/recipe/maple-glazed-walnut-and-sugar-bun): Maple-glazed walnut cinnamon bun—buttery, nutty, and beautifully swirled.
+- [/recipe/cooked-artichokes](/recipe/cooked-artichokes): Cooked artichokes Lebanese mezze
+- [/recipe/roast-beef](/recipe/roast-beef): Garlic-studded roast beef with green beans, mash, and silky pan gravy.
+- [/recipe/chocoalte-and-red-berries-cupcakes](/recipe/chocoalte-and-red-berries-cupcakes): Almond-meal chocolate & red-berry cupcakes, maple-sweet and fluffy.
+- [/recipe/loubiyeh-bi-zeit](/recipe/loubiyeh-bi-zeit): Lebanese green beans in olive oil with tomatoes and garlic—tender, saucy, and fragrant.
+- [/recipe/small-fluffy-japanese-milk-buns](/recipe/small-fluffy-japanese-milk-buns): Fluffy Japanese milk buns (tangzhong)—pillowy, lightly sweet, golden and soft.
+- [/recipe/kebbit-batata](/recipe/kebbit-batata): Lebanese potato kibbeh—mashed potatoes with fine bulgur, walnuts, mint, onion, and olive oil.
 
 ## Optional
 

@@ -11,7 +11,7 @@ totalTime: 75
 servings: "10 rounds"
 difficulty: "Advanced"
 cuisine: "Lebanese"
-course: "Breakfast"
+course: "Dairy"
 tags: ["cheese", "jibneh malha", "brined cheese", "lebanese", "homemade cheese"]
 keywords: ["jibneh malha", "lebanese salty cheese", "homemade brined cheese"]
 video_url: "https://www.instagram.com/p/DZdZNUqotZg/"

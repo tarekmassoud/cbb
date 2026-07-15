@@ -5782,7 +5782,7 @@ const recipesData: RecipeIndexItem[] = [
   servings: "10 rounds",
   difficulty: "Advanced",
   cuisine: "Lebanese",
-  course: "Breakfast",
+  course: "Dairy",
   tags: ["cheese", "jibneh malha", "brined cheese", "lebanese", "homemade cheese"],
   keywords: ["jibneh malha", "lebanese salty cheese", "homemade brined cheese"],
   featured: false,

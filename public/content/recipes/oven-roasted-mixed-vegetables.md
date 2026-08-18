@@ -4,7 +4,7 @@ title: "Oven-Roasted Mixed Vegetables"
 slug: "oven-roasted-mixed-vegetables"
 short_description: "Any veg you like—olive oil, oregano, sea salt, cracked pepper—roasted to perfection."
 description: "A foolproof side that pairs with fish, meat, or chicken (and makes a great pizza topping)."
-image: "/images/recipes/oven-roasted-mixed-vegetables.jpg"
+image: "/images/recipes/oven_roasted_mixed_vegetables.jpg"
 prepTime: 15
 cookTime: 35
 totalTime: 50

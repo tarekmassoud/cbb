@@ -4,7 +4,7 @@ title: "Arroz con Pollo with Chorizo"
 slug: "arroz-con-pollo-chorizo"
 short_description: "Spanish-inspired chicken and rice with peppers, saffron, peas, and chorizo."
 description: "A family favorite: golden chicken, sautéed peppers and onions, saffron rice, peas, capers, green olives, and chorizo."
-image: "/images/recipes/arroz-con-pollo-chorizo.jpg"
+image: "/images/recipes/arroz_con_pollo_chorizo.jpg"
 prepTime: 25
 cookTime: 45
 totalTime: 70

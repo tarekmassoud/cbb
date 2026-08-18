@@ -4,7 +4,7 @@ title: "Kousa bi Laban (Zucchini with Yogurt Sauce)"
 slug: "kousa-bi-laban"
 short_description: "Seared zucchini stuffed with beef and pine nuts, finished in a garlicky yogurt–tahini sauce."
 description: "Toast pine nuts, sauté onion and beef, stuff zucchini, then bake briefly and finish with a silky labaniyeh of yogurt, tahini, garlic, and lemon."
-image: "/images/recipes/kousa-bi-laban.jpg"
+image: "/images/recipes/kousa_bi_laban.jpg"
 prepTime: 35
 cookTime: 45
 totalTime: 80

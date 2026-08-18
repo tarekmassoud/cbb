@@ -4,7 +4,7 @@ title: "Tabbouleh (Parsley & Bulgur Salad)"
 slug: "tabbouleh-parsley-bulgur-salad"
 short_description: "Curly parsley, fresh mint, tomatoes, lemon, olive oil, and sumac."
 description: "My working-day, quick tabbouleh: wash and spin dry the herbs, finely chop, season, and toss with lemon and olive oil."
-image: "/images/recipes/tabbouleh-parsley-bulgur-salad.jpg"
+image: "/images/recipes/tabbouleh_parsley_bulgur_salad.jpg"
 prepTime: 25
 cookTime: 0
 totalTime: 25

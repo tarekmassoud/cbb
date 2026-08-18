@@ -4,7 +4,7 @@ title: "Grilled Zucchini Salad with Ricotta & Capers"
 slug: "grilled-zucchini-ricotta-capers-salad"
 short_description: "Charred zucchini with a honey-balsamic-oregano vinaigrette, capers, walnuts, and ricotta."
 description: "Refreshing, simple, and absolutely worth making. Grill zucchini, then top with ricotta and drizzle the caper vinaigrette. Finish with basil."
-image: "/images/recipes/grilled-zucchini-ricotta-capers-salad.jpg"
+image: "/images/recipes/grilled_zucchini_ricotta_capers_salad.jpg"
 prepTime: 20
 cookTime: 10
 totalTime: 30

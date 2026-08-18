@@ -4,7 +4,7 @@ title: "Toum (Garlic Paste)"
 slug: "toum-garlic-paste"
 short_description: "Classic Lebanese garlic emulsion—light, fluffy, and boldly garlicky."
 description: "The secret is Lebanese garlic and a slow, steady emulsion. No soaking needed—just peel, then alternate oil and lemon juice while the processor runs."
-image: "/images/recipes/toum-garlic-paste.jpg"
+image: "/images/recipes/toum_garlic_paste.jpg"
 prepTime: 15
 cookTime: 0
 totalTime: 15

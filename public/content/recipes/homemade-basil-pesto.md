@@ -4,7 +4,7 @@ title: "Homemade Basil Pesto"
 slug: "homemade-basil-pesto"
 short_description: "Vivid green, lemony pesto you’ll want to put on everything."
 description: "Healthier, more flavorful, and deeply satisfying made at home. Pulse basil with pine nuts and garlic, stream in olive oil, then fold in Parmesan."
-image: "/images/recipes/homemade-basil-pesto.jpg"
+image: "/images/recipes/homemade_basil_pesto.jpg"
 prepTime: 15
 cookTime: 0
 totalTime: 15

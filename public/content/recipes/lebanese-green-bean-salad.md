@@ -4,7 +4,7 @@ title: "Lebanese Green Bean Salad"
 slug: "lebanese-green-bean-salad"
 short_description: "Old-school side salad: blanched green beans, garlicky verjuice dressing, tomatoes, and optional potatoes."
 description: "Simple, fresh, and 100% Lebanese—served alongside the main dish. Dress with extra-virgin olive oil, crushed garlic, and verjuice."
-image: "/images/recipes/lebanese-green-bean-salad.jpg"
+image: "/images/recipes/lebanese_green_bean_salad.jpg"
 prepTime: 15
 cookTime: 10
 totalTime: 25

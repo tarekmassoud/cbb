@@ -1,5 +1,5 @@
 ---
-id: "7"
+id: "350"
 title: "Loubiyeh bi Zeit"
 slug: "loubiyeh-bi-zeit"
 short_description: "Lebanese green beans in olive oil with tomatoes and garlic—tender, saucy, and fragrant."

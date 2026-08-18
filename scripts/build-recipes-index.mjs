@@ -15,7 +15,7 @@ const LLMS_FILE = path.join(PUBLIC_DIR, 'llms.txt');
 const BASE_URL = 'https://cookingbelbeit.com';
 
 function parseFrontmatter(content) {
-  const match = content.match(/^---\n([\s\S]*?)\n---/);
+  const match = content.match(/^---[ \t]*\n([\s\S]*?)\n---/);
   if (!match) return null;
 
   const frontmatter = {};
@@ -56,7 +56,7 @@ const files = fs.readdirSync(CONTENT_DIR);
 for (const file of files) {
   if (!file.endsWith('.md')) continue;
 
-  const content = fs.readFileSync(path.join(CONTENT_DIR, file), 'utf-8');
+  const content = fs.readFileSync(path.join(CONTENT_DIR, file), 'utf-8').replace(/\r\n/g, '\n');
   const meta = parseFrontmatter(content);
 
   if (meta) {

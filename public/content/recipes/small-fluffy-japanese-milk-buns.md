@@ -1,5 +1,5 @@
 ---
-id: "6"
+id: "349"
 title: "Small Fluffy Japanese Milk Buns (Tangzhong)"
 slug: "small-fluffy-japanese-milk-buns"
 short_description: "Fluffy Japanese milk buns (tangzhong)—pillowy, lightly sweet, golden and soft."

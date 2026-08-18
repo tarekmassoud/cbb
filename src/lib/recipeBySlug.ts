@@ -32,7 +32,7 @@ export interface Recipe {
 }
 
 function parseFrontmatter(content: string) {
-  const match = content.match(/^---\n([\s\S]*?)\n---/);
+  const match = content.match(/^---[ \t]*\n([\s\S]*?)\n---/);
   if (!match) return null;
   
   const frontmatter: any = {};
@@ -58,7 +58,7 @@ function parseFrontmatter(content: string) {
 }
 
 function parseMarkdownSections(content: string) {
-  const bodyMatch = content.match(/---\n[\s\S]*?\n---\n([\s\S]*)/);
+  const bodyMatch = content.match(/---[ \t]*\n[\s\S]*?\n---[ \t]*\n([\s\S]*)/);
   if (!bodyMatch) return { ingredients: [], instructions: [] };
   
   const body = bodyMatch[1];
@@ -102,7 +102,7 @@ export async function fetchRecipeBySlug(slug: string): Promise<Recipe | null> {
     const response = await fetch(`${BASE_URL}content/recipes/${slug}.md`);
     if (!response.ok) return null;
     
-    const content = await response.text();
+    const content = (await response.text()).replace(/\r\n/g, '\n');
     const meta = parseFrontmatter(content);
     const { ingredients, instructions } = parseMarkdownSections(content);
     

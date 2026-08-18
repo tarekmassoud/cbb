@@ -1,5 +1,329 @@
 [
   {
+    "id": 343,
+    "title": "Soft Summer Fruit Cake",
+    "slug": "soft-summer-fruit-cake",
+    "short_description": "A soft, moist cake with yogurt, coconut, and seasonal summer fruit.",
+    "image": "/images/recipes/soft_summer_fruit_cake.jpg",
+    "prepTime": 15,
+    "servings": 8,
+    "difficulty": "Easy",
+    "cuisine": "International",
+    "course": "Dessert",
+    "tags": [
+      "cake",
+      "summer fruit",
+      "yogurt cake",
+      "coconut",
+      "easy baking"
+    ],
+    "keywords": [
+      "summer fruit cake",
+      "yogurt fruit cake",
+      "soft fruit cake"
+    ],
+    "featured": false,
+    "rating": 4.7,
+    "date_published": "2026-07-14"
+  },
+  {
+    "id": 342,
+    "title": "Whole Wheat Bulgur with Summer Vegetables",
+    "slug": "whole-wheat-bulgur-with-summer-vegetables",
+    "short_description": "A simple one-pot whole wheat bulgur with zucchini, eggplant, peppers, and tomato sauce.",
+    "image": "/images/recipes/whole_wheat_bulgur_with_summer_vegetables.jpg",
+    "prepTime": 15,
+    "servings": 6,
+    "difficulty": "Easy",
+    "cuisine": "Middle Eastern",
+    "course": "Main",
+    "tags": [
+      "bulgur",
+      "summer vegetables",
+      "one pot",
+      "budget friendly",
+      "vegan"
+    ],
+    "keywords": [
+      "whole wheat bulgur",
+      "bulgur with vegetables",
+      "summer bulgur recipe"
+    ],
+    "featured": false,
+    "rating": 4.7,
+    "date_published": "2026-07-14"
+  },
+  {
+    "id": 345,
+    "title": "Courgette Roulade with Pesto, Grilled Halloumi & Fresh Vegetables",
+    "slug": "courgette-roulade-with-pesto-grilled-halloumi-and-fresh-vegetables",
+    "short_description": "A light courgette roulade filled with pesto, grilled halloumi, cucumber, tomatoes, and green pepper.",
+    "image": "/images/recipes/courgette_roulade_with_pesto_grilled_halloumi_and_fresh_vegetables.jpg",
+    "prepTime": 20,
+    "servings": 5,
+    "difficulty": "Easy",
+    "cuisine": "Mediterranean",
+    "course": "Salad & Side",
+    "tags": [
+      "courgette",
+      "roulade",
+      "halloumi",
+      "pesto",
+      "vegetables"
+    ],
+    "keywords": [
+      "courgette roulade",
+      "halloumi roulade",
+      "zucchini roulade with pesto"
+    ],
+    "featured": false,
+    "rating": 4.7,
+    "date_published": "2026-07-10"
+  },
+  {
+    "id": 341,
+    "title": "Homemade Fajitas with Guacamole",
+    "slug": "homemade-fajitas-with-guacamole",
+    "short_description": "Homemade chicken fajitas with sautéed peppers, onions, and creamy guacamole.",
+    "image": "/images/recipes/homemade_fajitas_with_guacamole.jpg",
+    "prepTime": 25,
+    "servings": 8,
+    "difficulty": "Easy",
+    "cuisine": "Mexican",
+    "course": "Main",
+    "tags": [
+      "fajitas",
+      "chicken",
+      "guacamole",
+      "tortilla",
+      "family meal"
+    ],
+    "keywords": [
+      "homemade fajitas",
+      "chicken fajitas",
+      "fajitas with guacamole"
+    ],
+    "featured": false,
+    "rating": 4.7,
+    "date_published": "2026-07-05"
+  },
+  {
+    "id": 344,
+    "title": "Taralli",
+    "slug": "taralli",
+    "short_description": "Traditional Italian taralli made with flour, olive oil, white wine, and fennel seeds.",
+    "image": "/images/recipes/taralli.jpg",
+    "prepTime": 25,
+    "servings": "50-55 taralli",
+    "difficulty": "Medium",
+    "cuisine": "Italian",
+    "course": "Bread",
+    "tags": [
+      "taralli",
+      "italian",
+      "snack",
+      "fennel",
+      "baked"
+    ],
+    "keywords": [
+      "taralli",
+      "italian taralli",
+      "fennel taralli"
+    ],
+    "featured": false,
+    "rating": 4.7,
+    "date_published": "2026-07-02"
+  },
+  {
+    "id": 340,
+    "title": "Grilled Calamari & Shrimp with Tropical Lime Dressing",
+    "slug": "grilled-calamari-and-shrimp-with-tropical-lime-dressing",
+    "short_description": "Grilled calamari and shrimp served with crisp lettuce and a bright tropical lime dressing.",
+    "image": "/images/recipes/grilled_calamari_and_shrimp_with_tropical_lime_dressing.jpg",
+    "prepTime": 25,
+    "servings": 6,
+    "difficulty": "Medium",
+    "cuisine": "Mediterranean",
+    "course": "Salad & Side",
+    "tags": [
+      "calamari",
+      "shrimp",
+      "grilled seafood",
+      "lime dressing",
+      "salad"
+    ],
+    "keywords": [
+      "grilled calamari",
+      "grilled shrimp",
+      "seafood with lime dressing"
+    ],
+    "featured": false,
+    "rating": 4.7,
+    "date_published": "2026-06-29"
+  },
+  {
+    "id": 339,
+    "title": "Beef Stroganoff",
+    "slug": "beef-stroganoff",
+    "short_description": "Tender beef strips in a creamy mushroom sauce with white wine and cream.",
+    "image": "/images/recipes/beef_stroganoff.jpg",
+    "prepTime": 15,
+    "servings": 4,
+    "difficulty": "Easy",
+    "cuisine": "International",
+    "course": "Main",
+    "tags": [
+      "beef stroganoff",
+      "beef",
+      "mushrooms",
+      "cream sauce",
+      "comfort food"
+    ],
+    "keywords": [
+      "beef stroganoff",
+      "creamy beef stroganoff",
+      "beef mushroom cream sauce"
+    ],
+    "featured": false,
+    "rating": 4.7,
+    "date_published": "2026-06-26"
+  },
+  {
+    "id": 338,
+    "title": "Smoked Salmon & Courgette Roulade",
+    "slug": "smoked-salmon-and-courgette-roulade",
+    "short_description": "A light roulade made with courgettes, mozzarella, cream cheese, avocado, and smoked salmon.",
+    "image": "/images/recipes/smoked_salmon_and_courgette_roulade.jpg",
+    "prepTime": 20,
+    "servings": 6,
+    "difficulty": "Easy",
+    "cuisine": "International",
+    "course": "Salad & Side",
+    "tags": [
+      "smoked salmon",
+      "courgette",
+      "roulade",
+      "avocado",
+      "appetizer"
+    ],
+    "keywords": [
+      "smoked salmon roulade",
+      "courgette roulade",
+      "zucchini salmon roll"
+    ],
+    "featured": false,
+    "rating": 4.7,
+    "date_published": "2026-06-23"
+  },
+  {
+    "id": 337,
+    "title": "Zucchini with Yogurt and Meat (Kousa bi Laban)",
+    "slug": "zucchini-with-yogurt-and-meat-kousa-bi-laban",
+    "short_description": "Roasted zucchini with tender meat in a garlic-mint yogurt sauce.",
+    "image": "/images/recipes/zucchini_with_yogurt_and_meat_kousa_bi_laban.jpg",
+    "prepTime": 20,
+    "servings": 6,
+    "difficulty": "Medium",
+    "cuisine": "Lebanese",
+    "course": "Main",
+    "tags": [
+      "kousa bi laban",
+      "zucchini",
+      "yogurt",
+      "meat",
+      "lebanese"
+    ],
+    "keywords": [
+      "zucchini with yogurt and meat",
+      "kousa bi laban",
+      "lebanese zucchini yogurt dish"
+    ],
+    "featured": false,
+    "rating": 4.7,
+    "date_published": "2026-06-20"
+  },
+  {
+    "id": 336,
+    "title": "No-Bake Giant Chocolate Chip Cookie",
+    "slug": "no-bake-giant-chocolate-chip-cookie",
+    "short_description": "A giant no-bake cookie with almond flour, oats, peanut butter, honey, and melted chocolate.",
+    "image": "/images/recipes/no_bake_giant_chocolate_chip_cookie.jpg",
+    "prepTime": 10,
+    "servings": 8,
+    "difficulty": "Easy",
+    "cuisine": "International",
+    "course": "Dessert",
+    "tags": [
+      "no-bake",
+      "cookie",
+      "chocolate chip",
+      "almond flour",
+      "peanut butter"
+    ],
+    "keywords": [
+      "giant no bake cookie",
+      "no bake chocolate chip cookie",
+      "viral cookie"
+    ],
+    "featured": false,
+    "rating": 4.7,
+    "date_published": "2026-06-17"
+  },
+  {
+    "id": 335,
+    "title": "Lebanese Green Salty Cheese (Jibneh Malha)",
+    "slug": "lebanese-green-salty-cheese-jibneh-malha",
+    "short_description": "Traditional Lebanese brined cheese made from fresh raw milk and preserved for two months.",
+    "image": "/images/recipes/lebanese_green_salty_cheese_jibneh_malha.jpg",
+    "prepTime": 60,
+    "servings": "10 rounds",
+    "difficulty": "Advanced",
+    "cuisine": "Lebanese",
+    "course": "Dairy",
+    "tags": [
+      "cheese",
+      "jibneh malha",
+      "brined cheese",
+      "lebanese",
+      "homemade cheese"
+    ],
+    "keywords": [
+      "jibneh malha",
+      "lebanese salty cheese",
+      "homemade brined cheese"
+    ],
+    "featured": false,
+    "rating": 4.7,
+    "date_published": "2026-06-15"
+  },
+  {
+    "id": 334,
+    "title": "Green Za’atar Crackers",
+    "slug": "green-zaatar-crackers",
+    "short_description": "Crispy homemade crackers with fresh green za’atar and toasted sesame seeds.",
+    "image": "/images/recipes/green_zaatar_crackers.jpg",
+    "prepTime": 15,
+    "servings": 8,
+    "difficulty": "Easy",
+    "cuisine": "Lebanese",
+    "course": "Bread",
+    "tags": [
+      "zaatar",
+      "crackers",
+      "sesame",
+      "savory snack",
+      "homemade"
+    ],
+    "keywords": [
+      "green zaatar crackers",
+      "fresh zaatar crackers",
+      "lebanese crackers"
+    ],
+    "featured": false,
+    "rating": 4.7,
+    "date_published": "2026-06-12"
+  },
+  {
     "id": 333,
     "title": "Sweet Potato & Minced Meat Power Bowl",
     "slug": "sweet-potato-and-minced-meat-power-bowl",
@@ -4497,6 +4821,29 @@
     "date_published": "2024-04-13"
   },
   {
+    "id": 141,
+    "title": "Hot Cross Buns (Spiced Raisin Buns)",
+    "slug": "hot-cross-buns",
+    "short_description": "Soft spiced buns with raisins, glazed and finished with icing crosses.",
+    "image": "/images/recipes/hot_cross_buns.jpg",
+    "prepTime": 25,
+    "servings": "12 buns",
+    "difficulty": "Medium",
+    "cuisine": "International",
+    "course": "Bread",
+    "tags": [
+      "buns",
+      "breadbaking",
+      "spiced",
+      "glaze",
+      "easter"
+    ],
+    "keywords": [],
+    "featured": false,
+    "rating": 4.8,
+    "date_published": "2024-04-11"
+  },
+  {
     "id": 58,
     "title": "Riz 3a Djej (Chicken and Rice)",
     "slug": "riz-3a-djej-chicken-and-rice",
@@ -7618,7 +7965,7 @@
     "date_published": "2021-04-09"
   },
   {
-    "id": 3,
+    "id": 346,
     "title": "Cooked Artichokes",
     "slug": "cooked-artichokes",
     "short_description": "Cooked artichokes Lebanese mezze",
@@ -7639,7 +7986,7 @@
     "date_published": "2020-05-06"
   },
   {
-    "id": 4,
+    "id": 347,
     "title": "Roast Beef",
     "slug": "roast-beef",
     "short_description": "Garlic-studded roast beef with green beans, mash, and silky pan gravy.",
@@ -7659,7 +8006,7 @@
     "date_published": "2020-04-25"
   },
   {
-    "id": 5,
+    "id": 348,
     "title": "Chocolate & Red Berries Cupcakes",
     "slug": "chocoalte-and-red-berries-cupcakes",
     "short_description": "Almond-meal chocolate & red-berry cupcakes, maple-sweet and fluffy.",
@@ -7679,7 +8026,7 @@
     "date_published": "2020-04-19"
   },
   {
-    "id": 7,
+    "id": 350,
     "title": "Loubiyeh bi Zeit",
     "slug": "loubiyeh-bi-zeit",
     "short_description": "Lebanese green beans in olive oil with tomatoes and garlic—tender, saucy, and fragrant.",
@@ -7700,7 +8047,7 @@
     "date_published": "2020-04-18"
   },
   {
-    "id": 6,
+    "id": 349,
     "title": "Small Fluffy Japanese Milk Buns (Tangzhong)",
     "slug": "small-fluffy-japanese-milk-buns",
     "short_description": "Fluffy Japanese milk buns (tangzhong)—pillowy, lightly sweet, golden and soft.",
@@ -7721,7 +8068,7 @@
     "date_published": "2020-04-15"
   },
   {
-    "id": 8,
+    "id": 351,
     "title": "Kebbit Batata",
     "slug": "kebbit-batata",
     "short_description": "Lebanese potato kibbeh—mashed potatoes with fine bulgur, walnuts, mint, onion, and olive oil.",

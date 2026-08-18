@@ -1,5 +1,5 @@
 ---
-id: "8"
+id: "351"
 title: "Kebbit Batata"
 slug: "kebbit-batata"
 short_description: "Lebanese potato kibbeh—mashed potatoes with fine bulgur, walnuts, mint, onion, and olive oil."

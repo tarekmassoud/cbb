@@ -2,27 +2,99 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://cookingbelbeit.com/</loc>
-    <lastmod>2026-07-01</lastmod>
+    <lastmod>2026-08-18</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
   </url>
   <url>
     <loc>https://cookingbelbeit.com/recipes</loc>
-    <lastmod>2026-07-01</lastmod>
+    <lastmod>2026-08-18</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://cookingbelbeit.com/about</loc>
-    <lastmod>2026-07-01</lastmod>
+    <lastmod>2026-08-18</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://cookingbelbeit.com/contact</loc>
-    <lastmod>2026-07-01</lastmod>
+    <lastmod>2026-08-18</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://cookingbelbeit.com/recipe/soft-summer-fruit-cake</loc>
+    <lastmod>2026-07-14</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://cookingbelbeit.com/recipe/whole-wheat-bulgur-with-summer-vegetables</loc>
+    <lastmod>2026-07-14</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://cookingbelbeit.com/recipe/courgette-roulade-with-pesto-grilled-halloumi-and-fresh-vegetables</loc>
+    <lastmod>2026-07-10</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://cookingbelbeit.com/recipe/homemade-fajitas-with-guacamole</loc>
+    <lastmod>2026-07-05</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://cookingbelbeit.com/recipe/taralli</loc>
+    <lastmod>2026-07-02</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://cookingbelbeit.com/recipe/grilled-calamari-and-shrimp-with-tropical-lime-dressing</loc>
+    <lastmod>2026-06-29</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://cookingbelbeit.com/recipe/beef-stroganoff</loc>
+    <lastmod>2026-06-26</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://cookingbelbeit.com/recipe/smoked-salmon-and-courgette-roulade</loc>
+    <lastmod>2026-06-23</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://cookingbelbeit.com/recipe/zucchini-with-yogurt-and-meat-kousa-bi-laban</loc>
+    <lastmod>2026-06-20</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://cookingbelbeit.com/recipe/no-bake-giant-chocolate-chip-cookie</loc>
+    <lastmod>2026-06-17</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://cookingbelbeit.com/recipe/lebanese-green-salty-cheese-jibneh-malha</loc>
+    <lastmod>2026-06-15</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://cookingbelbeit.com/recipe/green-zaatar-crackers</loc>
+    <lastmod>2026-06-12</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
   </url>
   <url>
     <loc>https://cookingbelbeit.com/recipe/sweet-potato-and-minced-meat-power-bowl</loc>
@@ -1167,6 +1239,12 @@
   <url>
     <loc>https://cookingbelbeit.com/recipe/pumpkin-kibbeh-tart-two-fillings</loc>
     <lastmod>2024-04-13</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://cookingbelbeit.com/recipe/hot-cross-buns</loc>
+    <lastmod>2024-04-11</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>

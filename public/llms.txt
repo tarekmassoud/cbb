@@ -24,6 +24,18 @@ Cooking Bel Beit is a recipe collection by Katia, the cook and mom behind @cooki
 
 ## All Recipes
 
+- [/recipe/soft-summer-fruit-cake](/recipe/soft-summer-fruit-cake): A soft, moist cake with yogurt, coconut, and seasonal summer fruit.
+- [/recipe/whole-wheat-bulgur-with-summer-vegetables](/recipe/whole-wheat-bulgur-with-summer-vegetables): A simple one-pot whole wheat bulgur with zucchini, eggplant, peppers, and tomato sauce.
+- [/recipe/courgette-roulade-with-pesto-grilled-halloumi-and-fresh-vegetables](/recipe/courgette-roulade-with-pesto-grilled-halloumi-and-fresh-vegetables): A light courgette roulade filled with pesto, grilled halloumi, cucumber, tomatoes, and green pepper.
+- [/recipe/homemade-fajitas-with-guacamole](/recipe/homemade-fajitas-with-guacamole): Homemade chicken fajitas with sautéed peppers, onions, and creamy guacamole.
+- [/recipe/taralli](/recipe/taralli): Traditional Italian taralli made with flour, olive oil, white wine, and fennel seeds.
+- [/recipe/grilled-calamari-and-shrimp-with-tropical-lime-dressing](/recipe/grilled-calamari-and-shrimp-with-tropical-lime-dressing): Grilled calamari and shrimp served with crisp lettuce and a bright tropical lime dressing.
+- [/recipe/beef-stroganoff](/recipe/beef-stroganoff): Tender beef strips in a creamy mushroom sauce with white wine and cream.
+- [/recipe/smoked-salmon-and-courgette-roulade](/recipe/smoked-salmon-and-courgette-roulade): A light roulade made with courgettes, mozzarella, cream cheese, avocado, and smoked salmon.
+- [/recipe/zucchini-with-yogurt-and-meat-kousa-bi-laban](/recipe/zucchini-with-yogurt-and-meat-kousa-bi-laban): Roasted zucchini with tender meat in a garlic-mint yogurt sauce.
+- [/recipe/no-bake-giant-chocolate-chip-cookie](/recipe/no-bake-giant-chocolate-chip-cookie): A giant no-bake cookie with almond flour, oats, peanut butter, honey, and melted chocolate.
+- [/recipe/lebanese-green-salty-cheese-jibneh-malha](/recipe/lebanese-green-salty-cheese-jibneh-malha): Traditional Lebanese brined cheese made from fresh raw milk and preserved for two months.
+- [/recipe/green-zaatar-crackers](/recipe/green-zaatar-crackers): Crispy homemade crackers with fresh green za’atar and toasted sesame seeds.
 - [/recipe/sweet-potato-and-minced-meat-power-bowl](/recipe/sweet-potato-and-minced-meat-power-bowl): A quick power bowl with roasted sweet potato, minced meat, mozzarella, avocado, and fresh salad.
 - [/recipe/sardine-dip](/recipe/sardine-dip): A simple sardine dip with lemon, capers, red onion, parsley, and cress.
 - [/recipe/tahini-carob-freezer-slices](/recipe/tahini-carob-freezer-slices): A no-bake freezer dessert with tahini, carob molasses, sesame seeds, walnuts, and almonds.
@@ -215,6 +227,7 @@ Cooking Bel Beit is a recipe collection by Katia, the cook and mom behind @cooki
 - [/recipe/no-bake-mini-egg-cheesecake](/recipe/no-bake-mini-egg-cheesecake): Creamy, light no-bake cheesecake topped with pistachio cream and mini chocolate bunnies.
 - [/recipe/date-creme-brulee](/recipe/date-creme-brulee): Silky baked custard infused with dates, finished with a crackly sugar top.
 - [/recipe/pumpkin-kibbeh-tart-two-fillings](/recipe/pumpkin-kibbeh-tart-two-fillings): A modern single-layer pumpkin kibbeh with your choice of two savory fillings.
+- [/recipe/hot-cross-buns](/recipe/hot-cross-buns): Soft spiced buns with raisins, glazed and finished with icing crosses.
 - [/recipe/riz-3a-djej-chicken-and-rice](/recipe/riz-3a-djej-chicken-and-rice): Butter-scented rice topped with juicy organic chicken, spices, and nuts.
 - [/recipe/spring-salad-miso-dressing](/recipe/spring-salad-miso-dressing): Crisp greens, apples, avocado, nuts, and seeds with a bright miso dressing.
 - [/recipe/homemade-halloumi-cheese](/recipe/homemade-halloumi-cheese): Step-by-step halloumi made at home with simple ingredients.

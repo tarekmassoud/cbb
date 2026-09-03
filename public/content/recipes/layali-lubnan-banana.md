@@ -24,7 +24,6 @@ date_published: "2024-03-23"
 ### Semolina Base
 - 7 cups milk
 - 10 tbsp corn flour
-- 1 cup sugar
 - 1 tsp vanilla extract
 
 ### Whipped Layer

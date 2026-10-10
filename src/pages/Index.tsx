@@ -26,7 +26,9 @@ const Index = () => {
     queryFn: fetchRecipesIndex
   });
 
-  const featuredRecipes = recipes.filter(recipe => recipe.featured).slice(0, 5);
+  const featuredRecipes = [...recipes]
+    .sort((a, b) => new Date(b.date_published).getTime() - new Date(a.date_published).getTime())
+    .slice(0, 5);
   
   const categories = [
     { name: "Breakfast", value: "Breakfast" },
